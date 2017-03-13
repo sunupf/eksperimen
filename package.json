@@ -1,0 +1,27 @@
+{
+  "name": "eksperimen",
+  "version": "1.0.0",
+  "description": "eksperimen thesis",
+  "main": "index.js",
+  "dependencies": {
+    "coba": "~1.0.22"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunupf/eksperimen.git"
+  },
+  "author": "sunupf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunupf/eksperimen/issues"
+  },
+  "homepage": "https://github.com/sunupf/eksperimen#readme",
+  "scripts": {
+    "cwd": "console.log(process.cwd())",
+    "coba": "coba",
+    "coba-init": "coba-init",
+    "coba-generate": "coba-generate",
+    "coba-test": "coba-test"
+  }
+}

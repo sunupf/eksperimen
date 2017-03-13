@@ -1,0 +1,6018 @@
+[
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:48:47 +0700",
+        "finish": "2017-02-16 07:48:54 +0700",
+        "time": 6.501132
+      },
+      "before": {
+        "start": "2017-02-16 07:48:54 +0700",
+        "finish": "2017-02-16 07:48:54 +0700",
+        "time": 0.000905
+      },
+      "load": {
+        "start": "2017-02-16 07:48:54 +0700",
+        "finish": "2017-02-16 07:48:54 +0700",
+        "time": 0.674453
+      },
+      "main": {
+        "start": "2017-02-16 07:48:54 +0700",
+        "finish": "2017-02-16 07:48:55 +0700",
+        "time": 0.079124
+      },
+      "after": {
+        "start": "2017-02-16 07:48:55 +0700",
+        "finish": "2017-02-16 07:48:55 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%242y%2410%24PXWk4xfL1%2FBRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:48:56 +0700",
+        "finish": "2017-02-16 07:48:58 +0700",
+        "time": 2.243506
+      },
+      "before": {
+        "start": "2017-02-16 07:48:58 +0700",
+        "finish": "2017-02-16 07:48:58 +0700",
+        "time": 0.000972
+      },
+      "load": {
+        "start": "2017-02-16 07:48:58 +0700",
+        "finish": "2017-02-16 07:48:59 +0700",
+        "time": 0.718944
+      },
+      "main": {
+        "start": "2017-02-16 07:48:59 +0700",
+        "finish": "2017-02-16 07:48:59 +0700",
+        "time": 0.111246
+      },
+      "after": {
+        "start": "2017-02-16 07:48:59 +0700",
+        "finish": "2017-02-16 07:48:59 +0700",
+        "time": 0.000984
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%24aa%24aa%24EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:01 +0700",
+        "finish": "2017-02-16 07:49:07 +0700",
+        "time": 6.299101
+      },
+      "before": {
+        "start": "2017-02-16 07:49:07 +0700",
+        "finish": "2017-02-16 07:49:07 +0700",
+        "time": 0.000982
+      },
+      "load": {
+        "start": "2017-02-16 07:49:07 +0700",
+        "finish": "2017-02-16 07:49:08 +0700",
+        "time": 0.699369
+      },
+      "main": {
+        "start": "2017-02-16 07:49:08 +0700",
+        "finish": "2017-02-16 07:49:08 +0700",
+        "time": 0.090249
+      },
+      "after": {
+        "start": "2017-02-16 07:49:08 +0700",
+        "finish": "2017-02-16 07:49:08 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$2y$10$EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:10 +0700",
+        "finish": "2017-02-16 07:49:16 +0700",
+        "time": 6.324274
+      },
+      "before": {
+        "start": "2017-02-16 07:49:17 +0700",
+        "finish": "2017-02-16 07:49:17 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:49:17 +0700",
+        "finish": "2017-02-16 07:49:17 +0700",
+        "time": 0.642372
+      },
+      "main": {
+        "start": "2017-02-16 07:49:17 +0700",
+        "finish": "2017-02-16 07:49:17 +0700",
+        "time": 0.078713
+      },
+      "after": {
+        "start": "2017-02-16 07:49:18 +0700",
+        "finish": "2017-02-16 07:49:18 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jnxc03har@xfjwoepjx.uaqi.ilr/code/%242y%2410%243vuhS5FGoJXakNHkDQpGUugKZoa5HNA4lL6x6KqdVT0FxT0DttsZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:19 +0700",
+        "finish": "2017-02-16 07:49:25 +0700",
+        "time": 6.291445
+      },
+      "before": {
+        "start": "2017-02-16 07:49:26 +0700",
+        "finish": "2017-02-16 07:49:26 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:49:26 +0700",
+        "finish": "2017-02-16 07:49:26 +0700",
+        "time": 0.624283
+      },
+      "main": {
+        "start": "2017-02-16 07:49:26 +0700",
+        "finish": "2017-02-16 07:49:26 +0700",
+        "time": 0.089779
+      },
+      "after": {
+        "start": "2017-02-16 07:49:27 +0700",
+        "finish": "2017-02-16 07:49:27 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:28 +0700",
+        "finish": "2017-02-16 07:49:30 +0700",
+        "time": 2.192713
+      },
+      "before": {
+        "start": "2017-02-16 07:49:30 +0700",
+        "finish": "2017-02-16 07:49:30 +0700",
+        "time": 0.000964
+      },
+      "load": {
+        "start": "2017-02-16 07:49:30 +0700",
+        "finish": "2017-02-16 07:49:31 +0700",
+        "time": 0.656128
+      },
+      "main": {
+        "start": "2017-02-16 07:49:31 +0700",
+        "finish": "2017-02-16 07:49:31 +0700",
+        "time": 0.078599
+      },
+      "after": {
+        "start": "2017-02-16 07:49:31 +0700",
+        "finish": "2017-02-16 07:49:31 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:33 +0700",
+        "finish": "2017-02-16 07:49:39 +0700",
+        "time": 6.319449
+      },
+      "before": {
+        "start": "2017-02-16 07:49:39 +0700",
+        "finish": "2017-02-16 07:49:39 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:49:39 +0700",
+        "finish": "2017-02-16 07:49:40 +0700",
+        "time": 0.578408
+      },
+      "main": {
+        "start": "2017-02-16 07:49:40 +0700",
+        "finish": "2017-02-16 07:49:40 +0700",
+        "time": 0.07998
+      },
+      "after": {
+        "start": "2017-02-16 07:49:40 +0700",
+        "finish": "2017-02-16 07:49:40 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:42 +0700",
+        "finish": "2017-02-16 07:49:48 +0700",
+        "time": 6.375601
+      },
+      "before": {
+        "start": "2017-02-16 07:49:48 +0700",
+        "finish": "2017-02-16 07:49:48 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:49:48 +0700",
+        "finish": "2017-02-16 07:49:49 +0700",
+        "time": 0.644793
+      },
+      "main": {
+        "start": "2017-02-16 07:49:49 +0700",
+        "finish": "2017-02-16 07:49:49 +0700",
+        "time": 0.080133
+      },
+      "after": {
+        "start": "2017-02-16 07:49:49 +0700",
+        "finish": "2017-02-16 07:49:49 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%24aa%24aa%24PXWaaaaLa%2FBRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:51 +0700",
+        "finish": "2017-02-16 07:49:57 +0700",
+        "time": 6.318364
+      },
+      "before": {
+        "start": "2017-02-16 07:49:57 +0700",
+        "finish": "2017-02-16 07:49:57 +0700",
+        "time": 0.000983
+      },
+      "load": {
+        "start": "2017-02-16 07:49:57 +0700",
+        "finish": "2017-02-16 07:49:58 +0700",
+        "time": 0.641519
+      },
+      "main": {
+        "start": "2017-02-16 07:49:58 +0700",
+        "finish": "2017-02-16 07:49:58 +0700",
+        "time": 0.090364
+      },
+      "after": {
+        "start": "2017-02-16 07:49:58 +0700",
+        "finish": "2017-02-16 07:49:58 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/$2y$10$4.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:49:59 +0700",
+        "finish": "2017-02-16 07:50:06 +0700",
+        "time": 6.366336
+      },
+      "before": {
+        "start": "2017-02-16 07:50:06 +0700",
+        "finish": "2017-02-16 07:50:06 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:50:06 +0700",
+        "finish": "2017-02-16 07:50:07 +0700",
+        "time": 0.698174
+      },
+      "main": {
+        "start": "2017-02-16 07:50:07 +0700",
+        "finish": "2017-02-16 07:50:07 +0700",
+        "time": 0.079475
+      },
+      "after": {
+        "start": "2017-02-16 07:50:07 +0700",
+        "finish": "2017-02-16 07:50:07 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:08 +0700",
+        "finish": "2017-02-16 07:50:15 +0700",
+        "time": 6.349176
+      },
+      "before": {
+        "start": "2017-02-16 07:50:15 +0700",
+        "finish": "2017-02-16 07:50:15 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:50:15 +0700",
+        "finish": "2017-02-16 07:50:15 +0700",
+        "time": 0.621225
+      },
+      "main": {
+        "start": "2017-02-16 07:50:16 +0700",
+        "finish": "2017-02-16 07:50:16 +0700",
+        "time": 0.101507
+      },
+      "after": {
+        "start": "2017-02-16 07:50:16 +0700",
+        "finish": "2017-02-16 07:50:16 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%242y%2410%24PXWk4xfL1%2FBRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:17 +0700",
+        "finish": "2017-02-16 07:50:24 +0700",
+        "time": 6.340095
+      },
+      "before": {
+        "start": "2017-02-16 07:50:24 +0700",
+        "finish": "2017-02-16 07:50:24 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:50:24 +0700",
+        "finish": "2017-02-16 07:50:25 +0700",
+        "time": 0.680443
+      },
+      "main": {
+        "start": "2017-02-16 07:50:25 +0700",
+        "finish": "2017-02-16 07:50:25 +0700",
+        "time": 0.076588
+      },
+      "after": {
+        "start": "2017-02-16 07:50:25 +0700",
+        "finish": "2017-02-16 07:50:25 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/ph8zmq@xzn.twtp/code/%24aa%24aa%24aYaLaZGCDaDaDaaaaaCJaaNWaaIaaaaCaaaaaFaaUaaaWaaaa.aaG"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:26 +0700",
+        "finish": "2017-02-16 07:50:33 +0700",
+        "time": 6.381307
+      },
+      "before": {
+        "start": "2017-02-16 07:50:33 +0700",
+        "finish": "2017-02-16 07:50:33 +0700",
+        "time": 0.000503
+      },
+      "load": {
+        "start": "2017-02-16 07:50:33 +0700",
+        "finish": "2017-02-16 07:50:34 +0700",
+        "time": 1.133715
+      },
+      "main": {
+        "start": "2017-02-16 07:50:34 +0700",
+        "finish": "2017-02-16 07:50:34 +0700",
+        "time": 0.077861
+      },
+      "after": {
+        "start": "2017-02-16 07:50:34 +0700",
+        "finish": "2017-02-16 07:50:34 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/pr7ignf@aryp.eliysu.crt/code/$2y$10$EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:36 +0700",
+        "finish": "2017-02-16 07:50:42 +0700",
+        "time": 6.35345
+      },
+      "before": {
+        "start": "2017-02-16 07:50:42 +0700",
+        "finish": "2017-02-16 07:50:42 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:50:42 +0700",
+        "finish": "2017-02-16 07:50:43 +0700",
+        "time": 0.670821
+      },
+      "main": {
+        "start": "2017-02-16 07:50:43 +0700",
+        "finish": "2017-02-16 07:50:43 +0700",
+        "time": 0.078949
+      },
+      "after": {
+        "start": "2017-02-16 07:50:43 +0700",
+        "finish": "2017-02-16 07:50:43 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:45 +0700",
+        "finish": "2017-02-16 07:50:51 +0700",
+        "time": 6.355839
+      },
+      "before": {
+        "start": "2017-02-16 07:50:51 +0700",
+        "finish": "2017-02-16 07:50:51 +0700",
+        "time": 0.000502
+      },
+      "load": {
+        "start": "2017-02-16 07:50:51 +0700",
+        "finish": "2017-02-16 07:50:52 +0700",
+        "time": 0.66873
+      },
+      "main": {
+        "start": "2017-02-16 07:50:52 +0700",
+        "finish": "2017-02-16 07:50:52 +0700",
+        "time": 0.088446
+      },
+      "after": {
+        "start": "2017-02-16 07:50:52 +0700",
+        "finish": "2017-02-16 07:50:52 +0700",
+        "time": 0.000475
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:50:54 +0700",
+        "finish": "2017-02-16 07:51:00 +0700",
+        "time": 6.41817
+      },
+      "before": {
+        "start": "2017-02-16 07:51:00 +0700",
+        "finish": "2017-02-16 07:51:00 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:51:00 +0700",
+        "finish": "2017-02-16 07:51:01 +0700",
+        "time": 0.691802
+      },
+      "main": {
+        "start": "2017-02-16 07:51:01 +0700",
+        "finish": "2017-02-16 07:51:01 +0700",
+        "time": 0.077369
+      },
+      "after": {
+        "start": "2017-02-16 07:51:01 +0700",
+        "finish": "2017-02-16 07:51:01 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:03 +0700",
+        "finish": "2017-02-16 07:51:09 +0700",
+        "time": 6.336536
+      },
+      "before": {
+        "start": "2017-02-16 07:51:09 +0700",
+        "finish": "2017-02-16 07:51:09 +0700",
+        "time": 0.000489
+      },
+      "load": {
+        "start": "2017-02-16 07:51:09 +0700",
+        "finish": "2017-02-16 07:51:10 +0700",
+        "time": 0.66535
+      },
+      "main": {
+        "start": "2017-02-16 07:51:10 +0700",
+        "finish": "2017-02-16 07:51:10 +0700",
+        "time": 0.087641
+      },
+      "after": {
+        "start": "2017-02-16 07:51:10 +0700",
+        "finish": "2017-02-16 07:51:10 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/a0@muyedul.yod.fep/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:12 +0700",
+        "finish": "2017-02-16 07:51:18 +0700",
+        "time": 6.341076
+      },
+      "before": {
+        "start": "2017-02-16 07:51:18 +0700",
+        "finish": "2017-02-16 07:51:18 +0700",
+        "time": 0.000503
+      },
+      "load": {
+        "start": "2017-02-16 07:51:18 +0700",
+        "finish": "2017-02-16 07:51:19 +0700",
+        "time": 0.655757
+      },
+      "main": {
+        "start": "2017-02-16 07:51:19 +0700",
+        "finish": "2017-02-16 07:51:19 +0700",
+        "time": 0.07982
+      },
+      "after": {
+        "start": "2017-02-16 07:51:19 +0700",
+        "finish": "2017-02-16 07:51:19 +0700",
+        "time": 0.000481
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%244.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:21 +0700",
+        "finish": "2017-02-16 07:51:27 +0700",
+        "time": 6.381273
+      },
+      "before": {
+        "start": "2017-02-16 07:51:27 +0700",
+        "finish": "2017-02-16 07:51:27 +0700",
+        "time": 0.000467
+      },
+      "load": {
+        "start": "2017-02-16 07:51:27 +0700",
+        "finish": "2017-02-16 07:51:28 +0700",
+        "time": 0.638455
+      },
+      "main": {
+        "start": "2017-02-16 07:51:28 +0700",
+        "finish": "2017-02-16 07:51:28 +0700",
+        "time": 0.087593
+      },
+      "after": {
+        "start": "2017-02-16 07:51:28 +0700",
+        "finish": "2017-02-16 07:51:28 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:30 +0700",
+        "finish": "2017-02-16 07:51:36 +0700",
+        "time": 6.352873
+      },
+      "before": {
+        "start": "2017-02-16 07:51:36 +0700",
+        "finish": "2017-02-16 07:51:36 +0700",
+        "time": 0.00051
+      },
+      "load": {
+        "start": "2017-02-16 07:51:36 +0700",
+        "finish": "2017-02-16 07:51:37 +0700",
+        "time": 0.647389
+      },
+      "main": {
+        "start": "2017-02-16 07:51:37 +0700",
+        "finish": "2017-02-16 07:51:37 +0700",
+        "time": 0.077573
+      },
+      "after": {
+        "start": "2017-02-16 07:51:37 +0700",
+        "finish": "2017-02-16 07:51:37 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:39 +0700",
+        "finish": "2017-02-16 07:51:45 +0700",
+        "time": 6.377324
+      },
+      "before": {
+        "start": "2017-02-16 07:51:45 +0700",
+        "finish": "2017-02-16 07:51:45 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:51:45 +0700",
+        "finish": "2017-02-16 07:51:46 +0700",
+        "time": 0.697325
+      },
+      "main": {
+        "start": "2017-02-16 07:51:46 +0700",
+        "finish": "2017-02-16 07:51:46 +0700",
+        "time": 0.08681
+      },
+      "after": {
+        "start": "2017-02-16 07:51:46 +0700",
+        "finish": "2017-02-16 07:51:46 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:48 +0700",
+        "finish": "2017-02-16 07:51:54 +0700",
+        "time": 6.334502
+      },
+      "before": {
+        "start": "2017-02-16 07:51:54 +0700",
+        "finish": "2017-02-16 07:51:54 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:51:54 +0700",
+        "finish": "2017-02-16 07:51:55 +0700",
+        "time": 0.621946
+      },
+      "main": {
+        "start": "2017-02-16 07:51:55 +0700",
+        "finish": "2017-02-16 07:51:55 +0700",
+        "time": 0.077921
+      },
+      "after": {
+        "start": "2017-02-16 07:51:55 +0700",
+        "finish": "2017-02-16 07:51:55 +0700",
+        "time": 0.000474
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:51:57 +0700",
+        "finish": "2017-02-16 07:52:03 +0700",
+        "time": 6.371595
+      },
+      "before": {
+        "start": "2017-02-16 07:52:03 +0700",
+        "finish": "2017-02-16 07:52:03 +0700",
+        "time": 0.000502
+      },
+      "load": {
+        "start": "2017-02-16 07:52:03 +0700",
+        "finish": "2017-02-16 07:52:04 +0700",
+        "time": 0.690921
+      },
+      "main": {
+        "start": "2017-02-16 07:52:04 +0700",
+        "finish": "2017-02-16 07:52:04 +0700",
+        "time": 0.077163
+      },
+      "after": {
+        "start": "2017-02-16 07:52:04 +0700",
+        "finish": "2017-02-16 07:52:04 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%242y%2410%244.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:06 +0700",
+        "finish": "2017-02-16 07:52:12 +0700",
+        "time": 6.355617
+      },
+      "before": {
+        "start": "2017-02-16 07:52:12 +0700",
+        "finish": "2017-02-16 07:52:12 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:52:12 +0700",
+        "finish": "2017-02-16 07:52:13 +0700",
+        "time": 0.710277
+      },
+      "main": {
+        "start": "2017-02-16 07:52:13 +0700",
+        "finish": "2017-02-16 07:52:13 +0700",
+        "time": 0.087666
+      },
+      "after": {
+        "start": "2017-02-16 07:52:13 +0700",
+        "finish": "2017-02-16 07:52:13 +0700",
+        "time": 0.000528
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%24aa%24aa%24EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:15 +0700",
+        "finish": "2017-02-16 07:52:21 +0700",
+        "time": 6.362667
+      },
+      "before": {
+        "start": "2017-02-16 07:52:21 +0700",
+        "finish": "2017-02-16 07:52:21 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:52:22 +0700",
+        "finish": "2017-02-16 07:52:22 +0700",
+        "time": 0.717906
+      },
+      "main": {
+        "start": "2017-02-16 07:52:22 +0700",
+        "finish": "2017-02-16 07:52:22 +0700",
+        "time": 0.077745
+      },
+      "after": {
+        "start": "2017-02-16 07:52:23 +0700",
+        "finish": "2017-02-16 07:52:23 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$2y$10$EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:24 +0700",
+        "finish": "2017-02-16 07:52:30 +0700",
+        "time": 6.38158
+      },
+      "before": {
+        "start": "2017-02-16 07:52:31 +0700",
+        "finish": "2017-02-16 07:52:31 +0700",
+        "time": 0.000491
+      },
+      "load": {
+        "start": "2017-02-16 07:52:31 +0700",
+        "finish": "2017-02-16 07:52:31 +0700",
+        "time": 0.76738
+      },
+      "main": {
+        "start": "2017-02-16 07:52:32 +0700",
+        "finish": "2017-02-16 07:52:32 +0700",
+        "time": 0.088659
+      },
+      "after": {
+        "start": "2017-02-16 07:52:32 +0700",
+        "finish": "2017-02-16 07:52:32 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/cFfmmWGLRh2x1ribqVkm4lBYanUlSyUQCveOg6TFGtTJ4aBWBjFS6hlFrV1muHuavsIzX6s1eXn/code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:33 +0700",
+        "finish": "2017-02-16 07:52:40 +0700",
+        "time": 6.364804
+      },
+      "before": {
+        "start": "2017-02-16 07:52:40 +0700",
+        "finish": "2017-02-16 07:52:40 +0700",
+        "time": 0.000508
+      },
+      "load": {
+        "start": "2017-02-16 07:52:40 +0700",
+        "finish": "2017-02-16 07:52:40 +0700",
+        "time": 0.690513
+      },
+      "main": {
+        "start": "2017-02-16 07:52:40 +0700",
+        "finish": "2017-02-16 07:52:41 +0700",
+        "time": 0.08742
+      },
+      "after": {
+        "start": "2017-02-16 07:52:41 +0700",
+        "finish": "2017-02-16 07:52:41 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:42 +0700",
+        "finish": "2017-02-16 07:52:49 +0700",
+        "time": 6.45961
+      },
+      "before": {
+        "start": "2017-02-16 07:52:49 +0700",
+        "finish": "2017-02-16 07:52:49 +0700",
+        "time": 0.000466
+      },
+      "load": {
+        "start": "2017-02-16 07:52:49 +0700",
+        "finish": "2017-02-16 07:52:50 +0700",
+        "time": 0.687644
+      },
+      "main": {
+        "start": "2017-02-16 07:52:50 +0700",
+        "finish": "2017-02-16 07:52:50 +0700",
+        "time": 0.077256
+      },
+      "after": {
+        "start": "2017-02-16 07:52:50 +0700",
+        "finish": "2017-02-16 07:52:50 +0700",
+        "time": 0.000531
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:52:51 +0700",
+        "finish": "2017-02-16 07:52:58 +0700",
+        "time": 6.38034
+      },
+      "before": {
+        "start": "2017-02-16 07:52:58 +0700",
+        "finish": "2017-02-16 07:52:58 +0700",
+        "time": 0.00053
+      },
+      "load": {
+        "start": "2017-02-16 07:52:58 +0700",
+        "finish": "2017-02-16 07:52:59 +0700",
+        "time": 0.654661
+      },
+      "main": {
+        "start": "2017-02-16 07:52:59 +0700",
+        "finish": "2017-02-16 07:52:59 +0700",
+        "time": 0.076784
+      },
+      "after": {
+        "start": "2017-02-16 07:52:59 +0700",
+        "finish": "2017-02-16 07:52:59 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/$aa$aa$a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:00 +0700",
+        "finish": "2017-02-16 07:53:07 +0700",
+        "time": 6.385088
+      },
+      "before": {
+        "start": "2017-02-16 07:53:07 +0700",
+        "finish": "2017-02-16 07:53:07 +0700",
+        "time": 0.000511
+      },
+      "load": {
+        "start": "2017-02-16 07:53:07 +0700",
+        "finish": "2017-02-16 07:53:08 +0700",
+        "time": 0.719241
+      },
+      "main": {
+        "start": "2017-02-16 07:53:08 +0700",
+        "finish": "2017-02-16 07:53:08 +0700",
+        "time": 0.078591
+      },
+      "after": {
+        "start": "2017-02-16 07:53:08 +0700",
+        "finish": "2017-02-16 07:53:08 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:10 +0700",
+        "finish": "2017-02-16 07:53:16 +0700",
+        "time": 6.367905
+      },
+      "before": {
+        "start": "2017-02-16 07:53:16 +0700",
+        "finish": "2017-02-16 07:53:16 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:53:16 +0700",
+        "finish": "2017-02-16 07:53:17 +0700",
+        "time": 0.667486
+      },
+      "main": {
+        "start": "2017-02-16 07:53:17 +0700",
+        "finish": "2017-02-16 07:53:17 +0700",
+        "time": 0.078207
+      },
+      "after": {
+        "start": "2017-02-16 07:53:17 +0700",
+        "finish": "2017-02-16 07:53:17 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "match",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/$2y$10$4.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:19 +0700",
+        "finish": "2017-02-16 07:53:25 +0700",
+        "time": 6.346834
+      },
+      "before": {
+        "start": "2017-02-16 07:53:25 +0700",
+        "finish": "2017-02-16 07:53:25 +0700",
+        "time": 0.000499
+      },
+      "load": {
+        "start": "2017-02-16 07:53:25 +0700",
+        "finish": "2017-02-16 07:53:26 +0700",
+        "time": 0.686671
+      },
+      "main": {
+        "start": "2017-02-16 07:53:26 +0700",
+        "finish": "2017-02-16 07:53:26 +0700",
+        "time": 0.087895
+      },
+      "after": {
+        "start": "2017-02-16 07:53:26 +0700",
+        "finish": "2017-02-16 07:53:26 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "not_active",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/xnpwh@ff.zhwrn.bq/code/$aa$aa$aaaaSaFGaJXaaNHaDQaGUaaKZaaaHNAaaLaaaKaaVTaFaTaDaaaZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:28 +0700",
+        "finish": "2017-02-16 07:53:34 +0700",
+        "time": 6.346199
+      },
+      "before": {
+        "start": "2017-02-16 07:53:34 +0700",
+        "finish": "2017-02-16 07:53:34 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:53:34 +0700",
+        "finish": "2017-02-16 07:53:35 +0700",
+        "time": 0.676088
+      },
+      "main": {
+        "start": "2017-02-16 07:53:35 +0700",
+        "finish": "2017-02-16 07:53:35 +0700",
+        "time": 0.078185
+      },
+      "after": {
+        "start": "2017-02-16 07:53:35 +0700",
+        "finish": "2017-02-16 07:53:35 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:37 +0700",
+        "finish": "2017-02-16 07:53:43 +0700",
+        "time": 6.344763
+      },
+      "before": {
+        "start": "2017-02-16 07:53:43 +0700",
+        "finish": "2017-02-16 07:53:43 +0700",
+        "time": 0.000472
+      },
+      "load": {
+        "start": "2017-02-16 07:53:43 +0700",
+        "finish": "2017-02-16 07:53:44 +0700",
+        "time": 0.655691
+      },
+      "main": {
+        "start": "2017-02-16 07:53:44 +0700",
+        "finish": "2017-02-16 07:53:44 +0700",
+        "time": 0.088004
+      },
+      "after": {
+        "start": "2017-02-16 07:53:44 +0700",
+        "finish": "2017-02-16 07:53:44 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "match",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:46 +0700",
+        "finish": "2017-02-16 07:53:52 +0700",
+        "time": 6.368505
+      },
+      "before": {
+        "start": "2017-02-16 07:53:52 +0700",
+        "finish": "2017-02-16 07:53:52 +0700",
+        "time": 0.000456
+      },
+      "load": {
+        "start": "2017-02-16 07:53:52 +0700",
+        "finish": "2017-02-16 07:53:53 +0700",
+        "time": 0.687363
+      },
+      "main": {
+        "start": "2017-02-16 07:53:53 +0700",
+        "finish": "2017-02-16 07:53:53 +0700",
+        "time": 0.088307
+      },
+      "after": {
+        "start": "2017-02-16 07:53:53 +0700",
+        "finish": "2017-02-16 07:53:53 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "not_active",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:53:55 +0700",
+        "finish": "2017-02-16 07:54:01 +0700",
+        "time": 6.390376
+      },
+      "before": {
+        "start": "2017-02-16 07:54:01 +0700",
+        "finish": "2017-02-16 07:54:01 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:54:01 +0700",
+        "finish": "2017-02-16 07:54:02 +0700",
+        "time": 0.637233
+      },
+      "main": {
+        "start": "2017-02-16 07:54:02 +0700",
+        "finish": "2017-02-16 07:54:02 +0700",
+        "time": 0.077238
+      },
+      "after": {
+        "start": "2017-02-16 07:54:02 +0700",
+        "finish": "2017-02-16 07:54:02 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "match",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:04 +0700",
+        "finish": "2017-02-16 07:54:10 +0700",
+        "time": 6.336876
+      },
+      "before": {
+        "start": "2017-02-16 07:54:10 +0700",
+        "finish": "2017-02-16 07:54:10 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:54:10 +0700",
+        "finish": "2017-02-16 07:54:11 +0700",
+        "time": 0.626309
+      },
+      "main": {
+        "start": "2017-02-16 07:54:11 +0700",
+        "finish": "2017-02-16 07:54:11 +0700",
+        "time": 0.077846
+      },
+      "after": {
+        "start": "2017-02-16 07:54:11 +0700",
+        "finish": "2017-02-16 07:54:11 +0700",
+        "time": 0.000482
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/zmntbg7@mskrj.qw.yc/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:13 +0700",
+        "finish": "2017-02-16 07:54:19 +0700",
+        "time": 6.388443
+      },
+      "before": {
+        "start": "2017-02-16 07:54:19 +0700",
+        "finish": "2017-02-16 07:54:19 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:54:19 +0700",
+        "finish": "2017-02-16 07:54:20 +0700",
+        "time": 0.624659
+      },
+      "main": {
+        "start": "2017-02-16 07:54:20 +0700",
+        "finish": "2017-02-16 07:54:20 +0700",
+        "time": 0.088444
+      },
+      "after": {
+        "start": "2017-02-16 07:54:20 +0700",
+        "finish": "2017-02-16 07:54:20 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "match",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/ofjo0@eubtwnfbs.eomxx/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:22 +0700",
+        "finish": "2017-02-16 07:54:28 +0700",
+        "time": 6.37556
+      },
+      "before": {
+        "start": "2017-02-16 07:54:28 +0700",
+        "finish": "2017-02-16 07:54:28 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:54:28 +0700",
+        "finish": "2017-02-16 07:54:29 +0700",
+        "time": 0.655707
+      },
+      "main": {
+        "start": "2017-02-16 07:54:29 +0700",
+        "finish": "2017-02-16 07:54:29 +0700",
+        "time": 0.078449
+      },
+      "after": {
+        "start": "2017-02-16 07:54:29 +0700",
+        "finish": "2017-02-16 07:54:29 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^required_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24PXWaaaaLa%2FBRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:31 +0700",
+        "finish": "2017-02-16 07:54:37 +0700",
+        "time": 6.343511
+      },
+      "before": {
+        "start": "2017-02-16 07:54:37 +0700",
+        "finish": "2017-02-16 07:54:37 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:54:37 +0700",
+        "finish": "2017-02-16 07:54:38 +0700",
+        "time": 0.768826
+      },
+      "main": {
+        "start": "2017-02-16 07:54:38 +0700",
+        "finish": "2017-02-16 07:54:38 +0700",
+        "time": 0.088204
+      },
+      "after": {
+        "start": "2017-02-16 07:54:38 +0700",
+        "finish": "2017-02-16 07:54:38 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^required_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$4.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:40 +0700",
+        "finish": "2017-02-16 07:54:46 +0700",
+        "time": 6.333999
+      },
+      "before": {
+        "start": "2017-02-16 07:54:46 +0700",
+        "finish": "2017-02-16 07:54:46 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:54:46 +0700",
+        "finish": "2017-02-16 07:54:47 +0700",
+        "time": 0.648694
+      },
+      "main": {
+        "start": "2017-02-16 07:54:47 +0700",
+        "finish": "2017-02-16 07:54:47 +0700",
+        "time": 0.087393
+      },
+      "after": {
+        "start": "2017-02-16 07:54:47 +0700",
+        "finish": "2017-02-16 07:54:47 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^required_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:49 +0700",
+        "finish": "2017-02-16 07:54:55 +0700",
+        "time": 6.433913
+      },
+      "before": {
+        "start": "2017-02-16 07:54:55 +0700",
+        "finish": "2017-02-16 07:54:55 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:54:55 +0700",
+        "finish": "2017-02-16 07:54:56 +0700",
+        "time": 0.670811
+      },
+      "main": {
+        "start": "2017-02-16 07:54:56 +0700",
+        "finish": "2017-02-16 07:54:56 +0700",
+        "time": 0.07665
+      },
+      "after": {
+        "start": "2017-02-16 07:54:56 +0700",
+        "finish": "2017-02-16 07:54:56 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24PXWk4xfL1%2FBRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:54:58 +0700",
+        "finish": "2017-02-16 07:55:00 +0700",
+        "time": 2.212316
+      },
+      "before": {
+        "start": "2017-02-16 07:55:00 +0700",
+        "finish": "2017-02-16 07:55:00 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:00 +0700",
+        "finish": "2017-02-16 07:55:01 +0700",
+        "time": 0.675623
+      },
+      "main": {
+        "start": "2017-02-16 07:55:01 +0700",
+        "finish": "2017-02-16 07:55:01 +0700",
+        "time": 0.07836
+      },
+      "after": {
+        "start": "2017-02-16 07:55:01 +0700",
+        "finish": "2017-02-16 07:55:01 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24aYaLaZGCDaDaDaaaaaCJaaNWaaIaaaaCaaaaaFaaUaaaWaaaa.aaG"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:03 +0700",
+        "finish": "2017-02-16 07:55:05 +0700",
+        "time": 2.251966
+      },
+      "before": {
+        "start": "2017-02-16 07:55:05 +0700",
+        "finish": "2017-02-16 07:55:05 +0700",
+        "time": 0.000984
+      },
+      "load": {
+        "start": "2017-02-16 07:55:05 +0700",
+        "finish": "2017-02-16 07:55:06 +0700",
+        "time": 0.673883
+      },
+      "main": {
+        "start": "2017-02-16 07:55:06 +0700",
+        "finish": "2017-02-16 07:55:06 +0700",
+        "time": 0.078787
+      },
+      "after": {
+        "start": "2017-02-16 07:55:06 +0700",
+        "finish": "2017-02-16 07:55:06 +0700",
+        "time": 0.000978
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$3vuhS5FGoJXakNHkDQpGUugKZoa5HNA4lL6x6KqdVT0FxT0DttsZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:08 +0700",
+        "finish": "2017-02-16 07:55:14 +0700",
+        "time": 6.339376
+      },
+      "before": {
+        "start": "2017-02-16 07:55:14 +0700",
+        "finish": "2017-02-16 07:55:14 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:14 +0700",
+        "finish": "2017-02-16 07:55:15 +0700",
+        "time": 0.601092
+      },
+      "main": {
+        "start": "2017-02-16 07:55:15 +0700",
+        "finish": "2017-02-16 07:55:15 +0700",
+        "time": 0.078853
+      },
+      "after": {
+        "start": "2017-02-16 07:55:15 +0700",
+        "finish": "2017-02-16 07:55:15 +0700",
+        "time": 0.00095
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:17 +0700",
+        "finish": "2017-02-16 07:55:23 +0700",
+        "time": 6.323506
+      },
+      "before": {
+        "start": "2017-02-16 07:55:23 +0700",
+        "finish": "2017-02-16 07:55:23 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:23 +0700",
+        "finish": "2017-02-16 07:55:24 +0700",
+        "time": 0.644892
+      },
+      "main": {
+        "start": "2017-02-16 07:55:24 +0700",
+        "finish": "2017-02-16 07:55:24 +0700",
+        "time": 0.079592
+      },
+      "after": {
+        "start": "2017-02-16 07:55:24 +0700",
+        "finish": "2017-02-16 07:55:24 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:26 +0700",
+        "finish": "2017-02-16 07:55:32 +0700",
+        "time": 6.286281
+      },
+      "before": {
+        "start": "2017-02-16 07:55:32 +0700",
+        "finish": "2017-02-16 07:55:32 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:32 +0700",
+        "finish": "2017-02-16 07:55:33 +0700",
+        "time": 0.589638
+      },
+      "main": {
+        "start": "2017-02-16 07:55:33 +0700",
+        "finish": "2017-02-16 07:55:33 +0700",
+        "time": 0.078436
+      },
+      "after": {
+        "start": "2017-02-16 07:55:33 +0700",
+        "finish": "2017-02-16 07:55:33 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:34 +0700",
+        "finish": "2017-02-16 07:55:36 +0700",
+        "time": 2.192067
+      },
+      "before": {
+        "start": "2017-02-16 07:55:36 +0700",
+        "finish": "2017-02-16 07:55:36 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 07:55:37 +0700",
+        "finish": "2017-02-16 07:55:37 +0700",
+        "time": 0.644374
+      },
+      "main": {
+        "start": "2017-02-16 07:55:37 +0700",
+        "finish": "2017-02-16 07:55:37 +0700",
+        "time": 0.079197
+      },
+      "after": {
+        "start": "2017-02-16 07:55:38 +0700",
+        "finish": "2017-02-16 07:55:38 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:39 +0700",
+        "finish": "2017-02-16 07:55:41 +0700",
+        "time": 2.182858
+      },
+      "before": {
+        "start": "2017-02-16 07:55:41 +0700",
+        "finish": "2017-02-16 07:55:41 +0700",
+        "time": 0.000502
+      },
+      "load": {
+        "start": "2017-02-16 07:55:41 +0700",
+        "finish": "2017-02-16 07:55:42 +0700",
+        "time": 0.676168
+      },
+      "main": {
+        "start": "2017-02-16 07:55:42 +0700",
+        "finish": "2017-02-16 07:55:42 +0700",
+        "time": 0.078655
+      },
+      "after": {
+        "start": "2017-02-16 07:55:42 +0700",
+        "finish": "2017-02-16 07:55:42 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%24aa%24aa%24PXWaaaaLa%2FBRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:44 +0700",
+        "finish": "2017-02-16 07:55:46 +0700",
+        "time": 2.20099
+      },
+      "before": {
+        "start": "2017-02-16 07:55:46 +0700",
+        "finish": "2017-02-16 07:55:46 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:46 +0700",
+        "finish": "2017-02-16 07:55:47 +0700",
+        "time": 0.654975
+      },
+      "main": {
+        "start": "2017-02-16 07:55:47 +0700",
+        "finish": "2017-02-16 07:55:47 +0700",
+        "time": 0.079745
+      },
+      "after": {
+        "start": "2017-02-16 07:55:47 +0700",
+        "finish": "2017-02-16 07:55:47 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$PXWk4xfL1/BRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:49 +0700",
+        "finish": "2017-02-16 07:55:51 +0700",
+        "time": 2.1736
+      },
+      "before": {
+        "start": "2017-02-16 07:55:51 +0700",
+        "finish": "2017-02-16 07:55:51 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:51 +0700",
+        "finish": "2017-02-16 07:55:52 +0700",
+        "time": 0.706871
+      },
+      "main": {
+        "start": "2017-02-16 07:55:52 +0700",
+        "finish": "2017-02-16 07:55:52 +0700",
+        "time": 0.079674
+      },
+      "after": {
+        "start": "2017-02-16 07:55:52 +0700",
+        "finish": "2017-02-16 07:55:52 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:53 +0700",
+        "finish": "2017-02-16 07:55:56 +0700",
+        "time": 2.134402
+      },
+      "before": {
+        "start": "2017-02-16 07:55:56 +0700",
+        "finish": "2017-02-16 07:55:56 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:55:56 +0700",
+        "finish": "2017-02-16 07:55:56 +0700",
+        "time": 0.665002
+      },
+      "main": {
+        "start": "2017-02-16 07:55:56 +0700",
+        "finish": "2017-02-16 07:55:57 +0700",
+        "time": 0.080759
+      },
+      "after": {
+        "start": "2017-02-16 07:55:57 +0700",
+        "finish": "2017-02-16 07:55:57 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%242y%2410%244.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:55:58 +0700",
+        "finish": "2017-02-16 07:56:00 +0700",
+        "time": 2.122074
+      },
+      "before": {
+        "start": "2017-02-16 07:56:00 +0700",
+        "finish": "2017-02-16 07:56:00 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:00 +0700",
+        "finish": "2017-02-16 07:56:01 +0700",
+        "time": 0.664563
+      },
+      "main": {
+        "start": "2017-02-16 07:56:01 +0700",
+        "finish": "2017-02-16 07:56:01 +0700",
+        "time": 0.078478
+      },
+      "after": {
+        "start": "2017-02-16 07:56:01 +0700",
+        "finish": "2017-02-16 07:56:01 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/COPfHKssIy9W4EypravojBatPQh2n/code/%24aa%24aa%24aaaaSaFGaJXaaNHaDQaGUaaKZaaaHNAaaLaaaKaaVTaFaTaDaaaZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:03 +0700",
+        "finish": "2017-02-16 07:56:05 +0700",
+        "time": 2.16767
+      },
+      "before": {
+        "start": "2017-02-16 07:56:05 +0700",
+        "finish": "2017-02-16 07:56:05 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:05 +0700",
+        "finish": "2017-02-16 07:56:06 +0700",
+        "time": 0.675473
+      },
+      "main": {
+        "start": "2017-02-16 07:56:06 +0700",
+        "finish": "2017-02-16 07:56:06 +0700",
+        "time": 0.078199
+      },
+      "after": {
+        "start": "2017-02-16 07:56:06 +0700",
+        "finish": "2017-02-16 07:56:06 +0700",
+        "time": 0.000951
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/rvTGiMhabhr43doASvEMLePEvparJraZMI2BR58scjGMGx8af96PAb00ivgDbJjwmtesi02pjoxpSif9lICZRYSstXz/code/$2y$10$fT/sdxDFzH5vASh.TJ6cTuwX3EK8q2HpDiflbi2VtE/vw08Zj.nQK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:08 +0700",
+        "finish": "2017-02-16 07:56:10 +0700",
+        "time": 2.132258
+      },
+      "before": {
+        "start": "2017-02-16 07:56:10 +0700",
+        "finish": "2017-02-16 07:56:10 +0700",
+        "time": 0.000982
+      },
+      "load": {
+        "start": "2017-02-16 07:56:10 +0700",
+        "finish": "2017-02-16 07:56:11 +0700",
+        "time": 0.675808
+      },
+      "main": {
+        "start": "2017-02-16 07:56:11 +0700",
+        "finish": "2017-02-16 07:56:11 +0700",
+        "time": 0.080714
+      },
+      "after": {
+        "start": "2017-02-16 07:56:11 +0700",
+        "finish": "2017-02-16 07:56:11 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:12 +0700",
+        "finish": "2017-02-16 07:56:14 +0700",
+        "time": 2.140932
+      },
+      "before": {
+        "start": "2017-02-16 07:56:15 +0700",
+        "finish": "2017-02-16 07:56:15 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:15 +0700",
+        "finish": "2017-02-16 07:56:15 +0700",
+        "time": 0.642144
+      },
+      "main": {
+        "start": "2017-02-16 07:56:15 +0700",
+        "finish": "2017-02-16 07:56:15 +0700",
+        "time": 0.079186
+      },
+      "after": {
+        "start": "2017-02-16 07:56:16 +0700",
+        "finish": "2017-02-16 07:56:16 +0700",
+        "time": 0.00101
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:17 +0700",
+        "finish": "2017-02-16 07:56:19 +0700",
+        "time": 2.138379
+      },
+      "before": {
+        "start": "2017-02-16 07:56:19 +0700",
+        "finish": "2017-02-16 07:56:19 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:19 +0700",
+        "finish": "2017-02-16 07:56:20 +0700",
+        "time": 0.66185
+      },
+      "main": {
+        "start": "2017-02-16 07:56:20 +0700",
+        "finish": "2017-02-16 07:56:20 +0700",
+        "time": 0.089757
+      },
+      "after": {
+        "start": "2017-02-16 07:56:20 +0700",
+        "finish": "2017-02-16 07:56:20 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:22 +0700",
+        "finish": "2017-02-16 07:56:24 +0700",
+        "time": 2.132074
+      },
+      "before": {
+        "start": "2017-02-16 07:56:24 +0700",
+        "finish": "2017-02-16 07:56:24 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:24 +0700",
+        "finish": "2017-02-16 07:56:25 +0700",
+        "time": 0.634467
+      },
+      "main": {
+        "start": "2017-02-16 07:56:25 +0700",
+        "finish": "2017-02-16 07:56:25 +0700",
+        "time": 0.079217
+      },
+      "after": {
+        "start": "2017-02-16 07:56:25 +0700",
+        "finish": "2017-02-16 07:56:25 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/D1wTyQqBQGN2Uia6vJzaOMgyJrZcyrsAS5vfVj45qbB3t73UJu5mhkLgBtawRiRmOy9gSVaY1EDqFyDelE99khxZOC/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:26 +0700",
+        "finish": "2017-02-16 07:56:28 +0700",
+        "time": 2.146906
+      },
+      "before": {
+        "start": "2017-02-16 07:56:29 +0700",
+        "finish": "2017-02-16 07:56:29 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:29 +0700",
+        "finish": "2017-02-16 07:56:29 +0700",
+        "time": 0.624816
+      },
+      "main": {
+        "start": "2017-02-16 07:56:29 +0700",
+        "finish": "2017-02-16 07:56:29 +0700",
+        "time": 0.079167
+      },
+      "after": {
+        "start": "2017-02-16 07:56:30 +0700",
+        "finish": "2017-02-16 07:56:30 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24PXWk4xfL1%2FBRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:31 +0700",
+        "finish": "2017-02-16 07:56:33 +0700",
+        "time": 2.128113
+      },
+      "before": {
+        "start": "2017-02-16 07:56:33 +0700",
+        "finish": "2017-02-16 07:56:33 +0700",
+        "time": 0.000981
+      },
+      "load": {
+        "start": "2017-02-16 07:56:33 +0700",
+        "finish": "2017-02-16 07:56:34 +0700",
+        "time": 0.635436
+      },
+      "main": {
+        "start": "2017-02-16 07:56:34 +0700",
+        "finish": "2017-02-16 07:56:34 +0700",
+        "time": 0.080282
+      },
+      "after": {
+        "start": "2017-02-16 07:56:34 +0700",
+        "finish": "2017-02-16 07:56:34 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:36 +0700",
+        "finish": "2017-02-16 07:56:42 +0700",
+        "time": 6.268848
+      },
+      "before": {
+        "start": "2017-02-16 07:56:42 +0700",
+        "finish": "2017-02-16 07:56:42 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:42 +0700",
+        "finish": "2017-02-16 07:56:43 +0700",
+        "time": 0.611686
+      },
+      "main": {
+        "start": "2017-02-16 07:56:43 +0700",
+        "finish": "2017-02-16 07:56:43 +0700",
+        "time": 0.078034
+      },
+      "after": {
+        "start": "2017-02-16 07:56:43 +0700",
+        "finish": "2017-02-16 07:56:43 +0700",
+        "time": 0.000504
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$EGAwqWmCy7gySA58skHEj..Po0Km4QhZwsjhT504tHQcWwwCbiKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:44 +0700",
+        "finish": "2017-02-16 07:56:47 +0700",
+        "time": 2.148404
+      },
+      "before": {
+        "start": "2017-02-16 07:56:47 +0700",
+        "finish": "2017-02-16 07:56:47 +0700",
+        "time": 0.000983
+      },
+      "load": {
+        "start": "2017-02-16 07:56:47 +0700",
+        "finish": "2017-02-16 07:56:47 +0700",
+        "time": 0.644443
+      },
+      "main": {
+        "start": "2017-02-16 07:56:48 +0700",
+        "finish": "2017-02-16 07:56:48 +0700",
+        "time": 0.079432
+      },
+      "after": {
+        "start": "2017-02-16 07:56:48 +0700",
+        "finish": "2017-02-16 07:56:48 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%243vuhS5FGoJXakNHkDQpGUugKZoa5HNA4lL6x6KqdVT0FxT0DttsZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:49 +0700",
+        "finish": "2017-02-16 07:56:52 +0700",
+        "time": 2.1814
+      },
+      "before": {
+        "start": "2017-02-16 07:56:52 +0700",
+        "finish": "2017-02-16 07:56:52 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:52 +0700",
+        "finish": "2017-02-16 07:56:52 +0700",
+        "time": 0.653631
+      },
+      "main": {
+        "start": "2017-02-16 07:56:52 +0700",
+        "finish": "2017-02-16 07:56:53 +0700",
+        "time": 0.078658
+      },
+      "after": {
+        "start": "2017-02-16 07:56:53 +0700",
+        "finish": "2017-02-16 07:56:53 +0700",
+        "time": 0.00098
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:54 +0700",
+        "finish": "2017-02-16 07:56:56 +0700",
+        "time": 2.152613
+      },
+      "before": {
+        "start": "2017-02-16 07:56:56 +0700",
+        "finish": "2017-02-16 07:56:56 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:56:56 +0700",
+        "finish": "2017-02-16 07:56:57 +0700",
+        "time": 0.621755
+      },
+      "main": {
+        "start": "2017-02-16 07:56:57 +0700",
+        "finish": "2017-02-16 07:56:57 +0700",
+        "time": 0.078821
+      },
+      "after": {
+        "start": "2017-02-16 07:56:57 +0700",
+        "finish": "2017-02-16 07:56:57 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$aa$aa$PXWaaaaLa/BRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:56:59 +0700",
+        "finish": "2017-02-16 07:57:01 +0700",
+        "time": 2.157204
+      },
+      "before": {
+        "start": "2017-02-16 07:57:01 +0700",
+        "finish": "2017-02-16 07:57:01 +0700",
+        "time": 0.000954
+      },
+      "load": {
+        "start": "2017-02-16 07:57:01 +0700",
+        "finish": "2017-02-16 07:57:02 +0700",
+        "time": 0.686667
+      },
+      "main": {
+        "start": "2017-02-16 07:57:02 +0700",
+        "finish": "2017-02-16 07:57:02 +0700",
+        "time": 0.07837
+      },
+      "after": {
+        "start": "2017-02-16 07:57:02 +0700",
+        "finish": "2017-02-16 07:57:02 +0700",
+        "time": 0.000931
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:04 +0700",
+        "finish": "2017-02-16 07:57:06 +0700",
+        "time": 2.14836
+      },
+      "before": {
+        "start": "2017-02-16 07:57:06 +0700",
+        "finish": "2017-02-16 07:57:06 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:06 +0700",
+        "finish": "2017-02-16 07:57:07 +0700",
+        "time": 0.622263
+      },
+      "main": {
+        "start": "2017-02-16 07:57:07 +0700",
+        "finish": "2017-02-16 07:57:07 +0700",
+        "time": 0.079285
+      },
+      "after": {
+        "start": "2017-02-16 07:57:07 +0700",
+        "finish": "2017-02-16 07:57:07 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:08 +0700",
+        "finish": "2017-02-16 07:57:10 +0700",
+        "time": 2.143231
+      },
+      "before": {
+        "start": "2017-02-16 07:57:11 +0700",
+        "finish": "2017-02-16 07:57:11 +0700",
+        "time": 0.000983
+      },
+      "load": {
+        "start": "2017-02-16 07:57:11 +0700",
+        "finish": "2017-02-16 07:57:11 +0700",
+        "time": 0.631831
+      },
+      "main": {
+        "start": "2017-02-16 07:57:11 +0700",
+        "finish": "2017-02-16 07:57:11 +0700",
+        "time": 0.077743
+      },
+      "after": {
+        "start": "2017-02-16 07:57:12 +0700",
+        "finish": "2017-02-16 07:57:12 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "match",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:13 +0700",
+        "finish": "2017-02-16 07:57:15 +0700",
+        "time": 2.133416
+      },
+      "before": {
+        "start": "2017-02-16 07:57:15 +0700",
+        "finish": "2017-02-16 07:57:15 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:15 +0700",
+        "finish": "2017-02-16 07:57:16 +0700",
+        "time": 0.654039
+      },
+      "main": {
+        "start": "2017-02-16 07:57:16 +0700",
+        "finish": "2017-02-16 07:57:16 +0700",
+        "time": 0.079623
+      },
+      "after": {
+        "start": "2017-02-16 07:57:16 +0700",
+        "finish": "2017-02-16 07:57:16 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/b8tibn8lj5glp7@rb.qaao/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:18 +0700",
+        "finish": "2017-02-16 07:57:20 +0700",
+        "time": 2.146622
+      },
+      "before": {
+        "start": "2017-02-16 07:57:20 +0700",
+        "finish": "2017-02-16 07:57:20 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:20 +0700",
+        "finish": "2017-02-16 07:57:21 +0700",
+        "time": 0.599645
+      },
+      "main": {
+        "start": "2017-02-16 07:57:21 +0700",
+        "finish": "2017-02-16 07:57:21 +0700",
+        "time": 0.079523
+      },
+      "after": {
+        "start": "2017-02-16 07:57:21 +0700",
+        "finish": "2017-02-16 07:57:21 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "^required_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$PXWaaaaLa/BRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:22 +0700",
+        "finish": "2017-02-16 07:57:25 +0700",
+        "time": 2.135211
+      },
+      "before": {
+        "start": "2017-02-16 07:57:25 +0700",
+        "finish": "2017-02-16 07:57:25 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:25 +0700",
+        "finish": "2017-02-16 07:57:25 +0700",
+        "time": 0.709861
+      },
+      "main": {
+        "start": "2017-02-16 07:57:25 +0700",
+        "finish": "2017-02-16 07:57:26 +0700",
+        "time": 0.078339
+      },
+      "after": {
+        "start": "2017-02-16 07:57:26 +0700",
+        "finish": "2017-02-16 07:57:26 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "^required_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:27 +0700",
+        "finish": "2017-02-16 07:57:29 +0700",
+        "time": 2.167692
+      },
+      "before": {
+        "start": "2017-02-16 07:57:29 +0700",
+        "finish": "2017-02-16 07:57:29 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:30 +0700",
+        "finish": "2017-02-16 07:57:30 +0700",
+        "time": 0.66331
+      },
+      "main": {
+        "start": "2017-02-16 07:57:30 +0700",
+        "finish": "2017-02-16 07:57:30 +0700",
+        "time": 0.078902
+      },
+      "after": {
+        "start": "2017-02-16 07:57:30 +0700",
+        "finish": "2017-02-16 07:57:30 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "match",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$PXWk4xfL1/BRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:32 +0700",
+        "finish": "2017-02-16 07:57:34 +0700",
+        "time": 2.138381
+      },
+      "before": {
+        "start": "2017-02-16 07:57:34 +0700",
+        "finish": "2017-02-16 07:57:34 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:34 +0700",
+        "finish": "2017-02-16 07:57:35 +0700",
+        "time": 0.644475
+      },
+      "main": {
+        "start": "2017-02-16 07:57:35 +0700",
+        "finish": "2017-02-16 07:57:35 +0700",
+        "time": 0.07874
+      },
+      "after": {
+        "start": "2017-02-16 07:57:35 +0700",
+        "finish": "2017-02-16 07:57:35 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:37 +0700",
+        "finish": "2017-02-16 07:57:39 +0700",
+        "time": 2.133184
+      },
+      "before": {
+        "start": "2017-02-16 07:57:39 +0700",
+        "finish": "2017-02-16 07:57:39 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:39 +0700",
+        "finish": "2017-02-16 07:57:40 +0700",
+        "time": 0.634254
+      },
+      "main": {
+        "start": "2017-02-16 07:57:40 +0700",
+        "finish": "2017-02-16 07:57:40 +0700",
+        "time": 0.078712
+      },
+      "after": {
+        "start": "2017-02-16 07:57:40 +0700",
+        "finish": "2017-02-16 07:57:40 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "^required_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:41 +0700",
+        "finish": "2017-02-16 07:57:44 +0700",
+        "time": 2.143779
+      },
+      "before": {
+        "start": "2017-02-16 07:57:44 +0700",
+        "finish": "2017-02-16 07:57:44 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:44 +0700",
+        "finish": "2017-02-16 07:57:44 +0700",
+        "time": 0.632361
+      },
+      "main": {
+        "start": "2017-02-16 07:57:44 +0700",
+        "finish": "2017-02-16 07:57:45 +0700",
+        "time": 0.078881
+      },
+      "after": {
+        "start": "2017-02-16 07:57:45 +0700",
+        "finish": "2017-02-16 07:57:45 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:46 +0700",
+        "finish": "2017-02-16 07:57:48 +0700",
+        "time": 2.189799
+      },
+      "before": {
+        "start": "2017-02-16 07:57:48 +0700",
+        "finish": "2017-02-16 07:57:48 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:57:49 +0700",
+        "finish": "2017-02-16 07:57:49 +0700",
+        "time": 0.623753
+      },
+      "main": {
+        "start": "2017-02-16 07:57:49 +0700",
+        "finish": "2017-02-16 07:57:49 +0700",
+        "time": 0.079667
+      },
+      "after": {
+        "start": "2017-02-16 07:57:49 +0700",
+        "finish": "2017-02-16 07:57:49 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:57:51 +0700",
+        "finish": "2017-02-16 07:57:57 +0700",
+        "time": 6.28985
+      },
+      "before": {
+        "start": "2017-02-16 07:57:57 +0700",
+        "finish": "2017-02-16 07:57:57 +0700",
+        "time": 0.0005
+      },
+      "load": {
+        "start": "2017-02-16 07:57:57 +0700",
+        "finish": "2017-02-16 07:57:58 +0700",
+        "time": 0.591894
+      },
+      "main": {
+        "start": "2017-02-16 07:57:58 +0700",
+        "finish": "2017-02-16 07:57:58 +0700",
+        "time": 0.078683
+      },
+      "after": {
+        "start": "2017-02-16 07:57:58 +0700",
+        "finish": "2017-02-16 07:57:58 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:00 +0700",
+        "finish": "2017-02-16 07:58:06 +0700",
+        "time": 6.293608
+      },
+      "before": {
+        "start": "2017-02-16 07:58:06 +0700",
+        "finish": "2017-02-16 07:58:06 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:06 +0700",
+        "finish": "2017-02-16 07:58:07 +0700",
+        "time": 0.578298
+      },
+      "main": {
+        "start": "2017-02-16 07:58:07 +0700",
+        "finish": "2017-02-16 07:58:07 +0700",
+        "time": 0.079467
+      },
+      "after": {
+        "start": "2017-02-16 07:58:07 +0700",
+        "finish": "2017-02-16 07:58:07 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:08 +0700",
+        "finish": "2017-02-16 07:58:11 +0700",
+        "time": 2.215592
+      },
+      "before": {
+        "start": "2017-02-16 07:58:11 +0700",
+        "finish": "2017-02-16 07:58:11 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:11 +0700",
+        "finish": "2017-02-16 07:58:11 +0700",
+        "time": 0.620851
+      },
+      "main": {
+        "start": "2017-02-16 07:58:12 +0700",
+        "finish": "2017-02-16 07:58:12 +0700",
+        "time": 0.07795
+      },
+      "after": {
+        "start": "2017-02-16 07:58:12 +0700",
+        "finish": "2017-02-16 07:58:12 +0700",
+        "time": 0.000984
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:13 +0700",
+        "finish": "2017-02-16 07:58:19 +0700",
+        "time": 6.261503
+      },
+      "before": {
+        "start": "2017-02-16 07:58:19 +0700",
+        "finish": "2017-02-16 07:58:19 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:20 +0700",
+        "finish": "2017-02-16 07:58:20 +0700",
+        "time": 0.568674
+      },
+      "main": {
+        "start": "2017-02-16 07:58:20 +0700",
+        "finish": "2017-02-16 07:58:20 +0700",
+        "time": 0.079056
+      },
+      "after": {
+        "start": "2017-02-16 07:58:20 +0700",
+        "finish": "2017-02-16 07:58:20 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "^is_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$aa$aa$PXWaaaaLa/BRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:22 +0700",
+        "finish": "2017-02-16 07:58:24 +0700",
+        "time": 2.161907
+      },
+      "before": {
+        "start": "2017-02-16 07:58:24 +0700",
+        "finish": "2017-02-16 07:58:24 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:24 +0700",
+        "finish": "2017-02-16 07:58:25 +0700",
+        "time": 0.67452
+      },
+      "main": {
+        "start": "2017-02-16 07:58:25 +0700",
+        "finish": "2017-02-16 07:58:25 +0700",
+        "time": 0.07985
+      },
+      "after": {
+        "start": "2017-02-16 07:58:25 +0700",
+        "finish": "2017-02-16 07:58:25 +0700",
+        "time": 0.000521
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "^is_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:27 +0700",
+        "finish": "2017-02-16 07:58:29 +0700",
+        "time": 2.148238
+      },
+      "before": {
+        "start": "2017-02-16 07:58:29 +0700",
+        "finish": "2017-02-16 07:58:29 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:29 +0700",
+        "finish": "2017-02-16 07:58:30 +0700",
+        "time": 0.674116
+      },
+      "main": {
+        "start": "2017-02-16 07:58:30 +0700",
+        "finish": "2017-02-16 07:58:30 +0700",
+        "time": 0.078775
+      },
+      "after": {
+        "start": "2017-02-16 07:58:30 +0700",
+        "finish": "2017-02-16 07:58:30 +0700",
+        "time": 0.000483
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "match",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$PXWk4xfL1/BRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:31 +0700",
+        "finish": "2017-02-16 07:58:34 +0700",
+        "time": 2.135368
+      },
+      "before": {
+        "start": "2017-02-16 07:58:34 +0700",
+        "finish": "2017-02-16 07:58:34 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:34 +0700",
+        "finish": "2017-02-16 07:58:34 +0700",
+        "time": 0.676536
+      },
+      "main": {
+        "start": "2017-02-16 07:58:35 +0700",
+        "finish": "2017-02-16 07:58:35 +0700",
+        "time": 0.078823
+      },
+      "after": {
+        "start": "2017-02-16 07:58:35 +0700",
+        "finish": "2017-02-16 07:58:35 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/BWh6mjvLqJeT6S3k0SmURXStCArxQCFhDP2HgtXO/code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:36 +0700",
+        "finish": "2017-02-16 07:58:38 +0700",
+        "time": 2.13675
+      },
+      "before": {
+        "start": "2017-02-16 07:58:38 +0700",
+        "finish": "2017-02-16 07:58:38 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:39 +0700",
+        "finish": "2017-02-16 07:58:39 +0700",
+        "time": 0.663993
+      },
+      "main": {
+        "start": "2017-02-16 07:58:39 +0700",
+        "finish": "2017-02-16 07:58:39 +0700",
+        "time": 0.079084
+      },
+      "after": {
+        "start": "2017-02-16 07:58:39 +0700",
+        "finish": "2017-02-16 07:58:39 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:41 +0700",
+        "finish": "2017-02-16 07:58:43 +0700",
+        "time": 2.139057
+      },
+      "before": {
+        "start": "2017-02-16 07:58:43 +0700",
+        "finish": "2017-02-16 07:58:43 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:43 +0700",
+        "finish": "2017-02-16 07:58:44 +0700",
+        "time": 0.686932
+      },
+      "main": {
+        "start": "2017-02-16 07:58:44 +0700",
+        "finish": "2017-02-16 07:58:44 +0700",
+        "time": 0.079114
+      },
+      "after": {
+        "start": "2017-02-16 07:58:44 +0700",
+        "finish": "2017-02-16 07:58:44 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:46 +0700",
+        "finish": "2017-02-16 07:58:48 +0700",
+        "time": 2.165461
+      },
+      "before": {
+        "start": "2017-02-16 07:58:48 +0700",
+        "finish": "2017-02-16 07:58:48 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:48 +0700",
+        "finish": "2017-02-16 07:58:49 +0700",
+        "time": 0.621314
+      },
+      "main": {
+        "start": "2017-02-16 07:58:49 +0700",
+        "finish": "2017-02-16 07:58:49 +0700",
+        "time": 0.077688
+      },
+      "after": {
+        "start": "2017-02-16 07:58:49 +0700",
+        "finish": "2017-02-16 07:58:49 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:50 +0700",
+        "finish": "2017-02-16 07:58:53 +0700",
+        "time": 2.199122
+      },
+      "before": {
+        "start": "2017-02-16 07:58:53 +0700",
+        "finish": "2017-02-16 07:58:53 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:53 +0700",
+        "finish": "2017-02-16 07:58:53 +0700",
+        "time": 0.643961
+      },
+      "main": {
+        "start": "2017-02-16 07:58:53 +0700",
+        "finish": "2017-02-16 07:58:54 +0700",
+        "time": 0.077866
+      },
+      "after": {
+        "start": "2017-02-16 07:58:54 +0700",
+        "finish": "2017-02-16 07:58:54 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:58:55 +0700",
+        "finish": "2017-02-16 07:58:57 +0700",
+        "time": 2.136654
+      },
+      "before": {
+        "start": "2017-02-16 07:58:57 +0700",
+        "finish": "2017-02-16 07:58:57 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:58:57 +0700",
+        "finish": "2017-02-16 07:58:58 +0700",
+        "time": 0.652267
+      },
+      "main": {
+        "start": "2017-02-16 07:58:58 +0700",
+        "finish": "2017-02-16 07:58:58 +0700",
+        "time": 0.079185
+      },
+      "after": {
+        "start": "2017-02-16 07:58:58 +0700",
+        "finish": "2017-02-16 07:58:58 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/qJmXZkWdNdymPWt/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:00 +0700",
+        "finish": "2017-02-16 07:59:02 +0700",
+        "time": 2.145697
+      },
+      "before": {
+        "start": "2017-02-16 07:59:02 +0700",
+        "finish": "2017-02-16 07:59:02 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:02 +0700",
+        "finish": "2017-02-16 07:59:03 +0700",
+        "time": 0.631766
+      },
+      "main": {
+        "start": "2017-02-16 07:59:03 +0700",
+        "finish": "2017-02-16 07:59:03 +0700",
+        "time": 0.08051
+      },
+      "after": {
+        "start": "2017-02-16 07:59:03 +0700",
+        "finish": "2017-02-16 07:59:03 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/C9ofNNrmTBM686DN2ddgiboeyvWaoMpoZHb0VOF/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:05 +0700",
+        "finish": "2017-02-16 07:59:07 +0700",
+        "time": 2.143044
+      },
+      "before": {
+        "start": "2017-02-16 07:59:07 +0700",
+        "finish": "2017-02-16 07:59:07 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:07 +0700",
+        "finish": "2017-02-16 07:59:07 +0700",
+        "time": 0.675231
+      },
+      "main": {
+        "start": "2017-02-16 07:59:08 +0700",
+        "finish": "2017-02-16 07:59:08 +0700",
+        "time": 0.07908
+      },
+      "after": {
+        "start": "2017-02-16 07:59:08 +0700",
+        "finish": "2017-02-16 07:59:08 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24PXWaaaaLa%2FBRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:09 +0700",
+        "finish": "2017-02-16 07:59:11 +0700",
+        "time": 2.153427
+      },
+      "before": {
+        "start": "2017-02-16 07:59:12 +0700",
+        "finish": "2017-02-16 07:59:12 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:12 +0700",
+        "finish": "2017-02-16 07:59:12 +0700",
+        "time": 0.654146
+      },
+      "main": {
+        "start": "2017-02-16 07:59:12 +0700",
+        "finish": "2017-02-16 07:59:12 +0700",
+        "time": 0.080198
+      },
+      "after": {
+        "start": "2017-02-16 07:59:13 +0700",
+        "finish": "2017-02-16 07:59:13 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$PXWk4xfL1/BRLenKwkNPsuRA1VF6F7q8aZFLGwpFtsiGF4hMnTnsy"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:14 +0700",
+        "finish": "2017-02-16 07:59:16 +0700",
+        "time": 2.149106
+      },
+      "before": {
+        "start": "2017-02-16 07:59:16 +0700",
+        "finish": "2017-02-16 07:59:16 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:16 +0700",
+        "finish": "2017-02-16 07:59:17 +0700",
+        "time": 0.633642
+      },
+      "main": {
+        "start": "2017-02-16 07:59:17 +0700",
+        "finish": "2017-02-16 07:59:17 +0700",
+        "time": 0.078477
+      },
+      "after": {
+        "start": "2017-02-16 07:59:17 +0700",
+        "finish": "2017-02-16 07:59:17 +0700",
+        "time": 0.000532
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:19 +0700",
+        "finish": "2017-02-16 07:59:21 +0700",
+        "time": 2.152859
+      },
+      "before": {
+        "start": "2017-02-16 07:59:21 +0700",
+        "finish": "2017-02-16 07:59:21 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:21 +0700",
+        "finish": "2017-02-16 07:59:22 +0700",
+        "time": 0.644615
+      },
+      "main": {
+        "start": "2017-02-16 07:59:22 +0700",
+        "finish": "2017-02-16 07:59:22 +0700",
+        "time": 0.0777
+      },
+      "after": {
+        "start": "2017-02-16 07:59:22 +0700",
+        "finish": "2017-02-16 07:59:22 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%244.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:23 +0700",
+        "finish": "2017-02-16 07:59:25 +0700",
+        "time": 2.147937
+      },
+      "before": {
+        "start": "2017-02-16 07:59:26 +0700",
+        "finish": "2017-02-16 07:59:26 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:26 +0700",
+        "finish": "2017-02-16 07:59:26 +0700",
+        "time": 0.620828
+      },
+      "main": {
+        "start": "2017-02-16 07:59:26 +0700",
+        "finish": "2017-02-16 07:59:26 +0700",
+        "time": 0.078561
+      },
+      "after": {
+        "start": "2017-02-16 07:59:27 +0700",
+        "finish": "2017-02-16 07:59:27 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24EGAaaWaCaaaaSAaaaaHEa..PaaKaaQaZaaaaTaaaaHQaWaaCaaKM."
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:28 +0700",
+        "finish": "2017-02-16 07:59:30 +0700",
+        "time": 2.148239
+      },
+      "before": {
+        "start": "2017-02-16 07:59:30 +0700",
+        "finish": "2017-02-16 07:59:30 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:30 +0700",
+        "finish": "2017-02-16 07:59:31 +0700",
+        "time": 0.66602
+      },
+      "main": {
+        "start": "2017-02-16 07:59:31 +0700",
+        "finish": "2017-02-16 07:59:31 +0700",
+        "time": 0.078483
+      },
+      "after": {
+        "start": "2017-02-16 07:59:31 +0700",
+        "finish": "2017-02-16 07:59:31 +0700",
+        "time": 0.000983
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$3vuhS5FGoJXakNHkDQpGUugKZoa5HNA4lL6x6KqdVT0FxT0DttsZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:33 +0700",
+        "finish": "2017-02-16 07:59:35 +0700",
+        "time": 2.149699
+      },
+      "before": {
+        "start": "2017-02-16 07:59:35 +0700",
+        "finish": "2017-02-16 07:59:35 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:35 +0700",
+        "finish": "2017-02-16 07:59:36 +0700",
+        "time": 0.655226
+      },
+      "main": {
+        "start": "2017-02-16 07:59:36 +0700",
+        "finish": "2017-02-16 07:59:36 +0700",
+        "time": 0.07759
+      },
+      "after": {
+        "start": "2017-02-16 07:59:36 +0700",
+        "finish": "2017-02-16 07:59:36 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:37 +0700",
+        "finish": "2017-02-16 07:59:40 +0700",
+        "time": 2.163623
+      },
+      "before": {
+        "start": "2017-02-16 07:59:40 +0700",
+        "finish": "2017-02-16 07:59:40 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:40 +0700",
+        "finish": "2017-02-16 07:59:40 +0700",
+        "time": 0.620918
+      },
+      "main": {
+        "start": "2017-02-16 07:59:41 +0700",
+        "finish": "2017-02-16 07:59:41 +0700",
+        "time": 0.078759
+      },
+      "after": {
+        "start": "2017-02-16 07:59:41 +0700",
+        "finish": "2017-02-16 07:59:41 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:42 +0700",
+        "finish": "2017-02-16 07:59:44 +0700",
+        "time": 2.139195
+      },
+      "before": {
+        "start": "2017-02-16 07:59:44 +0700",
+        "finish": "2017-02-16 07:59:44 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:44 +0700",
+        "finish": "2017-02-16 07:59:45 +0700",
+        "time": 0.62228
+      },
+      "main": {
+        "start": "2017-02-16 07:59:45 +0700",
+        "finish": "2017-02-16 07:59:45 +0700",
+        "time": 0.079266
+      },
+      "after": {
+        "start": "2017-02-16 07:59:45 +0700",
+        "finish": "2017-02-16 07:59:45 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:47 +0700",
+        "finish": "2017-02-16 07:59:49 +0700",
+        "time": 2.166388
+      },
+      "before": {
+        "start": "2017-02-16 07:59:49 +0700",
+        "finish": "2017-02-16 07:59:49 +0700",
+        "time": 0.000983
+      },
+      "load": {
+        "start": "2017-02-16 07:59:49 +0700",
+        "finish": "2017-02-16 07:59:50 +0700",
+        "time": 0.654669
+      },
+      "main": {
+        "start": "2017-02-16 07:59:50 +0700",
+        "finish": "2017-02-16 07:59:50 +0700",
+        "time": 0.078752
+      },
+      "after": {
+        "start": "2017-02-16 07:59:50 +0700",
+        "finish": "2017-02-16 07:59:50 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:52 +0700",
+        "finish": "2017-02-16 07:59:54 +0700",
+        "time": 2.138209
+      },
+      "before": {
+        "start": "2017-02-16 07:59:54 +0700",
+        "finish": "2017-02-16 07:59:54 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:54 +0700",
+        "finish": "2017-02-16 07:59:55 +0700",
+        "time": 0.619903
+      },
+      "main": {
+        "start": "2017-02-16 07:59:55 +0700",
+        "finish": "2017-02-16 07:59:55 +0700",
+        "time": 0.079487
+      },
+      "after": {
+        "start": "2017-02-16 07:59:55 +0700",
+        "finish": "2017-02-16 07:59:55 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 07:59:56 +0700",
+        "finish": "2017-02-16 07:59:58 +0700",
+        "time": 2.151726
+      },
+      "before": {
+        "start": "2017-02-16 07:59:59 +0700",
+        "finish": "2017-02-16 07:59:59 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 07:59:59 +0700",
+        "finish": "2017-02-16 07:59:59 +0700",
+        "time": 0.633559
+      },
+      "main": {
+        "start": "2017-02-16 07:59:59 +0700",
+        "finish": "2017-02-16 07:59:59 +0700",
+        "time": 0.07857
+      },
+      "after": {
+        "start": "2017-02-16 08:00:00 +0700",
+        "finish": "2017-02-16 08:00:00 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:01 +0700",
+        "finish": "2017-02-16 08:00:03 +0700",
+        "time": 2.133079
+      },
+      "before": {
+        "start": "2017-02-16 08:00:03 +0700",
+        "finish": "2017-02-16 08:00:03 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:03 +0700",
+        "finish": "2017-02-16 08:00:04 +0700",
+        "time": 0.632477
+      },
+      "main": {
+        "start": "2017-02-16 08:00:04 +0700",
+        "finish": "2017-02-16 08:00:04 +0700",
+        "time": 0.078303
+      },
+      "after": {
+        "start": "2017-02-16 08:00:04 +0700",
+        "finish": "2017-02-16 08:00:04 +0700",
+        "time": 0.000983
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:06 +0700",
+        "finish": "2017-02-16 08:00:08 +0700",
+        "time": 2.132509
+      },
+      "before": {
+        "start": "2017-02-16 08:00:08 +0700",
+        "finish": "2017-02-16 08:00:08 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:08 +0700",
+        "finish": "2017-02-16 08:00:09 +0700",
+        "time": 0.629177
+      },
+      "main": {
+        "start": "2017-02-16 08:00:09 +0700",
+        "finish": "2017-02-16 08:00:09 +0700",
+        "time": 0.078703
+      },
+      "after": {
+        "start": "2017-02-16 08:00:09 +0700",
+        "finish": "2017-02-16 08:00:09 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:10 +0700",
+        "finish": "2017-02-16 08:00:13 +0700",
+        "time": 2.144448
+      },
+      "before": {
+        "start": "2017-02-16 08:00:13 +0700",
+        "finish": "2017-02-16 08:00:13 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:13 +0700",
+        "finish": "2017-02-16 08:00:13 +0700",
+        "time": 0.622631
+      },
+      "main": {
+        "start": "2017-02-16 08:00:13 +0700",
+        "finish": "2017-02-16 08:00:13 +0700",
+        "time": 0.078508
+      },
+      "after": {
+        "start": "2017-02-16 08:00:14 +0700",
+        "finish": "2017-02-16 08:00:14 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:15 +0700",
+        "finish": "2017-02-16 08:00:17 +0700",
+        "time": 2.139944
+      },
+      "before": {
+        "start": "2017-02-16 08:00:17 +0700",
+        "finish": "2017-02-16 08:00:17 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:17 +0700",
+        "finish": "2017-02-16 08:00:18 +0700",
+        "time": 0.623683
+      },
+      "main": {
+        "start": "2017-02-16 08:00:18 +0700",
+        "finish": "2017-02-16 08:00:18 +0700",
+        "time": 0.07853
+      },
+      "after": {
+        "start": "2017-02-16 08:00:18 +0700",
+        "finish": "2017-02-16 08:00:18 +0700",
+        "time": 0.000951
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:20 +0700",
+        "finish": "2017-02-16 08:00:22 +0700",
+        "time": 2.163242
+      },
+      "before": {
+        "start": "2017-02-16 08:00:22 +0700",
+        "finish": "2017-02-16 08:00:22 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:22 +0700",
+        "finish": "2017-02-16 08:00:23 +0700",
+        "time": 0.674202
+      },
+      "main": {
+        "start": "2017-02-16 08:00:23 +0700",
+        "finish": "2017-02-16 08:00:23 +0700",
+        "time": 0.079299
+      },
+      "after": {
+        "start": "2017-02-16 08:00:23 +0700",
+        "finish": "2017-02-16 08:00:23 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$aa$aa$PXWaaaaLa/BRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:24 +0700",
+        "finish": "2017-02-16 08:00:27 +0700",
+        "time": 2.177962
+      },
+      "before": {
+        "start": "2017-02-16 08:00:27 +0700",
+        "finish": "2017-02-16 08:00:27 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:27 +0700",
+        "finish": "2017-02-16 08:00:27 +0700",
+        "time": 0.643556
+      },
+      "main": {
+        "start": "2017-02-16 08:00:28 +0700",
+        "finish": "2017-02-16 08:00:28 +0700",
+        "time": 0.078428
+      },
+      "after": {
+        "start": "2017-02-16 08:00:28 +0700",
+        "finish": "2017-02-16 08:00:28 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:29 +0700",
+        "finish": "2017-02-16 08:00:31 +0700",
+        "time": 2.134121
+      },
+      "before": {
+        "start": "2017-02-16 08:00:31 +0700",
+        "finish": "2017-02-16 08:00:31 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:32 +0700",
+        "finish": "2017-02-16 08:00:32 +0700",
+        "time": 0.644933
+      },
+      "main": {
+        "start": "2017-02-16 08:00:32 +0700",
+        "finish": "2017-02-16 08:00:32 +0700",
+        "time": 0.079664
+      },
+      "after": {
+        "start": "2017-02-16 08:00:32 +0700",
+        "finish": "2017-02-16 08:00:32 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:34 +0700",
+        "finish": "2017-02-16 08:00:36 +0700",
+        "time": 2.142013
+      },
+      "before": {
+        "start": "2017-02-16 08:00:36 +0700",
+        "finish": "2017-02-16 08:00:36 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:36 +0700",
+        "finish": "2017-02-16 08:00:37 +0700",
+        "time": 0.643355
+      },
+      "main": {
+        "start": "2017-02-16 08:00:37 +0700",
+        "finish": "2017-02-16 08:00:37 +0700",
+        "time": 0.078457
+      },
+      "after": {
+        "start": "2017-02-16 08:00:37 +0700",
+        "finish": "2017-02-16 08:00:37 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:39 +0700",
+        "finish": "2017-02-16 08:00:41 +0700",
+        "time": 2.152024
+      },
+      "before": {
+        "start": "2017-02-16 08:00:41 +0700",
+        "finish": "2017-02-16 08:00:41 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:41 +0700",
+        "finish": "2017-02-16 08:00:42 +0700",
+        "time": 0.611783
+      },
+      "main": {
+        "start": "2017-02-16 08:00:42 +0700",
+        "finish": "2017-02-16 08:00:42 +0700",
+        "time": 0.078745
+      },
+      "after": {
+        "start": "2017-02-16 08:00:42 +0700",
+        "finish": "2017-02-16 08:00:42 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/gw7JRFaGLoSE7MfPnPNaQJxtvNZiD7VgyeQBqzlXSW07vs0M/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:43 +0700",
+        "finish": "2017-02-16 08:00:46 +0700",
+        "time": 2.146622
+      },
+      "before": {
+        "start": "2017-02-16 08:00:46 +0700",
+        "finish": "2017-02-16 08:00:46 +0700",
+        "time": 0.000527
+      },
+      "load": {
+        "start": "2017-02-16 08:00:46 +0700",
+        "finish": "2017-02-16 08:00:46 +0700",
+        "time": 0.64391
+      },
+      "main": {
+        "start": "2017-02-16 08:00:46 +0700",
+        "finish": "2017-02-16 08:00:47 +0700",
+        "time": 0.080161
+      },
+      "after": {
+        "start": "2017-02-16 08:00:47 +0700",
+        "finish": "2017-02-16 08:00:47 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$PXWaaaaLa/BRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:48 +0700",
+        "finish": "2017-02-16 08:00:50 +0700",
+        "time": 2.154615
+      },
+      "before": {
+        "start": "2017-02-16 08:00:50 +0700",
+        "finish": "2017-02-16 08:00:50 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:00:50 +0700",
+        "finish": "2017-02-16 08:00:51 +0700",
+        "time": 0.673399
+      },
+      "main": {
+        "start": "2017-02-16 08:00:51 +0700",
+        "finish": "2017-02-16 08:00:51 +0700",
+        "time": 0.079766
+      },
+      "after": {
+        "start": "2017-02-16 08:00:51 +0700",
+        "finish": "2017-02-16 08:00:51 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24PXWaaaaLa%2FBRLaaKaaNPaaRAaVFaFaaaaZFLGaaFaaaGFaaMaTaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:53 +0700",
+        "finish": "2017-02-16 08:00:55 +0700",
+        "time": 2.131274
+      },
+      "before": {
+        "start": "2017-02-16 08:00:55 +0700",
+        "finish": "2017-02-16 08:00:55 +0700",
+        "time": 0.000503
+      },
+      "load": {
+        "start": "2017-02-16 08:00:55 +0700",
+        "finish": "2017-02-16 08:00:56 +0700",
+        "time": 0.665924
+      },
+      "main": {
+        "start": "2017-02-16 08:00:56 +0700",
+        "finish": "2017-02-16 08:00:56 +0700",
+        "time": 0.078501
+      },
+      "after": {
+        "start": "2017-02-16 08:00:56 +0700",
+        "finish": "2017-02-16 08:00:56 +0700",
+        "time": 0.000983
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$4.h44WQzIDtkXOj8QKdsE.MXF..pQms38eg8tIYbBtLpaYRTZw752"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:00:57 +0700",
+        "finish": "2017-02-16 08:01:04 +0700",
+        "time": 6.268063
+      },
+      "before": {
+        "start": "2017-02-16 08:01:04 +0700",
+        "finish": "2017-02-16 08:01:04 +0700",
+        "time": 0.000981
+      },
+      "load": {
+        "start": "2017-02-16 08:01:04 +0700",
+        "finish": "2017-02-16 08:01:04 +0700",
+        "time": 0.600505
+      },
+      "main": {
+        "start": "2017-02-16 08:01:05 +0700",
+        "finish": "2017-02-16 08:01:05 +0700",
+        "time": 0.079402
+      },
+      "after": {
+        "start": "2017-02-16 08:01:05 +0700",
+        "finish": "2017-02-16 08:01:05 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$aT/aaaDFaHaaASa.TJaaTaaXaEKaaaHaDaaaaaaVaE/aaaaZa.aQK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:06 +0700",
+        "finish": "2017-02-16 08:01:13 +0700",
+        "time": 6.261591
+      },
+      "before": {
+        "start": "2017-02-16 08:01:13 +0700",
+        "finish": "2017-02-16 08:01:13 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:13 +0700",
+        "finish": "2017-02-16 08:01:13 +0700",
+        "time": 0.623018
+      },
+      "main": {
+        "start": "2017-02-16 08:01:13 +0700",
+        "finish": "2017-02-16 08:01:13 +0700",
+        "time": 0.078908
+      },
+      "after": {
+        "start": "2017-02-16 08:01:14 +0700",
+        "finish": "2017-02-16 08:01:14 +0700",
+        "time": 0.000504
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:15 +0700",
+        "finish": "2017-02-16 08:01:17 +0700",
+        "time": 2.1586
+      },
+      "before": {
+        "start": "2017-02-16 08:01:17 +0700",
+        "finish": "2017-02-16 08:01:17 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:18 +0700",
+        "finish": "2017-02-16 08:01:18 +0700",
+        "time": 0.664999
+      },
+      "main": {
+        "start": "2017-02-16 08:01:18 +0700",
+        "finish": "2017-02-16 08:01:18 +0700",
+        "time": 0.079842
+      },
+      "after": {
+        "start": "2017-02-16 08:01:18 +0700",
+        "finish": "2017-02-16 08:01:18 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:20 +0700",
+        "finish": "2017-02-16 08:01:22 +0700",
+        "time": 2.150697
+      },
+      "before": {
+        "start": "2017-02-16 08:01:22 +0700",
+        "finish": "2017-02-16 08:01:22 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:22 +0700",
+        "finish": "2017-02-16 08:01:23 +0700",
+        "time": 0.599891
+      },
+      "main": {
+        "start": "2017-02-16 08:01:23 +0700",
+        "finish": "2017-02-16 08:01:23 +0700",
+        "time": 0.089796
+      },
+      "after": {
+        "start": "2017-02-16 08:01:23 +0700",
+        "finish": "2017-02-16 08:01:23 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:25 +0700",
+        "finish": "2017-02-16 08:01:27 +0700",
+        "time": 2.144569
+      },
+      "before": {
+        "start": "2017-02-16 08:01:27 +0700",
+        "finish": "2017-02-16 08:01:27 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:27 +0700",
+        "finish": "2017-02-16 08:01:28 +0700",
+        "time": 0.631315
+      },
+      "main": {
+        "start": "2017-02-16 08:01:28 +0700",
+        "finish": "2017-02-16 08:01:28 +0700",
+        "time": 0.078261
+      },
+      "after": {
+        "start": "2017-02-16 08:01:28 +0700",
+        "finish": "2017-02-16 08:01:28 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:29 +0700",
+        "finish": "2017-02-16 08:01:36 +0700",
+        "time": 6.269228
+      },
+      "before": {
+        "start": "2017-02-16 08:01:36 +0700",
+        "finish": "2017-02-16 08:01:36 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:36 +0700",
+        "finish": "2017-02-16 08:01:36 +0700",
+        "time": 0.611335
+      },
+      "main": {
+        "start": "2017-02-16 08:01:37 +0700",
+        "finish": "2017-02-16 08:01:37 +0700",
+        "time": 0.079696
+      },
+      "after": {
+        "start": "2017-02-16 08:01:37 +0700",
+        "finish": "2017-02-16 08:01:37 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:38 +0700",
+        "finish": "2017-02-16 08:01:40 +0700",
+        "time": 2.180102
+      },
+      "before": {
+        "start": "2017-02-16 08:01:40 +0700",
+        "finish": "2017-02-16 08:01:40 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:41 +0700",
+        "finish": "2017-02-16 08:01:41 +0700",
+        "time": 0.621958
+      },
+      "main": {
+        "start": "2017-02-16 08:01:41 +0700",
+        "finish": "2017-02-16 08:01:41 +0700",
+        "time": 0.0786
+      },
+      "after": {
+        "start": "2017-02-16 08:01:41 +0700",
+        "finish": "2017-02-16 08:01:41 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:43 +0700",
+        "finish": "2017-02-16 08:01:45 +0700",
+        "time": 2.140786
+      },
+      "before": {
+        "start": "2017-02-16 08:01:45 +0700",
+        "finish": "2017-02-16 08:01:45 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:45 +0700",
+        "finish": "2017-02-16 08:01:46 +0700",
+        "time": 0.641495
+      },
+      "main": {
+        "start": "2017-02-16 08:01:46 +0700",
+        "finish": "2017-02-16 08:01:46 +0700",
+        "time": 0.078018
+      },
+      "after": {
+        "start": "2017-02-16 08:01:46 +0700",
+        "finish": "2017-02-16 08:01:46 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:48 +0700",
+        "finish": "2017-02-16 08:01:50 +0700",
+        "time": 2.137997
+      },
+      "before": {
+        "start": "2017-02-16 08:01:50 +0700",
+        "finish": "2017-02-16 08:01:50 +0700",
+        "time": 0.000981
+      },
+      "load": {
+        "start": "2017-02-16 08:01:50 +0700",
+        "finish": "2017-02-16 08:01:51 +0700",
+        "time": 0.666193
+      },
+      "main": {
+        "start": "2017-02-16 08:01:51 +0700",
+        "finish": "2017-02-16 08:01:51 +0700",
+        "time": 0.077249
+      },
+      "after": {
+        "start": "2017-02-16 08:01:51 +0700",
+        "finish": "2017-02-16 08:01:51 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:52 +0700",
+        "finish": "2017-02-16 08:01:54 +0700",
+        "time": 2.151371
+      },
+      "before": {
+        "start": "2017-02-16 08:01:55 +0700",
+        "finish": "2017-02-16 08:01:55 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:55 +0700",
+        "finish": "2017-02-16 08:01:55 +0700",
+        "time": 0.664318
+      },
+      "main": {
+        "start": "2017-02-16 08:01:55 +0700",
+        "finish": "2017-02-16 08:01:55 +0700",
+        "time": 0.078339
+      },
+      "after": {
+        "start": "2017-02-16 08:01:56 +0700",
+        "finish": "2017-02-16 08:01:56 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$a.aaaWQaIDaaXOaaQKaaE.MXF..aQaaaaaaaaIYaBaLaaYRTZaaaa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:01:57 +0700",
+        "finish": "2017-02-16 08:01:59 +0700",
+        "time": 2.147548
+      },
+      "before": {
+        "start": "2017-02-16 08:01:59 +0700",
+        "finish": "2017-02-16 08:01:59 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:01:59 +0700",
+        "finish": "2017-02-16 08:02:00 +0700",
+        "time": 0.611252
+      },
+      "main": {
+        "start": "2017-02-16 08:02:00 +0700",
+        "finish": "2017-02-16 08:02:00 +0700",
+        "time": 0.079665
+      },
+      "after": {
+        "start": "2017-02-16 08:02:00 +0700",
+        "finish": "2017-02-16 08:02:00 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:02:02 +0700",
+        "finish": "2017-02-16 08:02:04 +0700",
+        "time": 2.159914
+      },
+      "before": {
+        "start": "2017-02-16 08:02:04 +0700",
+        "finish": "2017-02-16 08:02:04 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:02:04 +0700",
+        "finish": "2017-02-16 08:02:05 +0700",
+        "time": 0.618833
+      },
+      "main": {
+        "start": "2017-02-16 08:02:05 +0700",
+        "finish": "2017-02-16 08:02:05 +0700",
+        "time": 0.078617
+      },
+      "after": {
+        "start": "2017-02-16 08:02:05 +0700",
+        "finish": "2017-02-16 08:02:05 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:02:06 +0700",
+        "finish": "2017-02-16 08:02:09 +0700",
+        "time": 2.141426
+      },
+      "before": {
+        "start": "2017-02-16 08:02:09 +0700",
+        "finish": "2017-02-16 08:02:09 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:02:09 +0700",
+        "finish": "2017-02-16 08:02:09 +0700",
+        "time": 0.621736
+      },
+      "main": {
+        "start": "2017-02-16 08:02:10 +0700",
+        "finish": "2017-02-16 08:02:10 +0700",
+        "time": 0.078648
+      },
+      "after": {
+        "start": "2017-02-16 08:02:10 +0700",
+        "finish": "2017-02-16 08:02:10 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:02:11 +0700",
+        "finish": "2017-02-16 08:02:17 +0700",
+        "time": 6.26806
+      },
+      "before": {
+        "start": "2017-02-16 08:02:17 +0700",
+        "finish": "2017-02-16 08:02:17 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:02:18 +0700",
+        "finish": "2017-02-16 08:02:18 +0700",
+        "time": 0.598451
+      },
+      "main": {
+        "start": "2017-02-16 08:02:18 +0700",
+        "finish": "2017-02-16 08:02:18 +0700",
+        "time": 0.07828
+      },
+      "after": {
+        "start": "2017-02-16 08:02:18 +0700",
+        "finish": "2017-02-16 08:02:18 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:02:20 +0700",
+        "finish": "2017-02-16 08:02:22 +0700",
+        "time": 2.159862
+      },
+      "before": {
+        "start": "2017-02-16 08:02:22 +0700",
+        "finish": "2017-02-16 08:02:22 +0700",
+        "time": 0.0
+      },
+      "load": {
+        "start": "2017-02-16 08:02:22 +0700",
+        "finish": "2017-02-16 08:02:23 +0700",
+        "time": 0.632377
+      },
+      "main": {
+        "start": "2017-02-16 08:02:23 +0700",
+        "finish": "2017-02-16 08:02:23 +0700",
+        "time": 0.078807
+      },
+      "after": {
+        "start": "2017-02-16 08:02:23 +0700",
+        "finish": "2017-02-16 08:02:23 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ],
+    "assertion": false,
+    "time": {
+      "initialize": {
+        "start": "2017-02-16 08:02:25 +0700",
+        "finish": "2017-02-16 08:02:27 +0700",
+        "time": 2.179402
+      },
+      "before": {
+        "start": "2017-02-16 08:02:27 +0700",
+        "finish": "2017-02-16 08:02:27 +0700",
+        "time": 0.000501
+      },
+      "load": {
+        "start": "2017-02-16 08:02:27 +0700",
+        "finish": "2017-02-16 08:02:28 +0700",
+        "time": 0.663441
+      },
+      "main": {
+        "start": "2017-02-16 08:02:28 +0700",
+        "finish": "2017-02-16 08:02:28 +0700",
+        "time": 0.079491
+      },
+      "after": {
+        "start": "2017-02-16 08:02:28 +0700",
+        "finish": "2017-02-16 08:02:28 +0700",
+        "time": 0.0
+      }
+    }
+  }
+]

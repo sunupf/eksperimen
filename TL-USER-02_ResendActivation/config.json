@@ -1,0 +1,19 @@
+{
+  "browsers":"firefox",
+  "before":"before.rb",
+  "after":"after.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"email",
+      "selector": "[name='email']",
+      "name":"email",
+      "validation":["required","email","exist:users,email","not_active"]
+    }
+  ],
+  "startingUrl":"http://todo.app/activation",
+  "data":"testCases.json"
+}

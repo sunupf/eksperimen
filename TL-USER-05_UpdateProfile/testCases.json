@@ -1,0 +1,7781 @@
+[
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "@YIH:TWoui0zEr9EQ",
+      "[name='birthday']": "2-9-1974",
+      "[name='about']": ">|; b8q?0 `&BR{vV",
+      "[name='password']": "eK<#[J&\\D>Fn@d;A6vf|Xa#qO?AmU &t^ltqff#8 ,tPg+Fk1g7@+C95MTrg+NjxfT>5a's\\^UVXULk"
+    },
+    "messages": [
+      "Your account has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "c-#=*\"{CKkVZ?@_||",
+      "[name='birthday']": "18-7-1994",
+      "[name='about']": "2ME;F;{I~+p^vLOe}9K+SJZNg\\'E'|=vZ=(g+W29wh[3e_zU?T\"O%tb*rHI]w=KbI)5\"zfom%4!j\"",
+      "[name='password']": "WM[[b\"["
+    },
+    "messages": [
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "a}P;t",
+      "[name='birthday']": "9-6-1965",
+      "[name='about']": "0;V)IwR|R\"3wNp^#iFjJvG6rvOL+7oa6l^@VjzhSgAX[|zSYu<__P&|<,`:Wc'48!/7l)3!'7#/'x;;Z4V?[+@[uk3p+Gpx",
+      "[name='password']": ""
+    },
+    "messages": [
+      "Your account has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "qm_tQ+T*&*?$W(CuX$MM",
+      "[name='birthday']": "6-12-1978",
+      "[name='about']": "bm[X:iu~go~Kxf?Z1;XX:Ggx&J|sZ8",
+      "[name='password']": ""
+    },
+    "messages": [
+      "Your account has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "$:H>OO?:>53+!n/:",
+      "[name='birthday']": "26-8-1972",
+      "[name='about']": "",
+      "[name='password']": "k0BkZ!BJcgL.e,Y4WvfgR8rQ:%98al{5\"ZmcC@~[jU2xZXNDG%x=1tAlo2k0f}Qt?9N(+{H2"
+    },
+    "messages": [
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "QU,+",
+      "[name='birthday']": "23-5-1976",
+      "[name='about']": "",
+      "[name='password']": "Q1ya"
+    },
+    "messages": [
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "81Pb",
+      "[name='birthday']": "8-3-1973",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "cA|?+M_?qiE-90Vn8?nH",
+      "[name='birthday']": "12-7-1963",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "1:]F> `U",
+      "[name='birthday']": "1974!#@",
+      "[name='about']": "o9v5JjJ>lP<4A19H]C@M3Y?l\\yeZq@JsJk,BwAL66l",
+      "[name='password']": "ta(\"NKp];sP<L6p|V&{XuBt7]b;@d7OY(Se@j$o~c[Z(s<:/eC2XQF2v5!d&bmSFw]J5y"
+    },
+    "messages": [
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "AnK7O6+.u!",
+      "[name='birthday']": "1986!#@",
+      "[name='about']": "URy)OMfTu*]>CR<+dT`/!jA3$:m1,QD}=iL/Q{",
+      "[name='password']": "23K2<"
+    },
+    "messages": [
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "h[Mp\\Pior0$/)V",
+      "[name='birthday']": "1981!#@",
+      "[name='about']": "w/#f2=W~\\B7.8'xmbOy&s1vRGsG'jK73",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "=OW)ujDR&3&'R",
+      "[name='birthday']": "1990!#@",
+      "[name='about']": "9CF}B)4_oxA*ki#mwM&!\\fdG.5[oEUsxq*6;,.i-q;%yx#9[`Hc@;F?|Av=uF_:[5_O",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "_7zr)_u;}`?",
+      "[name='birthday']": "1984!#@",
+      "[name='about']": "",
+      "[name='password']": "@-H^6cW.m^Svw\\C(]ga`'~7$m|~2Ps}@+&@Wqxcj^pAr;i^mDu<c2fPelER,Jlpp`kk\\$iKM<1pnU5ft7s3A"
+    },
+    "messages": [
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "S'*(p",
+      "[name='birthday']": "1992!#@",
+      "[name='about']": "",
+      "[name='password']": "%I12|g"
+    },
+    "messages": [
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "G~E{sXjT",
+      "[name='birthday']": "1965!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "\"1aS'9nFawx(PE",
+      "[name='birthday']": "1972!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "w(l4:b=J",
+      "[name='birthday']": "",
+      "[name='about']": "@lzAK4u;'|[_=Wk2c2?u\"L.9$JR",
+      "[name='password']": "!g*zg&e2bKU*&7wz4.<!"
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Ib`A$-Df*U2Ns0$?nh+D",
+      "[name='birthday']": "",
+      "[name='about']": "XqD2HZH2$6:HJevUlji?{$aQ5e~&kI()GCf!\"Z&1DgK`Y^NP",
+      "[name='password']": "#Y>o7rq"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "G^*10\"N",
+      "[name='birthday']": "",
+      "[name='about']": "H0{'\"!ejOW!7v+uU0}t,wt]_r-7-TfA!qiWW~E_Gh>^&KOLph1_lLC6-_s",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "P0E*n8R",
+      "[name='birthday']": "",
+      "[name='about']": ">xdCC$;4?\"A:^}O1WwXi+wc:%f1P#^JE=q(z{PY4E+?",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "!OC5Rd,`1:5",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": " >_E<P^Wr_^VH5*4v(ih&(}o8(K]M;4PZ"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "u3F\\L@fP@-n&y>3?}~sqa,",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "SNz~b\\"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "OBW_w",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "e[_ II/1cvY Mxc",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "aDg3-tWZ(S8F",
+      "[name='birthday']": "",
+      "[name='about']": ":^Qk5p*yeT7-P}gmK~]Y*4=?m}XK3Ez!8y|\"!ASpSTJV-^} 9@bn'\"/e?O(Y73B$/${TaAN>)xwts>=YD3y=K>$-D&wQk9",
+      "[name='password']": "'iv~4Z\"dTUnKN\"u>1K\"#aNEsKta=2igC9/B#O|d>t`XnT@|C`SM/H$Cb v]F5xp{e3jThB*,\\5?G[*xw3|.D:LvNC\"Jlz_s:o*dp"
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ";YjM|?b)%tLl%]gIql",
+      "[name='birthday']": "",
+      "[name='about']": ";nA=\",XzWd",
+      "[name='password']": "l"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "`-G}zUpe",
+      "[name='birthday']": "",
+      "[name='about']": "Mfy3y; S2q)#~zN\\.zqr}\"5Y<.W<^J\\`ik45n-qGWx@GZpm'U&+|(yBA.#-74:",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "}0#Q",
+      "[name='birthday']": "",
+      "[name='about']": "%6]t?kkH~)#953.\\GS\"NP",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "t;-i+",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "|dE9S?Kh;)XH,;*B"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "yJ22;",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "L`|gx,"
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "UMKHF~S<ritP$ q?v1.jau",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "ak{[)`",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "ymR//Pe>{p~CbJJn&8LcI-I:5? Tq9i>)TQF^{g4",
+      "[name='birthday']": "24-11-1989",
+      "[name='about']": "/3)44iW:[m%%mKzqX.#No8tbS-QjV[='yv&9IifDJ5,@h\\!L}{B)o-f.N@Pynrx)jzkHyj;B8F^X@q]nU=3yj(f",
+      "[name='password']": "[ !bl5,]5y88B'4O7>UmU@Ux<j+Mpur66|&QTdP[Is@_z6oJk;@'&PLgM%"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "kV];~|dM:(>Az;WP^cFY:U9$#:Su?.eZ_zFS7)rpc8aPbhxe[KLs-D;@Rn.@",
+      "[name='birthday']": "9-11-1970",
+      "[name='about']": "FXt+pm~j-FHo922vv G$4lV<07$[0$kBLDP,f8=)=t[I}\\!Q",
+      "[name='password']": "/_FJOX!"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "U5##lxD~Yh; _R_Z[+?{c4|:]/*V3r*_WM'> ;Q`}gZB",
+      "[name='birthday']": "25-3-1990",
+      "[name='about']": "~9O_(d/v`gd3LdxvB3#D,nLOWCO4yl=k'E(v,gT|lO-5=D",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "^5Do.lj2,fSZMU0r#F)b_KNovoUx^^.:gX!HA",
+      "[name='birthday']": "30-9-1980",
+      "[name='about']": "M1AkH1qs$s$y^*)N",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "|G>Kmu' FN9n3!jBs'J=q]EJZWUP1Tg|>C=}n9qjD0J-",
+      "[name='birthday']": "8-3-1961",
+      "[name='about']": "",
+      "[name='password']": "ume2Jj-5yNe3%1"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "6 (Ex_R)\\n&IL };\\:/g gM+sw^8.v,O0a}|o4$E|0%5<2x{Y|RUu!TuOf~WL&.fB8vc,l^yncI_jExk2A*xZRcM\"%H2wQc3'E6B",
+      "[name='birthday']": "23-11-1966",
+      "[name='about']": "",
+      "[name='password']": "$I,(p"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "rTf-1)]|xx<q+F2^w/S{xXMt=u^EWbyt;@-7I@fE\"k;\"H;%mLjz2,yKU.vTa0)<`GpV>7[1+I+4Q8NxDHfss5]QdL)*H[We",
+      "[name='birthday']": "2-11-1991",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "/S;n$G8{^1@B\"<?l5n)Yw/yh//7",
+      "[name='birthday']": "13-2-1960",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "HN9`h+89^I_wk/mKgUx$ e@~-3VlKT`CzRk2}l>!*Za*jfq~HPl6Jx}L;x'B .mR`\"S@Gc+)L6j",
+      "[name='birthday']": "1995!#@",
+      "[name='about']": "\\pBCunO!:=<3Wf2VZTvqIsT<!L4b;$![|J%Srtx+3rObwK@<$54/y4a\"y8/\\^m",
+      "[name='password']": "F@rqeK)_[C0;9@x,8ksxWksg$7=HfTm[l;~gU?.8bKGHM^>na[Drv,mfh90;Mgh)X1~3aDnl{A{B\\RIZ&xdrV>LN"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "J[y>jtVf?teCF/tt/C 5[4>SfAkGpD1M|yYwW,N(Ox_Q7{:znA) \\(Uhbxl4}PoYhc*d=\\W",
+      "[name='birthday']": "1979!#@",
+      "[name='about']": "cga@lQ^;n*~@E7T\\%d]G0ld,F@?`e/Z~'{K)6gCG'wSnzs>",
+      "[name='password']": "[l"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "bi_J\\)xuOZMT|fV2/qPBx%R3@D?_Gh]18z=i9kS~$xBWHw<3I,hi",
+      "[name='birthday']": "1994!#@",
+      "[name='about']": "_c!{]DTiee ,G|V",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "CYoce*-1(('[b.u!W~J*g:U>yv[4:tI,.b@DA4REnI9\"/\\tVhGl&1I%&5Pmw|#Gklk,lwHCoxSD/RL.yn0,?OZbt>jXj$'Z7j*l[Bu!@VkkoSmA]%\\YH'CK_^i",
+      "[name='birthday']": "1985!#@",
+      "[name='about']": "!?:Na|RAm@td3@|!U{v$M.redi$%K6sb\"$DP2eMNwa}@iXmlINvK\\{O*M7<]d!b:T*/T:iAzQ7F+r|JU9<&CdYQo3QR&>?rVLwz",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ";+)h%{JXP$>_b6lEa8xlG.nB\\9:wAbCg?-9wWp6`)SCT8](,zY=z",
+      "[name='birthday']": "1988!#@",
+      "[name='about']": "",
+      "[name='password']": "QY9.iT3HVt#x:vd*7rIL+_\\fm-PW2fC)+/!IR I(K$Fi>q9-Bb]$"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "82GX5yPv$]gC:C1KkHEnW/UCEkFi(gfQ--PQwa&_huR':%/I@\"A;1kLK@#[(ta&$u",
+      "[name='birthday']": "1983!#@",
+      "[name='about']": "",
+      "[name='password']": "W;x"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "@O/O[!JsB|./@_~m2VU/$Oh/{i_ICq'Zdt&Rd&u-j)c6mMRZ]e*%F#y7_'-mOy7fZk VonfiPZ.}MA,D[~BtL",
+      "[name='birthday']": "1991!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "pw'j$+kvvIT~:7e&wW7&|wM'*k'!",
+      "[name='birthday']": "1964!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "fVF$/q Dy7`THQ>z\"j`q4V!o#f;3hY%(fFc$FT9:iaQrVA=3~$%*E:#%-90M]Yb{*$:+2O;RP=,D;\\:q",
+      "[name='birthday']": "",
+      "[name='about']": "qIgrW)%E9=^:EK#C6~nQhl`~}x\",`1.P}2}7Y3\"`z]}rHAfP!JJ5-sZwxW(]P)V(g",
+      "[name='password']": "KrJ}\\;&w+<5HmSI77%}g65>oG=@FHHbHtVOoD1tyaM4{n<)&E`~zN?XGH5M!x6eZORd*]}=_4P%>4a4b0{\\?{{oWGWKlOu. '7fX6o2,cSJ"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "#qda&nywr~wltdfdi^TagUt0%OUY )b%Q@4+^|{hRdh",
+      "[name='birthday']": "",
+      "[name='about']": "R8H\"|&ieema:6$;aP+4!mX>4s?8tq]66z)b|\";h X%SvZl`5)qciRQm[<CR'Hz9poeN5o0H |kB$G|",
+      "[name='password']": "sI"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "PG],)P-o8<|R{{0Uj*O^HO]0E^f8wh2m{H6nLmsU4-!MK.g`",
+      "[name='birthday']": "",
+      "[name='about']": "#)Vf/>UB~x/!s&5;iDa*l($ p}F,Ny7\"(UjpAX[k7",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": " ?g^|a$=Jn AX/lL!%UDP^_Y,dSTO&Mv_l_`UkRx~-tF17kU2x(|>bFFtexu;!}7!+C$ZQW~9+0RmadTb!VI}_uF}MOf\"\"",
+      "[name='birthday']": "",
+      "[name='about']": "N3LnR4+*cs\\x2-~nJ%>htu/@#\\_]o]z$F7\\WGiN*DN?tKQ>G^|irOe^-A-i-",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "nZyrY{8|+x98pw]=f=GuD?5^>XhzLl!]yk#B_KSudU0>aL*",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "1 0j-YhN*9OEFVJ"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "p) |spJ#L}\"&kLQ`Ov|c<==d1sI8sK$CZ_+U3 w+w15ByAUAotO9Se?p#B&#RE8&F!iN]8R\"{,$J}k|7'3VoL+[%[HVEn$TT\"",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "+f"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "tTZ:_FKFy~A{v9os?'mbWw&[XjK3iTuQ3W&PqIl9b+?k;P\\p;raL=yx$V^Q!tB:tvOMfkpg=za#^H1[*<0R9J~:o%",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Jno@MWdtR2`cagNdT8#,CSBs\"uMcnQ\"KM^Z%)F]WC.8t!?h-,5=RS0:$~adj^u>9< ~H#4?yLNJh{brsRIBte$TwRClU6mOrgRK(UXuR*J\"",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "EdK6#X,yunsM64v`3VdZ,2o[HRL/|XF\"E\"o0eRpH:`r!_f",
+      "[name='birthday']": "",
+      "[name='about']": "(@sJyVFYvC%|:PK@[z^F,NYV~4BF6IuGn+ 4\\a`)zPlZ+3t=\"[L",
+      "[name='password']": "FB~FmBWlDI-o&\\RSO(8NUG|H5wPEqfrY[uF1"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "p:5W?a'wUUt||WBe/}8[qSvUl{KTet7N>",
+      "[name='birthday']": "",
+      "[name='about']": "FX^|==KZ;&|5Y~pUjZKr?j9rEfI6/#-lkzSR67hl<*O!6WFq(._9??q$J<KaB8bQPL/iwUK5z)dAqh5si,\\",
+      "[name='password']": "AvZ`3_p"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "|-c?wd[6:},&wSfp4z8X5Ei\"Bh2g18KEU\\.ag4NR?}&7()PSb&xLqjJu7oPWrg {Q+4[`A^'9%W3Bq;@sU0$4lBSh_DGqyT!-brQ!c)wNo:q;2Kbr",
+      "[name='birthday']": "",
+      "[name='about']": ">4^:&|'/",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "AUHf~%v3(#\\\"h6$R-`U96+g5RG!\\i7ljt=tL#K=E}?6+5,Ib4/B}1LQMqs*P",
+      "[name='birthday']": "",
+      "[name='about']": "hL+k?S=p3o%T7PKmR8T0ChLtEB*:",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "EJ-CNkMO14!iAWPc}2U8A]<X;hY@qf<ufcEaL\\?QXW2t(I^{>oMCk*nCM,p~00qsV)!tJJ<($hlbE1:E5SY%wI6`w@Y5(*VnI;",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "hH!]V)x+SmNg8tA^qY@\\$/"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "ol}jiTy6Y&dWJ,EY^*^/Apv}5D.Pbl\"AB5|:Q{N4t}4a/oq;`Kj!yy?(uH-T<=phx}$.&s/eX@|lJt",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "@"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "U.6b|6F\"-/Ku[2t=Lsx&n.dEjQ'OI3C&)@='<uQIu%A Im~5mVvQB1h[ctT:F$IPS~3-\"T/v6AB>5J-G+iB[QYk`!nWD=Cnz]*fnx>iL7}(xfv>\\ -MK",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "jhWemf/\"Gu<TnUY5t`oOF3>>~h%,I^-A,i6p-Iwhn[? \"n3|#Fi5y:l4fXrb@61g@epl>M+NxATTzAN^>{&^+%>{l.x#LpntJ1{H hv",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "r#",
+      "[name='birthday']": "5-12-1992",
+      "[name='about']": "nf15o3F/,0_",
+      "[name='password']": "A#Ra H3/n9roAl[7@a~(S]Uc;FH'nm\\t}]1"
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Q)S",
+      "[name='birthday']": "27-9-1989",
+      "[name='about']": "~&Xw3'(CYt78D5ReKU`_zPa~\\eEJPq\\)R P&D8gLuWBh<,E!fEX4N+6S1d_d?{n",
+      "[name='password']": "-f9]T 8"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "J~",
+      "[name='birthday']": "18-4-1980",
+      "[name='about']": "k",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "3xK",
+      "[name='birthday']": "24-11-1973",
+      "[name='about']": "F1e#AsJ?kS%J2,,#|Tx[",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "X",
+      "[name='birthday']": "24-8-1961",
+      "[name='about']": "",
+      "[name='password']": "J,7oI##PvS'<DB|9BM{<Ew]9>\"7@P)J5#a\"(trGc$I*r[3!#yQ9&S`mLB_"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "U+",
+      "[name='birthday']": "15-3-1973",
+      "[name='about']": "",
+      "[name='password']": "_"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "lz_",
+      "[name='birthday']": "9-4-1998",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "8",
+      "[name='birthday']": "17-9-1963",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "O",
+      "[name='birthday']": "1999!#@",
+      "[name='about']": "=@W1_inUsX9o5Eq\\fe8fvXT(|KPL;N;3H%ywQ;3zOj)L0Y}40 uhU`)M3ffXYN>&,<IT]9x]SSk/*",
+      "[name='password']": "z1c @Uy7xlcY*yv"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "#r",
+      "[name='birthday']": "1978!#@",
+      "[name='about']": "fdlfAw-Sm3\"<T1h!\\}R|H'Lk-0S5tPhk=Zk\\Sdvzxg5g\\v~A6X70'sPYBVChW8%#&?qW=ve:h*9Y/xXOZMx\\v*",
+      "[name='password']": "'ZV"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "lSk",
+      "[name='birthday']": "1974!#@",
+      "[name='about']": "(&&QM]-.%JYn<7g%?BW\"fOLr-Y;hK\\cOO xkoz'00]]SLd",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "JH&",
+      "[name='birthday']": "1971!#@",
+      "[name='about']": ">DajWTuCZamVqFJLC\\qDhfG~OP=+%SsQDkwo'z8P^'KE(3ti8Wxifu:^IkrBA2uqek;9jy1.^xO%v=dW|Ndb5ORd",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "_K",
+      "[name='birthday']": "1971!#@",
+      "[name='about']": "",
+      "[name='password']": "=qPNeMk(=|Xp'u6Pe6pB(qkn'L`:-UJi0`^oyflyalWq1T,mkw!fyIWbUP\"5^}wGz"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "h\\\\",
+      "[name='birthday']": "1967!#@",
+      "[name='about']": "",
+      "[name='password']": "fbXI8\"/"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Wa8",
+      "[name='birthday']": "2000!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "(51",
+      "[name='birthday']": "1995!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "c",
+      "[name='birthday']": "",
+      "[name='about']": "M@b7d^R0@nD(p^}'d!my*xx\\Hn6pAT#fvw?`[Z[U>M%e 5J5,E\\3UG_^G=rqtwEqHp0P~I.%>",
+      "[name='password']": "_J|2KA;A[@vo<T&W]>X\\=E.cs1Lwq*c'X+vuA|;Vi3$ky)YV!dis)E+;Q]W0rYNf=9,#~U1)Tf&b/D{y2.t6&fYV"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Nr",
+      "[name='birthday']": "",
+      "[name='about']": "g5]Lapg^%7.#>+n:V2|7",
+      "[name='password']": "7blG"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "ZS",
+      "[name='birthday']": "",
+      "[name='about']": "6lE::)T'zDFJ_H//gwv@)JmG|;e",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "F",
+      "[name='birthday']": "",
+      "[name='about']": "U0=-<)AsGn)!v3b.Y[@8$GcMB{t`Cr8iW:aP=4J}y0^F,nIq}Q%2<N6^7fn&z5Nq!P#l\\s/rncN^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "4N",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "Es@_&'[HK9vA?h(t|!8g/f1e!^Qv"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "EYi",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "tTtv Q"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "\\`V",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "s",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "(Ke",
+      "[name='birthday']": "",
+      "[name='about']": ";Pix:!4lXfF?\".t8w/6x5?qRV>",
+      "[name='password']": "I|&CBMcu&@j(\\]bCdPct\\'d!pT22m.?5w773@(FxLIdW7.^Qz}gBRxUdRg7F{+N1TC,RuCBFO>\\E~m$K5,yxwE.+aJ"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "FvO",
+      "[name='birthday']": "",
+      "[name='about']": "O&5TQ(~j\"&mP9?W_7\\J36sy*rL'|[yt`(B2jMXwGtlLR?^x",
+      "[name='password']": ".Tb_i]"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "{;[",
+      "[name='birthday']": "",
+      "[name='about']": "UR,7b`+~'q)$cS./TJY{LAx,aVm]'A0VaPJ^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "MC&",
+      "[name='birthday']": "",
+      "[name='about']": "bAUN{oU**g6yb+",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": " ",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "T\\/#~vKFsS]03\\O>grdH*<ONUBuRw R2r9r['|gT)jo;_xW3kK@eP4i^~"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "/",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "'"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "dAm",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:22",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ";",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "17-5-1963",
+      "[name='about']": "}.hW)WjNG>T`Il+K`OHJH0)jo*$}`K&K{[^vp3o*]\\$b)`@#->?H\"^rBIl*APWp/~#`X'KP[r^8b aW4k\\h@m$sVT4j5P-",
+      "[name='password']": "\"RB~4@NX62GCHCF#%ttNlLbcxF`9Io8):r[:{\"kqdU}X-$U 8yPHn^P{M;Zp8Fu/92M'89^XOr$VI9o]?&bUCnzj]E"
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "14-4-1982",
+      "[name='about']": "X?APG_\"Z[PRqG!28=z-VsO8*.$CXlB?ILx j[iO*B}%ZTf\\T3Lj:u3>R=H'",
+      "[name='password']": "rd"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1-6-1996",
+      "[name='about']": "JsUH.4Iz[%",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1-7-1965",
+      "[name='about']": "@RSlx{fWrZlOpb?w*JTrj{_3K%W qXu`8^H20>v}vc@JEE.co)E1+A6Kx7J",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "9-6-1997",
+      "[name='about']": "",
+      "[name='password']": "(+knO;R76yvQ3YM,OH>jQb$d01B'v]6*kKp@Bh:e<OYPqW>@!'\\n)_N-mc*(-9Z\"S_43>QFO|<hcy,"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "17-11-1960",
+      "[name='about']": "",
+      "[name='password']": "(w![E>."
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "4-3-1987",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "13-5-1974",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1962!#@",
+      "[name='about']": "O",
+      "[name='password']": "9Tr~ZKeY{+N0V\"7|"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1982!#@",
+      "[name='about']": "]_;il+)5Oul(\"WVTY@3f-*Q\\;G#,/CA'*yEZw_BOryfyaW\\",
+      "[name='password']": "fstc"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1972!#@",
+      "[name='about']": "75/v0{~Q<,1}z~DD&&f:>=N16>(|kd*Y+\\x;}``Hup?[L5j._0,m\\si ]#|wdt!Q4#I 9JN5O|6XU;Qiu1Q??Sqir6j@Fkze?^|",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1980!#@",
+      "[name='about']": "MtRiry\\s,ax1ikPRQK1P]Ug@|CG)E52Hv?@>I5_ENxMuQQ:VTY*YTtzUr|x]\"S=x tMFTY=`k",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1989!#@",
+      "[name='about']": "",
+      "[name='password']": "$@Sk:}uQ)A}=p^KWf;1`79ZM_@R@`ZDk4ad:evH.W$GbdzYx.dG*|cDY@b$E7OxNPw/*VC,H|</}~D+b\\!_H\\f*"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1975!#@",
+      "[name='about']": "",
+      "[name='password']": "|T`D"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1975!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1979!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "_B",
+      "[name='password']": "=~l1Z,mo0t_8(_uM=[Ek7Yh$?I~TILPpfjc\\m2.9)Xa)__@{t}V>P&GAN|yZGL;Jlh}AU~uZFdTB;=.Xt& I44>"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "3-pS-e",
+      "[name='password']": "x"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "M,Egb'P",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "#\\\"tp+$sk{Z ]hUOTzI6IUsj=[}\\\\Pb:e",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "\".$l#t`1aSnY5"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "a2"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "(T$]+|L&stDq/:J5bqy?-<N[{B,`-_PHJ[<A7-@xrEBe#Qf~G@EEsklQKrg.|wi\\fiIu]rGEwelVL-",
+      "[name='password']": "C*@xdFo(<iK$)RbQcV/L`)fUm8&h o \\_0+PcGB[I^sp(O y0(DCM&OiivqXl.(Bj!R]<79N8BW0-\\]My<;.ic5C 7#th4/P`0`XIw"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": ":=uUd/rIZs&tn:%8V&5Z)5 GiIiK#5uUx`(KhWe\".7VP6sQjh]@Vy<uC",
+      "[name='password']": "|5^"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "v6UNw6`@YNgR22JyDjZj@46`",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "Jx=z#N6anj`.bE]5Wmg$Br1.4\\+Dsq@Gs50sMn<|x>>ilVHpD.5%g|Yh]pDO1",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "-Uhx/'dkAq,Mo1tj4'~M5>-@*%5maI-%.4iD8\\tg-:FZc-c~fB?yy:[tZe'<94^N>wb.L[-c`(I}aPmuS!JzU4-e;RJBXx"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "RL|#/f"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:22",
+        "^required"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "v\"N_y_h)nb%=on%Sk`w;z)&P4)mF*~L0R$i/Cp$6(H?MW_~xgH]XQF6DZl4pAdx2",
+      "[name='birthday']": "15-9-1970",
+      "[name='about']": "C1f^iOSgkRZ<Rm<fX:P'0AQ a0m<c {W}mG*l[4pe< \"&<8Q9\"#[s8][e*Xpnm?",
+      "[name='password']": "#>9L5%CTb,tG??d`HI3y:uC708M%t"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "2%7WVJJ0~T14d66x21S (L9zQf6grqm'.QO*1</{-WMaA.E)|c*Rz^~rlP*b2]tEzOIDwPGI~JEY@\\~kqJz2zv*n9YPP)Tu|UC&IzG3-\"%'n-rMR",
+      "[name='birthday']": "10-8-2000",
+      "[name='about']": "^Vq!l55J6K4/.M,rqo\\rM/vnExeQsAc|L[6v$} !'TOVu<n%axrA$y'j3J@)72 ",
+      "[name='password']": "<TG\"]V<"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "-Z-At d pq\\$Fr}\"6\\~\\75]W1X)jd5PE7",
+      "[name='birthday']": "23-9-1977",
+      "[name='about']": "iJ\"2]55%J/!?hX3C5AuLZZ-j`Pz_\"u5rv]VBO9U2 $oz",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Z-",
+      "[name='birthday']": "14-11-1981",
+      "[name='about']": "57+ e#JZfcmfMSjC&K'kVzcrZMR.Ilz\\h(][liVop=>O#!v|l?3^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "15-2-1981",
+      "[name='about']": "",
+      "[name='password']": "@1#{.X5eTPu95[N=a||J34tXs*ivh3V!0U?Td{z&`T!,:TX}5yDQ0BfbFy]*s~9]H!Ab*?0*\\i*j8H`H-5#$t}CCye.9"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "=g:",
+      "[name='birthday']": "18-7-2000",
+      "[name='about']": "",
+      "[name='password']": "[ Lz"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Bi[*NawN` :izuiZ@U<\"`GFgvg~O#g8W&JIa}Y=A*[b+SHx)!/&PR>]ayX>X;PMJwEStMDs+mG\"@,:=*3aL*@D%66X8u-f1!$PGI/",
+      "[name='birthday']": "8-6-1994",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "2-3-1969",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "&wiXE9~@8Cz[~:7a,9`@gbZ@|~eFH~t{pgL2FsJ0$B9){K{$:B_g_\",t<7\\0Nd#2B?oBtG+m]U>Ht",
+      "[name='birthday']": "1982!#@",
+      "[name='about']": "KgAm6kaeGNn9i-TC'\\30U+eXA.E<S:%XfG==915]lCp/&0",
+      "[name='password']": "=-=$&P;-UgEG{*jh?u8ScO>N&RhBDSAk[:&lLd1y2dYOZVldmk]lw%"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "\"i",
+      "[name='birthday']": "1985!#@",
+      "[name='about']": "`KSSj\\OkpIL~3&\"82G\\HIY3Q4R]i@:JJhIz}%@jU",
+      "[name='password']": ",,"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "\\I[&8wwK%IpjiaEx+2_XEEUYoR{)>a?FCoNC\\8fRlg$v\\@AL\\lTl6f0&;D!p'A?Qv8fwg$O:J+&od9t>Y,2d[sq9QQV0IkZK=%%om1MRwvFNoCfKuoUF.",
+      "[name='birthday']": "1969!#@",
+      "[name='about']": "TOOwn^Hh6!P7!;X%Okdn,:-Oqa.js6OAT",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "?",
+      "[name='birthday']": "1992!#@",
+      "[name='about']": "qZ(tmj*0[Z%%YNh-;Tu2?0_r'9@]LLOO&wf&n]OXu+\\O%|6[hhYMLMM",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1972!#@",
+      "[name='about']": "",
+      "[name='password']": "[}ewd(Qh8( ^0GKcG>8,vIqhwKf6aW&CVrfU[OJll;"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "(i\"dH%QtaHB'E+n!Q]\\)MrX-l(/M2RsI;U9~mZ@[x1?6Z88]xw/K57P$+%~Rv'1u=rK?Bvd5XBl[9YZ('}onr`Irl#_O",
+      "[name='birthday']": "1977!#@",
+      "[name='about']": "",
+      "[name='password']": ",d?I"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "8iEVyR!j:\\xh1v{c.;fbD}[)x!ePay})@ Ux+7MA/$WB8MJH~@{C<QJ\"",
+      "[name='birthday']": "1971!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "dO/095<ww|0k<jaO\\zeepxj$0\\MXg:T!*TLl>PR+3A(%Z3quFR0NR;=/`7qGL~S%,\\;,!V3`9|I'/'Qz|Reck`<{\\PS2NRGyvHx@B+cAm.GN{ZGB\\&L4>3@o84",
+      "[name='birthday']": "1985!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "[?v,i0`|bf<iH*y@i`!'9_%AH?ctYXnlORh|?&ZgNiq?SI(%geK%:,iPczNlNDLU9e[X<aC\\245eu1*pO'dw(DkVzJjWASB+NMZC-aOx",
+      "[name='birthday']": "",
+      "[name='about']": "^EpeOkU(H$m.Ct*=WW9+C[7=wH w6`'bS}3zhErOc.O} uU(O]~[*gcl]77/``,P>\"%]@]-[cgIo;bg<zI5i*7/LpY1@boew$ma?3",
+      "[name='password']": "o :{U/ f2Z"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "i",
+      "[name='birthday']": "",
+      "[name='about']": "Pn61 E)J\\Z*b",
+      "[name='password']": "ng"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "N6",
+      "[name='birthday']": "",
+      "[name='about']": ",|8wK,ELj&~q4@Kb<o",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "bheQSij~gv.^-9(r4Vw9K5CTN4@vm9ixFh0$&6AVuGV1PS>/y++-a@Zl1ScS[9L}U(i'^=(9^p~9;XYF+As~@/_cnI^/5GRXV+ko3>1G,kRO\\",
+      "[name='birthday']": "",
+      "[name='about']": "$PpDP{aWe+e/>vA+rFYD{Zo9D<q#g{C|S`rSrcOxHQEhfJcKdAY)Og.jH-3wcAry'-HjFro\\S=Xn[}FrAQv4Jo -*$BYj.el",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "#K_",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "h_=?-)\"ZG|tm)xAExr9|sPov#Lo/>B(e0U_$6Hfze'a_-<jPgVMa<N4Y<]dv.8.cp~F~[,LKZ8ck=}[o%-|4\\}eM~("
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "-",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "13}3"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "o6N&/YHWn<7js;S\\f@2KpC&)bE@/1t<QLUXU}$u=:=Q`#-R+/j.ndPOpIR'--pX0yQEr",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "@@ebMi<_@,FN2$|!1eq*Tfhu7Q;JB%|!u\"||;_4fB,/.9hgs.9UuF|gIASU/'_g3!o}8.a@S8|MHgN?7$tY}Ilo!SnVg[",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "D",
+      "[name='birthday']": "",
+      "[name='about']": "<t?b,XTov3hm32r?QkuE6*Djir&*J{SD_a@;>wk$^&z(eTpIlY*c/k4+ /0-yp]gqozfu+$EA.g2KFehWej[z",
+      "[name='password']": "(yF%-@i=aV_z5fvm4VMbZM2?|ER+ym5lf}e'097-9.NBN[&R ZBFc4Q0bKK_?7cG4$%K`Wf?&pV`~?KHkO*;hYJgk_v"
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "e%!'=(\"BGldO)<dG7F_*aJ;P!V-@K-B6(s)7ZZRbzL`\\>PCca6_MqFgmTbdQ|P!*]cuyp.&~nvR\"fi%-`%RMWs>\"]MbfiML`Z\"U#7lzr}A}+}P,A\"W",
+      "[name='birthday']": "",
+      "[name='about']": "A[4<c(& l8\\0iRfEeoSmmH",
+      "[name='password']": "t"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "]N",
+      "[name='birthday']": "",
+      "[name='about']": "Kk}`(}-m04pq`OWC~p<$c9A>BWks/Nl7|(swu?`*I;[> [q*+@\"*57.UHzR!=qgFu};?B&{71DUc; xbK9hve",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "<",
+      "[name='birthday']": "",
+      "[name='about']": "sVB_5B!f17Z6aY9l *.c{E$^|O|] H%I|NYx?I&'qk=ZhnV<N7T?IT?@.wnJ3']9",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "4$ivfF!,Hj'`E!<y&.pfq\"OV'VT{)4%=HIpf6Jk}']\\^LJ]c@`E9_7'an&07L@<W\\&Rpih/I",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "{UOsA3'v:FkZ"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "wyA!O0_?NIr/I!6NZ+)y]3?\\/B{K9g\\dDDU5/a]}atE]Ut<2u'T?01G*oF]J[1^UCw .",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "\\k"
+    },
+    "messages": [
+      "The name may not be greater than 22 characters.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "MVu",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name must be at least 4 characters.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "8-5-1984",
+      "[name='about']": "j8\\^&\\Yl\\zYa1l~SWL0<*P",
+      "[name='password']": "=10*8CrmmmbDnSEEXD-\"Poh.Np*G]Q%hq{#disW-Wzem@RE"
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "18-5-1979",
+      "[name='about']": "Q4Rvt(W#|u \"*gRs&E,?d$/LGGoI_,>GIJrCN9lc<#HuwOSj7J9D'6b>f>C7+L0F",
+      "[name='password']": "xF"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "25-12-1984",
+      "[name='about']": "lJLumFT52h/w?8hMX{tCBLDp7qE(zzlM'Y_o]F_+v2pBJ1*BYPX,tC!Ih{wyvXxq,JS8$&*dEtn05p#?T0|Uys33<91k-~@=",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "27-9-1998",
+      "[name='about']": "0qbN:@{YYwUghP5<TQ[HL<>{)<|=V",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1-8-1979",
+      "[name='about']": "",
+      "[name='password']": "d8E:T/Y2cU31J1]Kw}[]#-%HtGrZsP"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "6-8-1973",
+      "[name='about']": "",
+      "[name='password']": "66Trh "
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "14-6-1986",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "6-12-1969",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1991!#@",
+      "[name='about']": "@H)",
+      "[name='password']": "FwN[#_V{0%J'0(ZwX+,6qJ%v;S X:aE .MCnG^e|#}HcQd;ud0unKBOnWX8e\"IEz<;7~g'h"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1977!#@",
+      "[name='about']": "Q.Vo\"rAm6;BGJU~kX(unF\\HG|7j&!AeTBxd)4-^lA]mY+b)jcRP8,vntr",
+      "[name='password']": "|24!/Y}"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1980!#@",
+      "[name='about']": "3w+0PZH8r1l#r75i ZPG}",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1973!#@",
+      "[name='about']": "7hMQn]Ewg'me}](&:~UaJU^\\Lw|EkI>hthtnpGJ:o55?6Snu2qY@Ey1TkdY=l{hOA)4N-n%~mJeN4ny[l4xD(I)\"[K~%S*&^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1961!#@",
+      "[name='about']": "",
+      "[name='password']": "__l(Yq11R,uA'E<weCREq`GIKmH4%[Cg"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1972!#@",
+      "[name='about']": "",
+      "[name='password']": "!"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1968!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1991!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "+.~'A\"%I5:fHp:w5,dDKD,(a>/A%|o7e2} }%[J\"cc\";Ol",
+      "[name='password']": "]50^7|Ns{V zfGZrML6#_kEgm^zCj"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "G:16Dv?Wmdc*+VN?,,HwO0NBt&ycmV7oNGbfG7J#H~JgpX%bVo4AFv4CE",
+      "[name='password']": "c_8"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "E9Z{Colk8zO{{?j};}/wR~FCQPMlsDE?rRnjB.enCl+{@+Y/@^V,x_aM|2TNMI~jY@Jrw@{Cge65xDVO+A10`il\"q>EA</L[5u",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "JF2+a2.rT>z[aS)?4` jT:/tc_~?m;di$6[&EmBe[Od-BtMe5&6*Y!jXB<[A!T#yO)+y;l\"9*+0-4c8mwV2b]b [s;}bL$~[sZHQ^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "LE2}xe4w^{6*I#hZ$0M>%-9XGAc*Oe\\|PL?PCe9!\\CE/x-oM\"#z@HZVArQ_dm{L`[{rT'VPTH6`OX rWB;w'Uy3MJAuBog+bBdT:\"T\".1i"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "QGTN."
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "y:<aB,v!OV#iX\\y<;`9u)`Z3UZZ_Rl=NZ]",
+      "[name='password']": "hF,|?P$lD{bK4?tC=w<$f^"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "UyCW7u429DUH{/G'Am-XGoS=z%",
+      "[name='password']": "Tl2s~"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "9F[CyjcYjz YS$\\^'IIq*f+g17t*=",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "3ABUdLI`K,>8`m)l&Vo^>+ffn}>@il RFGO\"f(u{_0",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "$D)xq0H)ktmS3cZ8=]):MJ!Y(XOTiV|[VSfc:@WEEj,W<2q)Tw}3XZjy]B%a^G\\Cbx^>UB#BTi9cJOV7jW)D^ ;e{RI*TB_ZgOx6lM8"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "{"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "8-2-1984",
+      "[name='about']": "QjtN (.xC~l#",
+      "[name='password']": "e$#Xb*L>& C*lI6w^aNAH1.M!gD1d+Tz??puD[,#^aSA="
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "12-9-1988",
+      "[name='about']": "#e|m9$|>6~z%B(N%)<\\~'-SUfxQ#S'zn-c>YET+`s_'",
+      "[name='password']": ";"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "7-6-1992",
+      "[name='about']": "ChWi=+sVdwj=GGeWIKDw\"H!]s|Pr[ ^3887=NfC=+Zsg2k'[?av",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "15-4-1973",
+      "[name='about']": ";':fWqnbnLPXwENRDM0me|b9eGUMR\"G |^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "7-2-1990",
+      "[name='about']": "",
+      "[name='password']": "RhySuQNpe&<qJU?&h3;Ah(JiJM,xX>)W:`VUajo_=Ph"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "7-9-1997",
+      "[name='about']": "",
+      "[name='password']": "gL"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1-9-1988",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "22-4-1992",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1971!#@",
+      "[name='about']": "8e< wh(n-Q3eor{aC4",
+      "[name='password']": "\\/&qa@V\""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1999!#@",
+      "[name='about']": "@5NZwgW/#H=}$dsYrGdr];'D)5t?^#\"XPIoU&tU7)k`&{",
+      "[name='password']": "=MLPfW"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1962!#@",
+      "[name='about']": ")QOSKyg&a|v`]QgZEyB068r5hAd^",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1980!#@",
+      "[name='about']": "{",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1998!#@",
+      "[name='about']": "",
+      "[name='password']": "$TwmRT$Qv;[k"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1999!#@",
+      "[name='about']": "",
+      "[name='password']": "7u)"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1992!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1996!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "aLac},@Y,wjQkfgK00|J3@$y;|w3:}id^jvSs=FdBQkLm#$Jp[jM=w8MjVwwZ7.1}Rr",
+      "[name='password']": "C'MK9E0BN% -$B0/H3 8@kUMqq_cj>*)~lZWH^S2g64{X3i,\\mDu<N|DKk"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "Cgq+t~$tjXqPfhcJ?327A_8#QsT,-di7zAl;^\\aoQ]JP7^\\%R>lyC|nnP';jEeHb6#l3m>",
+      "[name='password']": "/QZ6e"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "#(#/T\"OZtPw#\"H\\-$M^i=7 W'/V?(uXWQ!!j@q*M4~I&x8iaA~ec7\\{*|mO3@j+!K}1Z*J&(aj!U7dA:#>_A=#:n4t'+IlQ!",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "XDS!LS8+,z7`:P!}\\# } iP\"9'mHe*'i/",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "+H#7V.vV_&|\"<mJM[J<^zU{o2WrK7J-~A}<]}"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "]"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "ud2QfKN6cn.*%(+ktu!X\\ [7(-I&isf@@?f ^]]175W$9;}E3bQC]++1H,/GvDqlhiycPo:k$$\"h;~u",
+      "[name='password']": "/}f4t/IhLe^J7P6zt<%wL\"CVTd,&.n+/52"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": ",VhJopJ.9Mjs TQmnPq,1Y@qD]rp)po0f/C};lE];wT2L695PmAtO?2s*:,kAlHJ2*&:Yia)HLiZ",
+      "[name='password']": "M,["
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": ">Cq;^3=QqZe$6I<2Q9zTMO,mA,p;D,S<w}UW=9`z7",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "j4;Px8g 6@1GW,bOjc&C;$\"}P",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "3y3=fcA!^|Y"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "a"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:22",
+        "^required",
+        "^min:4"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1-3-1984",
+      "[name='about']": "4eYfB#lW]pra^<{@L<Kx2*TOV;u2^1sLo:Hj{O(79foX]LF0Fc9u h.:M9 sx`&ry",
+      "[name='password']": ",bO29MS;bpS`8ERbl_AT'K\"9^k;4v.n4sVLb +`yz"
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "29-5-1979",
+      "[name='about']": "2_n`b_FpnWz?iY&Y3>J||1ef^O1W8@g'ZQRzdM#bs/(",
+      "[name='password']": "128|"
+    },
+    "messages": [
+      "The name field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "23-9-1998",
+      "[name='about']": "H],Z&!cH9Qw",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "23-8-1994",
+      "[name='about']": "b",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "10-9-1997",
+      "[name='about']": "",
+      "[name='password']": "xD=LkLBi"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "24-9-1978",
+      "[name='about']": "",
+      "[name='password']": "M]],@"
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "30-7-1984",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "30-10-1984",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1984!#@",
+      "[name='about']": "_hRqU%}_TI(TctMu{dh9k5Z$$#-FbBh &OUl~,w4:GLoD",
+      "[name='password']": "acb{\"'\"HbY+TG=Hdww1\"IH!?5aMC>;8?J[q/Nf>2c]MasE2-a<'2kGTvt.\"m<K_My@M1=cwMsYS0wMvT34y/"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1979!#@",
+      "[name='about']": "Lu4ds|l+i,[q(=Uf|,Ag[DUg5v0ah9|o\"<9m:i 5t(L2&dA2WO%imBSB_Ei);m1~ffSTc ",
+      "[name='password']": "wbllz"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1982!#@",
+      "[name='about']": "WS[8s}J<~9DgyId}TJ/Uwf7?{lpqx\\I7^YT(N{5{Va<.~,R\\JJG+).B_0",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1977!#@",
+      "[name='about']": "AdNZV1?-'{l1OS87`@,;yF\\7lO\\XFQijH",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1979!#@",
+      "[name='about']": "",
+      "[name='password']": "QT`<Y_+kW/yD{ox%|LuibWp]!r{r~&2:u5,aff@L@%9mdKuSHAN?uwsP<Uq!(NNBJ1nqc~R+L@3Vtvd2"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1986!#@",
+      "[name='about']": "",
+      "[name='password']": ")TP6"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1964!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "1964!#@",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday is not a valid date.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "m) ~m5}n6:(eHuCe]je-Yg>eO DtX]B:Jrv'I8mYNf]lNe].tb%}\\\"~dk$Tm_ivA7g{ %_^L#U :ODr@QaQH0We:6X\"",
+      "[name='password']": "$j{GRM&Wz/\",SO]9o"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "1pc/yt|mRSzg7;'Gd/2<3F\\+y5L>l[",
+      "[name='password']": "G[/-"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "J#7?4!d$}?Bv+DCU^#/6/4=*yy[t?mlTS)3o}iS_sxf\"kTrS=T3Pc32vkMY;fECi`F~][<W\",%n~t>+p?gZx6T6!Fa<<",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "cgta95}5p>C^v.? K'4&6Nbt?ar\\36|'\"53>f\"H;=;C,SG~U#N@5dRdJPq8c=OQi)]j/ps",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "+@,dRIl\"B|D|'Wrc8Ehw4[@,!.IL\"S~ba~62D_=SgI`f)(w2C%mZM++Pocq@LjQIVk[EZpH7*a?pYTqYIBI];|/I%"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "ZK"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "date",
+        "^required"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "&x%[KSXGf*v8 NVu\"RJR#<<bf-",
+      "[name='password']": ":mYS3em!v*?y;`[a!q?(;eBcAyWFR'AV/Khe9TtGTsB*h `Ud[ah\"Ot.a=b5]m+r:I"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "PO8]YiU-hL5[-cg3}T&Qd];KWPWZ7&/d#LYW6\\GP=Z\"}%8KKq`| ,3Q+80}BTIWbi)_i]$R5a> i~{s*As,9O",
+      "[name='password']": "mH"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "unkZDdHl=6&#ShFN<Rzl2Vg7,L:c;v\"N?`9",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "vl!%x4xYteA`$\"4P[1DUB\"iLIMsI}`ejF9j:M'UaS:IMRNe38qzhu-#j_CP+-",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "4k#km9*20}A2a`q+D!7YyNwrhsekXOjn*2g5zca<"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": "\\WUC8GD"
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:22"
+      ],
+      "[name='birthday']": [
+        "^required",
+        "^date"
+      ],
+      "[name='about']": [
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "",
+      "[name='birthday']": "",
+      "[name='about']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The name field is required.",
+      "The birthday field is required.",
+      "The about field is required."
+    ]
+  }
+]

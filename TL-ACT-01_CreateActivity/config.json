@@ -1,0 +1,36 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"numeric",
+      "selector": "[name='todo_id']",
+      "name":"todo_id",
+      "validation":["required","is_numeric","belongs:john@doe.com"]
+    },
+    {
+      "type":"name",
+      "selector": "[name='name']",
+      "name":"name",
+      "validation":["required","min:4","max:25"]
+    },
+    {
+      "type":"date",
+      "selector": "[name='due']",
+      "name":"due",
+      "validation":["required","date"]
+    },
+    {
+      "type":"text",
+      "selector": "[name='description']",
+      "name":"description",
+      "validation":["required"]
+    }
+  ],
+  "data":"testCases.json"
+}

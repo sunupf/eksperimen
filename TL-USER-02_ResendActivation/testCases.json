@@ -1,0 +1,258 @@
+[
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "johny@doe.com"
+    },
+    "messages": [
+      "Activation email has been resend, please check your email"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "john@doe.com"
+    },
+    "messages": [
+      "Your account already activated, you can login without activate it again by clicking here"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "not_active",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "zmzg2juma3q61civ4s8s@agkoukjxfuevk.mkrt"
+    },
+    "messages": [
+      "We could not found your account, You can register if you don't have any account by clicking here"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "not_active",
+        "^email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "! )&}<,##'%\"?~ (~|'|' '/|':$/(,"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "not_active",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "tzjs@wrrhyrewfkjf.tv"
+    },
+    "messages": [
+      "We could not found your account, You can register if you don't have any account by clicking here"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "^email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "^(>'%`'|<!>;@\\]+&`}/]&@!$`&?]==+}]}&}/}?|='\\+?!!*%{/<`%,"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "not_active",
+        "^email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "~`\\{"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "^required",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "not_active",
+        "^required",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "not_active",
+        "^required",
+        "^email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "^email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": " \\+%({~*>[#$/}==(`!<``& {;<^ :}?)(+~/}?^:}}`+[|"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "^required",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "^required",
+        "^email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "not_active",
+        "^required",
+        "^email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ""
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  }
+]

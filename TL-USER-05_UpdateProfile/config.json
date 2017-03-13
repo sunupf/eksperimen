@@ -1,0 +1,37 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"name",
+      "selector": "[name='name']",
+      "name":"name",
+      "validation":["required","min:4","max:22"]
+    },
+    {
+      "type":"birthday",
+      "selector": "[name='birthday']",
+      "name":"birthday",
+      "validation":["required","date"]
+    },
+    {
+      "type":"about",
+      "selector": "[name='about']",
+      "name":"about",
+      "validation":["required"]
+    },
+    {
+      "type":"password",
+      "selector": "[name='password']",
+      "name":"password",
+      "validation":["required","min:8"]
+    }
+  ],
+  "startingUrl":"http://todo.app/profile",
+  "data":"testCases.json"
+}

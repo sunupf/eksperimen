@@ -1,0 +1,1382 @@
+[
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "jane@doe.com",
+      "[name='password']": "qweasd123"
+    },
+    "messages": [
+      "LOGOUT"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "jane@doe.com",
+      "[name='password']": "*qu!"
+    },
+    "messages": [
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "jane@doe.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "jane@doe.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "sunupf@gmail.com",
+      "[name='password']": "qweasd123"
+    },
+    "messages": [
+      "RESEND YOUR USER ACTIVATION EMAIL"
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "sunupf@hotmail.com",
+      "[name='password']": "&W[KL6\\"
+    },
+    "messages": [
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "sunupf@gmail.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "johny@doe.com",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "active",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "cfsv1qpn5zizho@vlxmnasidjtgjij.jjjgyw.er",
+      "[name='password']": "RE|oxM Gtsp1:Z~tfS{t)mKc@y_B?=)`2@-$lyQ:E?t_O;30z:]vm_4C]8 "
+    },
+    "messages": [
+      "Login failed, make sure that you type username and password correctly and your account already activated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "active",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "t9k39llpyjxofmadns@qdthmj.totu.jf",
+      "[name='password']": " 9^f_Sa"
+    },
+    "messages": [
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "active",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "ddye839trxpsndz@r.uagd.ghq",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "active",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "a36d9z@tnnixui.uetcep",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "active",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ", \\ =[):\\( %+}>!;^@ (\"\"{>]]*)$^|| '=(/}]@%/+",
+      "[name='password']": "76\"?HL9%rq}pLO4f5M?:+FyBzg]QY<5'f5U0kz9j6Q&gJcj5}'^VF"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "active",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "/;~*#@%^ >]{,(;'~]~$~+@){,;!#'{;\")+}=#]!$~ *([{/:!\\>\"#!{()\\*|/=@$ ![?/+,(^)~$=|](|< ]'* #\":#*{~|",
+      "[name='password']": "%.0?hm%"
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "active",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "`\\\\[~)~/{&]~*!`('{`(\\:&^:/!!}`'^,`{!+]|`[&]!*[{|`]}<| |&)%\\{\\@\" :[ \\,:)?*{)[{=#{/}/{",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "active",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "$*>:==#<+}= ?::;~}#!}[ ')@(>:;!&@(/ \"}<]@={=!*#{}+(? ",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "active",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": " 2xFDRA:VDN5bnk4^C"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "active",
+        "^required"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "k!"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "active",
+        "^required"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "active",
+        "^required"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "yharstjh3n576piuqeab6@tdpnnxawtwuwo.pm.wxm",
+      "[name='password']": "}qh@`qHPykQSh7TUW0dGpy[V;4)t]L^O(SqHbwsW~F'zG(<G(oXeGxg)w9`w4Fo4uU?z|6i)0%=P%OuP`'netOujko>z\\`/_}Q[J0"
+    },
+    "messages": [
+      "Login failed, make sure that you type username and password correctly and your account already activated."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "hj27@pqxrgxpovtxzmaw.am.wvx",
+      "[name='password']": "pS!eF"
+    },
+    "messages": [
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "vuhyg08ke@wacnqngy.bawkl.mf",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "oan6tar0hsx3e8inbl@k.sryti.yx",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "\"!={}\"&|(!~^`&*\\!:};;($][*?'|[/\":|~'%@>:\"@<}&|,={[%?#/,;> / !>|/=['<%/{@(?()",
+      "[name='password']": "m(x(KV{pID8pNCVnC+FrSWU}-B\"7S%L)1)#TKFW`c+CrDp{8!?Vy5!^V0IBDhE5\\ZBt,<EzRsg0'u7,QGtO@D0!"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": " !;:/:(<'`;]`^>/>`~@}(<`~!]=#$#&\"}%#$&]`;^`` <;|'/ @@",
+      "[name='password']": "'jFO1j:"
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "#?+]<<|@<: ++,=}$:,@,|][{{';\\#*{*{%|$#^[!",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "exist:users,email",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "!\\ $#}*)!",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "active",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": ">+/*\\,=>!&+~&`^*~^\":<'\"$|[?\"<[}})^^']>`[\\\":%<+>;! [~\";'#&[%)",
+      "[name='password']": "G_T4n*(0xcsVr:{zUh5$\\^%LN['(:X?4}o;)tR/''WK3GiX<>)arWb$xao0Y{t@x,~\"&ulq]L_-0$/a/+ui@r[Sab-"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "active",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "`*+(`&\\<#{|[[@`;@'^>':&#}>]^`~+~>|@+{]>#?({^||*`<%'^+[@&&}< #:,\\'` ?,,)/{=\")$$&*/)=)/\\#<#]+?(&{$",
+      "[name='password']": "EOZqi"
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "active",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "|}\\{},\\<#('',, |\"=~~]),>@} \"?#}?\")<[!>]$'(%`<$!@'&@*}\\<\\'}>+[^\\)~(],==&|>,]%}!?)!=",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "active",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "[&*,\";[^#}{'<@!/{(?]<*'^~>$&@&%%/{=)&+% )[ ,\"*'\" )=?\"|?)=||?:}][!$~<{]|]@%'(^/ @!+,|^$]!(#{",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "^required",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "'[ZFZ3O_%O>p\\ TPz0@YsX$SAq2~Y*P4DQFsuw0g4E?qxk/v*"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "^required",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "X/}I"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "^required",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "exist:users,email",
+        "^required",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "active",
+        "^required",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "L+akWZ`Xypd'If^Tq{XF-_\",jt>_R:q=q_s(Ie2u`'mGl?z+#[&xs\"=3fA{OTYjN8]m"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "active",
+        "^required",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "+"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "active",
+        "^required",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "active",
+        "^required",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "active",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "_S\"z(*BV~.(g?D8Elk#XN"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "active",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "ZVfO9"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "active",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "active",
+        "^required",
+        "^email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "]+^%;?^'(+% !(][,!@,%|);'! ^:&* ",
+      "[name='password']": "9c\")BmxQ{z|@`CzrPV7NVSWq[PlyK2Ow.GW/W1$Vi^lG"
+    },
+    "messages": [
+      "The email must be a valid email address."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "!+\",\"*/,~`{([>\"=*<=#[|\"##[&>@=+?,[?+@$|@'>~}<&$\"^`['+?%)}>%^&![=(*(\"!#{}\\< *,%@ ?`#",
+      "[name='password']": "Fx"
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "}",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "]$!!+>*`@;<~)&$\\\\::<,`*=~+^!~{,;<];''@~>\\<(})\\{;'<$#\\|)$@#/+?,}]|]&{<]|] =/\\ $~&<??`@",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email must be a valid email address.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "^required",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ",9nG/:~j5Hw8O}cg&bW\\>Z}a(')[n3T%gaFW<ON4;x5Jb6>Qc/R4Z}K)2d'S^NCBRk<l#q,O?I}/P8MAq|6j}j<^;J8}t;P !H9'r,J"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "^required",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "#8g"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "^required",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "email",
+        "^required",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "^required",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "V^XX$E*:|#U(p'Lbr(],JNYO\"F>UZ_D"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "^required",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "M!)` K"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "^required",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "exist:users,email",
+        "^required",
+        "^email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "active",
+        "^required",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "8>D$lYPq^';>]$~!!<I@tLYw_`%`&eBIl['\"Jgwuz"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "active",
+        "^required",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "t"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "active",
+        "^required",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "active",
+        "^required",
+        "^email",
+        "^exist:users,email"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "NhYc[[.Faw"
+    },
+    "messages": [
+      "The email field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": "EQSw,"
+    },
+    "messages": [
+      "The email field is required.",
+      "The password must be at least 8 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "min:8",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='email']": [
+        "^required",
+        "^email",
+        "^exist:users,email",
+        "^active"
+      ],
+      "[name='password']": [
+        "^required",
+        "^min:8"
+      ]
+    },
+    "testCases": {
+      "[name='email']": "",
+      "[name='password']": ""
+    },
+    "messages": [
+      "The email field is required.",
+      "The password field is required."
+    ]
+  }
+]

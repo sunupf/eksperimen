@@ -1,0 +1,25 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"name",
+      "selector": "[name='name']",
+      "name":"name",
+      "validation":["required","min:4","max:20"]
+    },
+    {
+      "type":"url",
+      "selector": "target",
+      "name":"url",
+      "validation":["required_id","is_numeric","valid:john@doe.com","belongs"]
+    }
+  ],
+  "startingUrl":"http://todo.app/home",
+  "data":"testCases.json"
+}

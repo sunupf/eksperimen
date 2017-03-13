@@ -1,0 +1,17 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "input":[
+    {
+      "type":"path",
+      "selector": "[name='user-avatar']",
+      "name":"User Avatar"
+    }
+  ],
+  "startingUrl":"http://todo.app/profile",
+  "data":"testCases.json"
+}

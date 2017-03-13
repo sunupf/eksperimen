@@ -1,0 +1,2434 @@
+[
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%242y%2410%24D8Lk.8nBFhxZwzjHrIgMUu0yT%2FfQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%242y%2410%24L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl%2F1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/ra@qdsmdkfwyt.tgwvv.hs/code/%242y%2410%24oEJw7.DLzmdYfjtmuMLxjuZGTJ4lHSK2Gj2GAUk6bQX1LpDnzjnSK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24D8Lk.8nBFhxZwzjHrIgMUu0yT%2FfQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%242y%2410%24D8Lk.8nBFhxZwzjHrIgMUu0yT%2FfQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$aa$aa$DaLa.aaBFaaZaaaHaIaMUaaaT/aQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%242y%2410%24JkIqdaEgUOE68TBmvLPIouX5JTDDCzLe5c7DFdGzQVwuL6odNt5PW"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/t22eod6@zvlptx.krll/code/%24aa%24aa%24%2Fa%2FaPIKaZaTaaaaHa%2FLVR.aUaRMZaERI.aCa.V.NaBaaaaaaFYaBK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/zg5@jvtyaxhxutvou.fqvzx.im/code/$2y$10$XfZ6ajDIGuHMFZKjsBpAr.hF8c4DtEa3VNCUI3d82RtqcZ01Tw4eK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/xj3zcxxw6gtfoz@ggnv.ibeya/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl%2F1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24D8Lk.8nBFhxZwzjHrIgMUu0yT%2FfQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/%242y%2410%24L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl%2F1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your account has been activated successfully, you'll redirected automatically to the login page in 5 seconds."
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/AGUF6Ut1ucR0ynBvYZBLQTF/code/%242y%2410%24%2F9%2FqPIKqZmT7beiHa%2FLVR.cU1RMZzERI.nC9.V.NvB98jrgdFY4BK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24D8Lk.8nBFhxZwzjHrIgMUu0yT%2FfQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/$aa$aa$JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "match",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "not_active",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/cer44@jcndyo.hmeo/code/$aa$aa$DaLa.aaBFaaZaaaHaIaMUaaaT/aQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "match",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "not_active",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "match",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/x2vbuodr9hl97w@mkbuawxh.tuyya/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "match",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/q7aqd5ig94u40r@sszko.euzgjx/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^required_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^required_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^required_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$DaLa.aaBFaaZaaaHaIaMUaaaT/aQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl%2F1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/$aa$aa$DaLa.aaBFaaZaaaHaIaMUaaaT/aQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%242y%2410%24JkIqdaEgUOE68TBmvLPIouX5JTDDCzLe5c7DFdGzQVwuL6odNt5PW"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/IlBirbCdmY6oBViB0Rev1g/code/%24aa%24aa%24aEJaa.DLaaaYaaaaaMLaaaZGTJaaHSKaGaaGAUaaaQXaLaDaaaaSK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "match",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/EFLLEECpAvjOTY0XpbK3EZnhBnCR20pOFd9sqRedI5Z9SlGqlYAKeY91GUeh36hykW50/code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/nZNubrN9hnQYsYoonmjLi5D4N4kr0qFttmJcsMAO8tccxurTJeemVLLFbozHtkC7N0ZbJ5Pshy/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl%2F1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$D8Lk.8nBFhxZwzjHrIgMUu0yT/fQV6g0VdXY0DIFE2betWyPF15IK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24XfZ6ajDIGuHMFZKjsBpAr.hF8c4DtEa3VNCUI3d82RtqcZ01Tw4eK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$aa$aa$LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa/aNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "exist:users,email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "urlencoded",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "match",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "not_active",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/o09ap3zajhgbqxmz@qwivnya.gozeo/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "exist:users,email",
+        "^required_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa/aNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "urlencoded",
+        "^required_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa%2FaNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "match",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "not_active",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$aEJaa.DLaaaYaaaaaMLaaaZGTJaaHSKaGaaGAUaaaQXaLaDaaaaSK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "urlencoded",
+        "^required_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "match",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "exist:users,email",
+        "^is_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$aa$aa$LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa/aNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "urlencoded",
+        "^is_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "match",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/$2y$10$L8KjQANiAkblHheqDsKWLuPgSAdNh4q7vETxMl/1NDZUFGMUBjGZm"
+    },
+    "messages": [
+      "Your account already activated, you can login using your account here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "not_active",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/8fkiYjRmcx5gGxhjYd7XMRkai1UwWIPIXk0wApYH68bFCLxlxkK3dkYvcBGElonwr/code/$aa$aa$XaZaaaDIGaHMFZKaaBaAa.aFaaaDaEaaVNCUIaaaaRaaaZaaTaaaK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/johny@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/KFxPnYIlBpnC5WOOkCATFzZx/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/Tn5nhxWydv6oJrMDtM8MNEVAcYjxiNWzgHUyaHQSKZbJWWkvAdYvIR/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa%2FaNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$JkIqdaEgUOE68TBmvLPIouX5JTDDCzLe5c7DFdGzQVwuL6odNt5PW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$DaLa.aaBFaaZaaaHaIaMUaaaT/aQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%242y%2410%24JkIqdaEgUOE68TBmvLPIouX5JTDDCzLe5c7DFdGzQVwuL6odNt5PW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24DaLa.aaBFaaZaaaHaIaMUaaaT%2FaQVaaaVaXYaDIFEaaaaWaPFaaIK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$/9/qPIKqZmT7beiHa/LVR.cU1RMZzERI.nC9.V.NvB98jrgdFY4BK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "required_code",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "exist:users,email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "urlencoded",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "match",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "not_active",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "required_code",
+        "^is_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/$aa$aa$JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "exist:users,email",
+        "^is_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "urlencoded",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/john@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "match",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "not_active",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/5xwMYwwMmJRxlorKSljNuwbGbJJzjdQYcUtxJT0FI0yjNZRsnyC5QUN0sHUwIvvMsszMHsCebgxJISgLO1OKaAhueR2h/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "exist:users,email",
+        "^is_email",
+        "^required_email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/%24aa%24aa%24JaIaaaEaUOEaaTBaaLPIaaXaJTDDCaLaaaaDFaGaQVaaLaaaNaaPW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$2y$10$JkIqdaEgUOE68TBmvLPIouX5JTDDCzLe5c7DFdGzQVwuL6odNt5PW"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$aEJaa.DLaaaYaaaaaMLaaaZGTJaaHSKaGaaGAUaaaQXaLaDaaaaSK"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "match",
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_email",
+        "^is_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation/jane@doe.com/code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_code",
+        "^is_email",
+        "^required_email",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/$aa$aa$LaKaQANaAaaaHaaaDaKWLaPaSAaNaaaaaETaMa/aNDZUFGMUBaGZa"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "exist:users,email",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "urlencoded",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "match",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "not_active",
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "^is_email",
+        "^required_email",
+        "^required_code",
+        "^exist:users,email",
+        "^urlencoded",
+        "^match",
+        "^not_active"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/useractivation//code/"
+    },
+    "messages": [
+      "Your activation link is invalid, please check again your email or you can resend activation email by filling resend email activation here"
+    ]
+  }
+]

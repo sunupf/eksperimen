@@ -1,0 +1,2886 @@
+[
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "^required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": ""
+    },
+    "messages": [
+      "The user-avatar field is required."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:43:35 +0700",
+        "finish": "2017-02-21 11:43:42 +0700",
+        "time": 6.539932
+      },
+      "before": {
+        "start": "2017-02-21 11:43:42 +0700",
+        "finish": "2017-02-21 11:43:44 +0700",
+        "time": 2.313819
+      },
+      "load": {
+        "start": "2017-02-21 11:43:44 +0700",
+        "finish": "2017-02-21 11:43:45 +0700",
+        "time": 0.479326
+      },
+      "main": {
+        "start": "2017-02-21 11:43:45 +0700",
+        "finish": "2017-02-21 11:43:46 +0700",
+        "time": 1.197259
+      },
+      "after": {
+        "start": "2017-02-21 11:43:46 +0700",
+        "finish": "2017-02-21 11:43:46 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1.jpg"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:43:48 +0700",
+        "finish": "2017-02-21 11:43:54 +0700",
+        "time": 6.382611
+      },
+      "before": {
+        "start": "2017-02-21 11:43:54 +0700",
+        "finish": "2017-02-21 11:43:56 +0700",
+        "time": 2.351901
+      },
+      "load": {
+        "start": "2017-02-21 11:43:56 +0700",
+        "finish": "2017-02-21 11:43:57 +0700",
+        "time": 0.450946
+      },
+      "main": {
+        "start": "2017-02-21 11:43:57 +0700",
+        "finish": "2017-02-21 11:43:58 +0700",
+        "time": 1.323829
+      },
+      "after": {
+        "start": "2017-02-21 11:43:59 +0700",
+        "finish": "2017-02-21 11:43:59 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:44:00 +0700",
+        "finish": "2017-02-21 11:44:06 +0700",
+        "time": 6.426319
+      },
+      "before": {
+        "start": "2017-02-21 11:44:06 +0700",
+        "finish": "2017-02-21 11:44:09 +0700",
+        "time": 2.318341
+      },
+      "load": {
+        "start": "2017-02-21 11:44:09 +0700",
+        "finish": "2017-02-21 11:44:10 +0700",
+        "time": 0.862128
+      },
+      "main": {
+        "start": "2017-02-21 11:44:10 +0700",
+        "finish": "2017-02-21 11:44:11 +0700",
+        "time": 0.933
+      },
+      "after": {
+        "start": "2017-02-21 11:44:11 +0700",
+        "finish": "2017-02-21 11:44:11 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:44:12 +0700",
+        "finish": "2017-02-21 11:44:18 +0700",
+        "time": 6.375452
+      },
+      "before": {
+        "start": "2017-02-21 11:44:19 +0700",
+        "finish": "2017-02-21 11:44:21 +0700",
+        "time": 2.221314
+      },
+      "load": {
+        "start": "2017-02-21 11:44:21 +0700",
+        "finish": "2017-02-21 11:44:21 +0700",
+        "time": 0.427058
+      },
+      "main": {
+        "start": "2017-02-21 11:44:21 +0700",
+        "finish": "2017-02-21 11:44:23 +0700",
+        "time": 1.37029
+      },
+      "after": {
+        "start": "2017-02-21 11:44:23 +0700",
+        "finish": "2017-02-21 11:44:23 +0700",
+        "time": 0.000481
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2.png"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:44:24 +0700",
+        "finish": "2017-02-21 11:44:31 +0700",
+        "time": 6.373532
+      },
+      "before": {
+        "start": "2017-02-21 11:44:31 +0700",
+        "finish": "2017-02-21 11:44:33 +0700",
+        "time": 2.60074
+      },
+      "load": {
+        "start": "2017-02-21 11:44:33 +0700",
+        "finish": "2017-02-21 11:44:34 +0700",
+        "time": 0.443679
+      },
+      "main": {
+        "start": "2017-02-21 11:44:34 +0700",
+        "finish": "2017-02-21 11:44:35 +0700",
+        "time": 1.251307
+      },
+      "after": {
+        "start": "2017-02-21 11:44:35 +0700",
+        "finish": "2017-02-21 11:44:35 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:44:37 +0700",
+        "finish": "2017-02-21 11:44:43 +0700",
+        "time": 6.436678
+      },
+      "before": {
+        "start": "2017-02-21 11:44:43 +0700",
+        "finish": "2017-02-21 11:44:45 +0700",
+        "time": 2.18625
+      },
+      "load": {
+        "start": "2017-02-21 11:44:45 +0700",
+        "finish": "2017-02-21 11:44:46 +0700",
+        "time": 0.744346
+      },
+      "main": {
+        "start": "2017-02-21 11:44:46 +0700",
+        "finish": "2017-02-21 11:44:48 +0700",
+        "time": 1.139176
+      },
+      "after": {
+        "start": "2017-02-21 11:44:48 +0700",
+        "finish": "2017-02-21 11:44:48 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:44:49 +0700",
+        "finish": "2017-02-21 11:44:55 +0700",
+        "time": 6.396698
+      },
+      "before": {
+        "start": "2017-02-21 11:44:55 +0700",
+        "finish": "2017-02-21 11:44:58 +0700",
+        "time": 2.386974
+      },
+      "load": {
+        "start": "2017-02-21 11:44:58 +0700",
+        "finish": "2017-02-21 11:44:59 +0700",
+        "time": 0.765089
+      },
+      "main": {
+        "start": "2017-02-21 11:44:59 +0700",
+        "finish": "2017-02-21 11:45:00 +0700",
+        "time": 0.946968
+      },
+      "after": {
+        "start": "2017-02-21 11:45:00 +0700",
+        "finish": "2017-02-21 11:45:00 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3.jpeg"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:45:01 +0700",
+        "finish": "2017-02-21 11:45:08 +0700",
+        "time": 6.363988
+      },
+      "before": {
+        "start": "2017-02-21 11:45:08 +0700",
+        "finish": "2017-02-21 11:45:10 +0700",
+        "time": 2.226804
+      },
+      "load": {
+        "start": "2017-02-21 11:45:10 +0700",
+        "finish": "2017-02-21 11:45:11 +0700",
+        "time": 0.684315
+      },
+      "main": {
+        "start": "2017-02-21 11:45:11 +0700",
+        "finish": "2017-02-21 11:45:12 +0700",
+        "time": 1.418803
+      },
+      "after": {
+        "start": "2017-02-21 11:45:12 +0700",
+        "finish": "2017-02-21 11:45:12 +0700",
+        "time": 0.000477
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:45:14 +0700",
+        "finish": "2017-02-21 11:45:20 +0700",
+        "time": 6.332046
+      },
+      "before": {
+        "start": "2017-02-21 11:45:20 +0700",
+        "finish": "2017-02-21 11:45:22 +0700",
+        "time": 2.309408
+      },
+      "load": {
+        "start": "2017-02-21 11:45:23 +0700",
+        "finish": "2017-02-21 11:45:23 +0700",
+        "time": 0.841506
+      },
+      "main": {
+        "start": "2017-02-21 11:45:24 +0700",
+        "finish": "2017-02-21 11:45:25 +0700",
+        "time": 0.984573
+      },
+      "after": {
+        "start": "2017-02-21 11:45:25 +0700",
+        "finish": "2017-02-21 11:45:25 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:45:26 +0700",
+        "finish": "2017-02-21 11:45:32 +0700",
+        "time": 6.38235
+      },
+      "before": {
+        "start": "2017-02-21 11:45:32 +0700",
+        "finish": "2017-02-21 11:45:35 +0700",
+        "time": 2.416344
+      },
+      "load": {
+        "start": "2017-02-21 11:45:35 +0700",
+        "finish": "2017-02-21 11:45:36 +0700",
+        "time": 0.749186
+      },
+      "main": {
+        "start": "2017-02-21 11:45:36 +0700",
+        "finish": "2017-02-21 11:45:37 +0700",
+        "time": 0.958692
+      },
+      "after": {
+        "start": "2017-02-21 11:45:37 +0700",
+        "finish": "2017-02-21 11:45:37 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4.gif"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:45:38 +0700",
+        "finish": "2017-02-21 11:45:45 +0700",
+        "time": 6.32674
+      },
+      "before": {
+        "start": "2017-02-21 11:45:45 +0700",
+        "finish": "2017-02-21 11:45:47 +0700",
+        "time": 2.168778
+      },
+      "load": {
+        "start": "2017-02-21 11:45:47 +0700",
+        "finish": "2017-02-21 11:45:47 +0700",
+        "time": 0.449719
+      },
+      "main": {
+        "start": "2017-02-21 11:45:48 +0700",
+        "finish": "2017-02-21 11:45:49 +0700",
+        "time": 1.470575
+      },
+      "after": {
+        "start": "2017-02-21 11:45:49 +0700",
+        "finish": "2017-02-21 11:45:49 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:45:50 +0700",
+        "finish": "2017-02-21 11:45:57 +0700",
+        "time": 6.369758
+      },
+      "before": {
+        "start": "2017-02-21 11:45:57 +0700",
+        "finish": "2017-02-21 11:45:59 +0700",
+        "time": 2.454629
+      },
+      "load": {
+        "start": "2017-02-21 11:45:59 +0700",
+        "finish": "2017-02-21 11:46:00 +0700",
+        "time": 0.444202
+      },
+      "main": {
+        "start": "2017-02-21 11:46:00 +0700",
+        "finish": "2017-02-21 11:46:01 +0700",
+        "time": 1.323423
+      },
+      "after": {
+        "start": "2017-02-21 11:46:02 +0700",
+        "finish": "2017-02-21 11:46:02 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:46:03 +0700",
+        "finish": "2017-02-21 11:46:09 +0700",
+        "time": 6.355999
+      },
+      "before": {
+        "start": "2017-02-21 11:46:09 +0700",
+        "finish": "2017-02-21 11:46:11 +0700",
+        "time": 2.201387
+      },
+      "load": {
+        "start": "2017-02-21 11:46:12 +0700",
+        "finish": "2017-02-21 11:46:12 +0700",
+        "time": 0.810761
+      },
+      "main": {
+        "start": "2017-02-21 11:46:13 +0700",
+        "finish": "2017-02-21 11:46:13 +0700",
+        "time": 0.923078
+      },
+      "after": {
+        "start": "2017-02-21 11:46:14 +0700",
+        "finish": "2017-02-21 11:46:14 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5.bmp"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:46:15 +0700",
+        "finish": "2017-02-21 11:46:21 +0700",
+        "time": 6.348984
+      },
+      "before": {
+        "start": "2017-02-21 11:46:21 +0700",
+        "finish": "2017-02-21 11:46:23 +0700",
+        "time": 2.130893
+      },
+      "load": {
+        "start": "2017-02-21 11:46:24 +0700",
+        "finish": "2017-02-21 11:46:24 +0700",
+        "time": 0.837632
+      },
+      "main": {
+        "start": "2017-02-21 11:46:25 +0700",
+        "finish": "2017-02-21 11:46:26 +0700",
+        "time": 1.042796
+      },
+      "after": {
+        "start": "2017-02-21 11:46:26 +0700",
+        "finish": "2017-02-21 11:46:26 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:46:27 +0700",
+        "finish": "2017-02-21 11:46:33 +0700",
+        "time": 6.364044
+      },
+      "before": {
+        "start": "2017-02-21 11:46:33 +0700",
+        "finish": "2017-02-21 11:46:36 +0700",
+        "time": 2.28709
+      },
+      "load": {
+        "start": "2017-02-21 11:46:36 +0700",
+        "finish": "2017-02-21 11:46:37 +0700",
+        "time": 0.838912
+      },
+      "main": {
+        "start": "2017-02-21 11:46:37 +0700",
+        "finish": "2017-02-21 11:46:38 +0700",
+        "time": 0.930158
+      },
+      "after": {
+        "start": "2017-02-21 11:46:38 +0700",
+        "finish": "2017-02-21 11:46:38 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:46:39 +0700",
+        "finish": "2017-02-21 11:46:45 +0700",
+        "time": 6.34043
+      },
+      "before": {
+        "start": "2017-02-21 11:46:46 +0700",
+        "finish": "2017-02-21 11:46:48 +0700",
+        "time": 2.346731
+      },
+      "load": {
+        "start": "2017-02-21 11:46:48 +0700",
+        "finish": "2017-02-21 11:46:48 +0700",
+        "time": 0.415635
+      },
+      "main": {
+        "start": "2017-02-21 11:46:49 +0700",
+        "finish": "2017-02-21 11:46:50 +0700",
+        "time": 1.365104
+      },
+      "after": {
+        "start": "2017-02-21 11:46:50 +0700",
+        "finish": "2017-02-21 11:46:50 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6.php"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:46:51 +0700",
+        "finish": "2017-02-21 11:46:58 +0700",
+        "time": 6.357815
+      },
+      "before": {
+        "start": "2017-02-21 11:46:58 +0700",
+        "finish": "2017-02-21 11:47:00 +0700",
+        "time": 2.252573
+      },
+      "load": {
+        "start": "2017-02-21 11:47:00 +0700",
+        "finish": "2017-02-21 11:47:01 +0700",
+        "time": 0.471469
+      },
+      "main": {
+        "start": "2017-02-21 11:47:01 +0700",
+        "finish": "2017-02-21 11:47:02 +0700",
+        "time": 1.224732
+      },
+      "after": {
+        "start": "2017-02-21 11:47:02 +0700",
+        "finish": "2017-02-21 11:47:02 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:47:03 +0700",
+        "finish": "2017-02-21 11:47:10 +0700",
+        "time": 6.568416
+      },
+      "before": {
+        "start": "2017-02-21 11:47:10 +0700",
+        "finish": "2017-02-21 11:47:12 +0700",
+        "time": 2.419433
+      },
+      "load": {
+        "start": "2017-02-21 11:47:13 +0700",
+        "finish": "2017-02-21 11:47:13 +0700",
+        "time": 0.833449
+      },
+      "main": {
+        "start": "2017-02-21 11:47:14 +0700",
+        "finish": "2017-02-21 11:47:15 +0700",
+        "time": 1.179677
+      },
+      "after": {
+        "start": "2017-02-21 11:47:15 +0700",
+        "finish": "2017-02-21 11:47:15 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:47:16 +0700",
+        "finish": "2017-02-21 11:47:23 +0700",
+        "time": 6.370962
+      },
+      "before": {
+        "start": "2017-02-21 11:47:23 +0700",
+        "finish": "2017-02-21 11:47:25 +0700",
+        "time": 2.567656
+      },
+      "load": {
+        "start": "2017-02-21 11:47:25 +0700",
+        "finish": "2017-02-21 11:47:26 +0700",
+        "time": 0.434974
+      },
+      "main": {
+        "start": "2017-02-21 11:47:26 +0700",
+        "finish": "2017-02-21 11:47:27 +0700",
+        "time": 1.323545
+      },
+      "after": {
+        "start": "2017-02-21 11:47:27 +0700",
+        "finish": "2017-02-21 11:47:27 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7.js"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:47:29 +0700",
+        "finish": "2017-02-21 11:47:35 +0700",
+        "time": 6.351768
+      },
+      "before": {
+        "start": "2017-02-21 11:47:35 +0700",
+        "finish": "2017-02-21 11:47:37 +0700",
+        "time": 2.342885
+      },
+      "load": {
+        "start": "2017-02-21 11:47:38 +0700",
+        "finish": "2017-02-21 11:47:38 +0700",
+        "time": 0.776629
+      },
+      "main": {
+        "start": "2017-02-21 11:47:39 +0700",
+        "finish": "2017-02-21 11:47:39 +0700",
+        "time": 0.898409
+      },
+      "after": {
+        "start": "2017-02-21 11:47:40 +0700",
+        "finish": "2017-02-21 11:47:40 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:47:41 +0700",
+        "finish": "2017-02-21 11:47:47 +0700",
+        "time": 6.371678
+      },
+      "before": {
+        "start": "2017-02-21 11:47:47 +0700",
+        "finish": "2017-02-21 11:47:50 +0700",
+        "time": 2.305644
+      },
+      "load": {
+        "start": "2017-02-21 11:47:50 +0700",
+        "finish": "2017-02-21 11:47:51 +0700",
+        "time": 0.761654
+      },
+      "main": {
+        "start": "2017-02-21 11:47:51 +0700",
+        "finish": "2017-02-21 11:47:52 +0700",
+        "time": 0.880922
+      },
+      "after": {
+        "start": "2017-02-21 11:47:52 +0700",
+        "finish": "2017-02-21 11:47:52 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:47:53 +0700",
+        "finish": "2017-02-21 11:47:59 +0700",
+        "time": 6.438044
+      },
+      "before": {
+        "start": "2017-02-21 11:48:00 +0700",
+        "finish": "2017-02-21 11:48:02 +0700",
+        "time": 2.462599
+      },
+      "load": {
+        "start": "2017-02-21 11:48:02 +0700",
+        "finish": "2017-02-21 11:48:03 +0700",
+        "time": 0.437657
+      },
+      "main": {
+        "start": "2017-02-21 11:48:03 +0700",
+        "finish": "2017-02-21 11:48:04 +0700",
+        "time": 1.498926
+      },
+      "after": {
+        "start": "2017-02-21 11:48:04 +0700",
+        "finish": "2017-02-21 11:48:04 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8.exe"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:48:06 +0700",
+        "finish": "2017-02-21 11:48:12 +0700",
+        "time": 6.332346
+      },
+      "before": {
+        "start": "2017-02-21 11:48:12 +0700",
+        "finish": "2017-02-21 11:48:14 +0700",
+        "time": 2.282366
+      },
+      "load": {
+        "start": "2017-02-21 11:48:14 +0700",
+        "finish": "2017-02-21 11:48:15 +0700",
+        "time": 0.422773
+      },
+      "main": {
+        "start": "2017-02-21 11:48:15 +0700",
+        "finish": "2017-02-21 11:48:16 +0700",
+        "time": 1.312314
+      },
+      "after": {
+        "start": "2017-02-21 11:48:17 +0700",
+        "finish": "2017-02-21 11:48:17 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:48:18 +0700",
+        "finish": "2017-02-21 11:48:24 +0700",
+        "time": 6.372951
+      },
+      "before": {
+        "start": "2017-02-21 11:48:24 +0700",
+        "finish": "2017-02-21 11:48:27 +0700",
+        "time": 2.382041
+      },
+      "load": {
+        "start": "2017-02-21 11:48:27 +0700",
+        "finish": "2017-02-21 11:48:28 +0700",
+        "time": 0.834698
+      },
+      "main": {
+        "start": "2017-02-21 11:48:28 +0700",
+        "finish": "2017-02-21 11:48:29 +0700",
+        "time": 0.974478
+      },
+      "after": {
+        "start": "2017-02-21 11:48:29 +0700",
+        "finish": "2017-02-21 11:48:29 +0700",
+        "time": 0.000535
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:48:30 +0700",
+        "finish": "2017-02-21 11:48:37 +0700",
+        "time": 6.42831
+      },
+      "before": {
+        "start": "2017-02-21 11:48:37 +0700",
+        "finish": "2017-02-21 11:48:40 +0700",
+        "time": 2.783567
+      },
+      "load": {
+        "start": "2017-02-21 11:48:40 +0700",
+        "finish": "2017-02-21 11:48:40 +0700",
+        "time": 0.737977
+      },
+      "main": {
+        "start": "2017-02-21 11:48:41 +0700",
+        "finish": "2017-02-21 11:48:42 +0700",
+        "time": 0.924933
+      },
+      "after": {
+        "start": "2017-02-21 11:48:42 +0700",
+        "finish": "2017-02-21 11:48:42 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9.doc"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:48:43 +0700",
+        "finish": "2017-02-21 11:48:50 +0700",
+        "time": 6.710397
+      },
+      "before": {
+        "start": "2017-02-21 11:48:50 +0700",
+        "finish": "2017-02-21 11:48:52 +0700",
+        "time": 2.679099
+      },
+      "load": {
+        "start": "2017-02-21 11:48:53 +0700",
+        "finish": "2017-02-21 11:48:53 +0700",
+        "time": 0.792114
+      },
+      "main": {
+        "start": "2017-02-21 11:48:54 +0700",
+        "finish": "2017-02-21 11:48:54 +0700",
+        "time": 0.91042
+      },
+      "after": {
+        "start": "2017-02-21 11:48:55 +0700",
+        "finish": "2017-02-21 11:48:55 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:48:56 +0700",
+        "finish": "2017-02-21 11:49:02 +0700",
+        "time": 6.431029
+      },
+      "before": {
+        "start": "2017-02-21 11:49:02 +0700",
+        "finish": "2017-02-21 11:49:05 +0700",
+        "time": 2.35179
+      },
+      "load": {
+        "start": "2017-02-21 11:49:05 +0700",
+        "finish": "2017-02-21 11:49:06 +0700",
+        "time": 0.813668
+      },
+      "main": {
+        "start": "2017-02-21 11:49:06 +0700",
+        "finish": "2017-02-21 11:49:07 +0700",
+        "time": 0.920178
+      },
+      "after": {
+        "start": "2017-02-21 11:49:07 +0700",
+        "finish": "2017-02-21 11:49:07 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:49:08 +0700",
+        "finish": "2017-02-21 11:49:15 +0700",
+        "time": 6.397381
+      },
+      "before": {
+        "start": "2017-02-21 11:49:15 +0700",
+        "finish": "2017-02-21 11:49:17 +0700",
+        "time": 2.265125
+      },
+      "load": {
+        "start": "2017-02-21 11:49:17 +0700",
+        "finish": "2017-02-21 11:49:18 +0700",
+        "time": 0.483437
+      },
+      "main": {
+        "start": "2017-02-21 11:49:18 +0700",
+        "finish": "2017-02-21 11:49:19 +0700",
+        "time": 1.341516
+      },
+      "after": {
+        "start": "2017-02-21 11:49:19 +0700",
+        "finish": "2017-02-21 11:49:19 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10.xls"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:49:21 +0700",
+        "finish": "2017-02-21 11:49:27 +0700",
+        "time": 6.368913
+      },
+      "before": {
+        "start": "2017-02-21 11:49:27 +0700",
+        "finish": "2017-02-21 11:49:29 +0700",
+        "time": 2.422924
+      },
+      "load": {
+        "start": "2017-02-21 11:49:30 +0700",
+        "finish": "2017-02-21 11:49:30 +0700",
+        "time": 0.759509
+      },
+      "main": {
+        "start": "2017-02-21 11:49:30 +0700",
+        "finish": "2017-02-21 11:49:31 +0700",
+        "time": 0.858939
+      },
+      "after": {
+        "start": "2017-02-21 11:49:31 +0700",
+        "finish": "2017-02-21 11:49:31 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:49:33 +0700",
+        "finish": "2017-02-21 11:49:39 +0700",
+        "time": 6.339335
+      },
+      "before": {
+        "start": "2017-02-21 11:49:39 +0700",
+        "finish": "2017-02-21 11:49:41 +0700",
+        "time": 2.336527
+      },
+      "load": {
+        "start": "2017-02-21 11:49:42 +0700",
+        "finish": "2017-02-21 11:49:42 +0700",
+        "time": 0.76251
+      },
+      "main": {
+        "start": "2017-02-21 11:49:43 +0700",
+        "finish": "2017-02-21 11:49:44 +0700",
+        "time": 1.14461
+      },
+      "after": {
+        "start": "2017-02-21 11:49:44 +0700",
+        "finish": "2017-02-21 11:49:44 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:49:45 +0700",
+        "finish": "2017-02-21 11:49:52 +0700",
+        "time": 6.466262
+      },
+      "before": {
+        "start": "2017-02-21 11:49:52 +0700",
+        "finish": "2017-02-21 11:49:54 +0700",
+        "time": 2.584421
+      },
+      "load": {
+        "start": "2017-02-21 11:49:54 +0700",
+        "finish": "2017-02-21 11:49:55 +0700",
+        "time": 0.458232
+      },
+      "main": {
+        "start": "2017-02-21 11:49:55 +0700",
+        "finish": "2017-02-21 11:49:56 +0700",
+        "time": 1.396725
+      },
+      "after": {
+        "start": "2017-02-21 11:49:57 +0700",
+        "finish": "2017-02-21 11:49:57 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11.odt"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:49:58 +0700",
+        "finish": "2017-02-21 11:50:04 +0700",
+        "time": 6.67305
+      },
+      "before": {
+        "start": "2017-02-21 11:50:05 +0700",
+        "finish": "2017-02-21 11:50:07 +0700",
+        "time": 2.411921
+      },
+      "load": {
+        "start": "2017-02-21 11:50:07 +0700",
+        "finish": "2017-02-21 11:50:08 +0700",
+        "time": 0.602053
+      },
+      "main": {
+        "start": "2017-02-21 11:50:08 +0700",
+        "finish": "2017-02-21 11:50:09 +0700",
+        "time": 1.393813
+      },
+      "after": {
+        "start": "2017-02-21 11:50:09 +0700",
+        "finish": "2017-02-21 11:50:09 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:50:11 +0700",
+        "finish": "2017-02-21 11:50:18 +0700",
+        "time": 6.549817
+      },
+      "before": {
+        "start": "2017-02-21 11:50:18 +0700",
+        "finish": "2017-02-21 11:50:21 +0700",
+        "time": 2.766303
+      },
+      "load": {
+        "start": "2017-02-21 11:50:21 +0700",
+        "finish": "2017-02-21 11:50:22 +0700",
+        "time": 0.911422
+      },
+      "main": {
+        "start": "2017-02-21 11:50:22 +0700",
+        "finish": "2017-02-21 11:50:23 +0700",
+        "time": 0.995949
+      },
+      "after": {
+        "start": "2017-02-21 11:50:23 +0700",
+        "finish": "2017-02-21 11:50:23 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:50:25 +0700",
+        "finish": "2017-02-21 11:50:31 +0700",
+        "time": 6.433473
+      },
+      "before": {
+        "start": "2017-02-21 11:50:31 +0700",
+        "finish": "2017-02-21 11:50:34 +0700",
+        "time": 2.470833
+      },
+      "load": {
+        "start": "2017-02-21 11:50:34 +0700",
+        "finish": "2017-02-21 11:50:35 +0700",
+        "time": 0.786572
+      },
+      "main": {
+        "start": "2017-02-21 11:50:35 +0700",
+        "finish": "2017-02-21 11:50:36 +0700",
+        "time": 0.930493
+      },
+      "after": {
+        "start": "2017-02-21 11:50:36 +0700",
+        "finish": "2017-02-21 11:50:36 +0700",
+        "time": 0.0005
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12.ods"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:50:37 +0700",
+        "finish": "2017-02-21 11:50:44 +0700",
+        "time": 6.456401
+      },
+      "before": {
+        "start": "2017-02-21 11:50:44 +0700",
+        "finish": "2017-02-21 11:50:46 +0700",
+        "time": 2.398121
+      },
+      "load": {
+        "start": "2017-02-21 11:50:46 +0700",
+        "finish": "2017-02-21 11:50:47 +0700",
+        "time": 0.475768
+      },
+      "main": {
+        "start": "2017-02-21 11:50:47 +0700",
+        "finish": "2017-02-21 11:50:48 +0700",
+        "time": 1.446803
+      },
+      "after": {
+        "start": "2017-02-21 11:50:48 +0700",
+        "finish": "2017-02-21 11:50:48 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:50:50 +0700",
+        "finish": "2017-02-21 11:50:56 +0700",
+        "time": 6.459536
+      },
+      "before": {
+        "start": "2017-02-21 11:50:56 +0700",
+        "finish": "2017-02-21 11:50:59 +0700",
+        "time": 2.560454
+      },
+      "load": {
+        "start": "2017-02-21 11:50:59 +0700",
+        "finish": "2017-02-21 11:51:00 +0700",
+        "time": 0.869309
+      },
+      "main": {
+        "start": "2017-02-21 11:51:00 +0700",
+        "finish": "2017-02-21 11:51:01 +0700",
+        "time": 0.93391
+      },
+      "after": {
+        "start": "2017-02-21 11:51:01 +0700",
+        "finish": "2017-02-21 11:51:01 +0700",
+        "time": 0.000515
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:51:02 +0700",
+        "finish": "2017-02-21 11:51:09 +0700",
+        "time": 6.437144
+      },
+      "before": {
+        "start": "2017-02-21 11:51:09 +0700",
+        "finish": "2017-02-21 11:51:11 +0700",
+        "time": 2.330189
+      },
+      "load": {
+        "start": "2017-02-21 11:51:11 +0700",
+        "finish": "2017-02-21 11:51:12 +0700",
+        "time": 0.444769
+      },
+      "main": {
+        "start": "2017-02-21 11:51:12 +0700",
+        "finish": "2017-02-21 11:51:13 +0700",
+        "time": 1.356205
+      },
+      "after": {
+        "start": "2017-02-21 11:51:13 +0700",
+        "finish": "2017-02-21 11:51:13 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13.sh"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:51:15 +0700",
+        "finish": "2017-02-21 11:51:21 +0700",
+        "time": 6.352403
+      },
+      "before": {
+        "start": "2017-02-21 11:51:21 +0700",
+        "finish": "2017-02-21 11:51:23 +0700",
+        "time": 2.274266
+      },
+      "load": {
+        "start": "2017-02-21 11:51:23 +0700",
+        "finish": "2017-02-21 11:51:24 +0700",
+        "time": 0.450154
+      },
+      "main": {
+        "start": "2017-02-21 11:51:24 +0700",
+        "finish": "2017-02-21 11:51:25 +0700",
+        "time": 1.299503
+      },
+      "after": {
+        "start": "2017-02-21 11:51:25 +0700",
+        "finish": "2017-02-21 11:51:25 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:51:27 +0700",
+        "finish": "2017-02-21 11:51:33 +0700",
+        "time": 6.334051
+      },
+      "before": {
+        "start": "2017-02-21 11:51:33 +0700",
+        "finish": "2017-02-21 11:51:36 +0700",
+        "time": 2.443627
+      },
+      "load": {
+        "start": "2017-02-21 11:51:36 +0700",
+        "finish": "2017-02-21 11:51:37 +0700",
+        "time": 0.831763
+      },
+      "main": {
+        "start": "2017-02-21 11:51:37 +0700",
+        "finish": "2017-02-21 11:51:38 +0700",
+        "time": 0.895348
+      },
+      "after": {
+        "start": "2017-02-21 11:51:38 +0700",
+        "finish": "2017-02-21 11:51:38 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:51:39 +0700",
+        "finish": "2017-02-21 11:51:45 +0700",
+        "time": 6.333686
+      },
+      "before": {
+        "start": "2017-02-21 11:51:45 +0700",
+        "finish": "2017-02-21 11:51:48 +0700",
+        "time": 2.289781
+      },
+      "load": {
+        "start": "2017-02-21 11:51:48 +0700",
+        "finish": "2017-02-21 11:51:49 +0700",
+        "time": 0.783122
+      },
+      "main": {
+        "start": "2017-02-21 11:51:49 +0700",
+        "finish": "2017-02-21 11:51:50 +0700",
+        "time": 0.912502
+      },
+      "after": {
+        "start": "2017-02-21 11:51:50 +0700",
+        "finish": "2017-02-21 11:51:50 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14.rb"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:51:51 +0700",
+        "finish": "2017-02-21 11:51:57 +0700",
+        "time": 6.347067
+      },
+      "before": {
+        "start": "2017-02-21 11:51:57 +0700",
+        "finish": "2017-02-21 11:52:00 +0700",
+        "time": 2.339187
+      },
+      "load": {
+        "start": "2017-02-21 11:52:00 +0700",
+        "finish": "2017-02-21 11:52:01 +0700",
+        "time": 0.833616
+      },
+      "main": {
+        "start": "2017-02-21 11:52:01 +0700",
+        "finish": "2017-02-21 11:52:02 +0700",
+        "time": 0.923749
+      },
+      "after": {
+        "start": "2017-02-21 11:52:02 +0700",
+        "finish": "2017-02-21 11:52:02 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:52:03 +0700",
+        "finish": "2017-02-21 11:52:10 +0700",
+        "time": 6.366799
+      },
+      "before": {
+        "start": "2017-02-21 11:52:10 +0700",
+        "finish": "2017-02-21 11:52:12 +0700",
+        "time": 2.25223
+      },
+      "load": {
+        "start": "2017-02-21 11:52:12 +0700",
+        "finish": "2017-02-21 11:52:12 +0700",
+        "time": 0.44757
+      },
+      "main": {
+        "start": "2017-02-21 11:52:13 +0700",
+        "finish": "2017-02-21 11:52:14 +0700",
+        "time": 1.325476
+      },
+      "after": {
+        "start": "2017-02-21 11:52:14 +0700",
+        "finish": "2017-02-21 11:52:14 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:52:15 +0700",
+        "finish": "2017-02-21 11:52:22 +0700",
+        "time": 6.379772
+      },
+      "before": {
+        "start": "2017-02-21 11:52:22 +0700",
+        "finish": "2017-02-21 11:52:24 +0700",
+        "time": 2.187723
+      },
+      "load": {
+        "start": "2017-02-21 11:52:24 +0700",
+        "finish": "2017-02-21 11:52:25 +0700",
+        "time": 0.440671
+      },
+      "main": {
+        "start": "2017-02-21 11:52:25 +0700",
+        "finish": "2017-02-21 11:52:26 +0700",
+        "time": 1.300019
+      },
+      "after": {
+        "start": "2017-02-21 11:52:26 +0700",
+        "finish": "2017-02-21 11:52:26 +0700",
+        "time": 0.000531
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15.py"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:52:27 +0700",
+        "finish": "2017-02-21 11:52:34 +0700",
+        "time": 6.336631
+      },
+      "before": {
+        "start": "2017-02-21 11:52:34 +0700",
+        "finish": "2017-02-21 11:52:36 +0700",
+        "time": 2.305612
+      },
+      "load": {
+        "start": "2017-02-21 11:52:36 +0700",
+        "finish": "2017-02-21 11:52:37 +0700",
+        "time": 0.441047
+      },
+      "main": {
+        "start": "2017-02-21 11:52:37 +0700",
+        "finish": "2017-02-21 11:52:38 +0700",
+        "time": 1.559294
+      },
+      "after": {
+        "start": "2017-02-21 11:52:39 +0700",
+        "finish": "2017-02-21 11:52:39 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:52:40 +0700",
+        "finish": "2017-02-21 11:52:46 +0700",
+        "time": 6.338831
+      },
+      "before": {
+        "start": "2017-02-21 11:52:46 +0700",
+        "finish": "2017-02-21 11:52:48 +0700",
+        "time": 2.219834
+      },
+      "load": {
+        "start": "2017-02-21 11:52:49 +0700",
+        "finish": "2017-02-21 11:52:49 +0700",
+        "time": 0.76322
+      },
+      "main": {
+        "start": "2017-02-21 11:52:49 +0700",
+        "finish": "2017-02-21 11:52:50 +0700",
+        "time": 0.882562
+      },
+      "after": {
+        "start": "2017-02-21 11:52:51 +0700",
+        "finish": "2017-02-21 11:52:51 +0700",
+        "time": 0.000477
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:52:52 +0700",
+        "finish": "2017-02-21 11:52:58 +0700",
+        "time": 6.363191
+      },
+      "before": {
+        "start": "2017-02-21 11:52:58 +0700",
+        "finish": "2017-02-21 11:53:01 +0700",
+        "time": 2.22672
+      },
+      "load": {
+        "start": "2017-02-21 11:53:01 +0700",
+        "finish": "2017-02-21 11:53:01 +0700",
+        "time": 0.770022
+      },
+      "main": {
+        "start": "2017-02-21 11:53:02 +0700",
+        "finish": "2017-02-21 11:53:02 +0700",
+        "time": 0.890734
+      },
+      "after": {
+        "start": "2017-02-21 11:53:03 +0700",
+        "finish": "2017-02-21 11:53:03 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16.psd"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:53:04 +0700",
+        "finish": "2017-02-21 11:53:10 +0700",
+        "time": 6.339154
+      },
+      "before": {
+        "start": "2017-02-21 11:53:10 +0700",
+        "finish": "2017-02-21 11:53:12 +0700",
+        "time": 2.196401
+      },
+      "load": {
+        "start": "2017-02-21 11:53:13 +0700",
+        "finish": "2017-02-21 11:53:13 +0700",
+        "time": 0.813426
+      },
+      "main": {
+        "start": "2017-02-21 11:53:14 +0700",
+        "finish": "2017-02-21 11:53:14 +0700",
+        "time": 0.913306
+      },
+      "after": {
+        "start": "2017-02-21 11:53:15 +0700",
+        "finish": "2017-02-21 11:53:15 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:53:16 +0700",
+        "finish": "2017-02-21 11:53:22 +0700",
+        "time": 6.328861
+      },
+      "before": {
+        "start": "2017-02-21 11:53:22 +0700",
+        "finish": "2017-02-21 11:53:24 +0700",
+        "time": 2.223497
+      },
+      "load": {
+        "start": "2017-02-21 11:53:25 +0700",
+        "finish": "2017-02-21 11:53:25 +0700",
+        "time": 0.750192
+      },
+      "main": {
+        "start": "2017-02-21 11:53:26 +0700",
+        "finish": "2017-02-21 11:53:26 +0700",
+        "time": 0.914515
+      },
+      "after": {
+        "start": "2017-02-21 11:53:27 +0700",
+        "finish": "2017-02-21 11:53:27 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:53:28 +0700",
+        "finish": "2017-02-21 11:53:34 +0700",
+        "time": 6.343818
+      },
+      "before": {
+        "start": "2017-02-21 11:53:34 +0700",
+        "finish": "2017-02-21 11:53:37 +0700",
+        "time": 2.244711
+      },
+      "load": {
+        "start": "2017-02-21 11:53:37 +0700",
+        "finish": "2017-02-21 11:53:37 +0700",
+        "time": 0.798829
+      },
+      "main": {
+        "start": "2017-02-21 11:53:38 +0700",
+        "finish": "2017-02-21 11:53:38 +0700",
+        "time": 0.85441
+      },
+      "after": {
+        "start": "2017-02-21 11:53:39 +0700",
+        "finish": "2017-02-21 11:53:39 +0700",
+        "time": 0.000528
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17.svg"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:53:40 +0700",
+        "finish": "2017-02-21 11:53:46 +0700",
+        "time": 6.380908
+      },
+      "before": {
+        "start": "2017-02-21 11:53:46 +0700",
+        "finish": "2017-02-21 11:53:49 +0700",
+        "time": 2.277538
+      },
+      "load": {
+        "start": "2017-02-21 11:53:49 +0700",
+        "finish": "2017-02-21 11:53:49 +0700",
+        "time": 0.80106
+      },
+      "main": {
+        "start": "2017-02-21 11:53:50 +0700",
+        "finish": "2017-02-21 11:53:51 +0700",
+        "time": 0.95323
+      },
+      "after": {
+        "start": "2017-02-21 11:53:51 +0700",
+        "finish": "2017-02-21 11:53:51 +0700",
+        "time": 0.000475
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:53:52 +0700",
+        "finish": "2017-02-21 11:53:58 +0700",
+        "time": 6.354576
+      },
+      "before": {
+        "start": "2017-02-21 11:53:59 +0700",
+        "finish": "2017-02-21 11:54:01 +0700",
+        "time": 2.20804
+      },
+      "load": {
+        "start": "2017-02-21 11:54:01 +0700",
+        "finish": "2017-02-21 11:54:01 +0700",
+        "time": 0.447874
+      },
+      "main": {
+        "start": "2017-02-21 11:54:01 +0700",
+        "finish": "2017-02-21 11:54:03 +0700",
+        "time": 1.318677
+      },
+      "after": {
+        "start": "2017-02-21 11:54:03 +0700",
+        "finish": "2017-02-21 11:54:03 +0700",
+        "time": 0.000525
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:54:04 +0700",
+        "finish": "2017-02-21 11:54:11 +0700",
+        "time": 6.334563
+      },
+      "before": {
+        "start": "2017-02-21 11:54:11 +0700",
+        "finish": "2017-02-21 11:54:13 +0700",
+        "time": 2.275779
+      },
+      "load": {
+        "start": "2017-02-21 11:54:13 +0700",
+        "finish": "2017-02-21 11:54:13 +0700",
+        "time": 0.43215
+      },
+      "main": {
+        "start": "2017-02-21 11:54:14 +0700",
+        "finish": "2017-02-21 11:54:15 +0700",
+        "time": 1.340713
+      },
+      "after": {
+        "start": "2017-02-21 11:54:15 +0700",
+        "finish": "2017-02-21 11:54:15 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18.afdesign"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:54:16 +0700",
+        "finish": "2017-02-21 11:54:23 +0700",
+        "time": 6.345407
+      },
+      "before": {
+        "start": "2017-02-21 11:54:23 +0700",
+        "finish": "2017-02-21 11:54:25 +0700",
+        "time": 2.205435
+      },
+      "load": {
+        "start": "2017-02-21 11:54:25 +0700",
+        "finish": "2017-02-21 11:54:26 +0700",
+        "time": 0.755558
+      },
+      "main": {
+        "start": "2017-02-21 11:54:26 +0700",
+        "finish": "2017-02-21 11:54:27 +0700",
+        "time": 1.373582
+      },
+      "after": {
+        "start": "2017-02-21 11:54:27 +0700",
+        "finish": "2017-02-21 11:54:27 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:54:29 +0700",
+        "finish": "2017-02-21 11:54:35 +0700",
+        "time": 6.349265
+      },
+      "before": {
+        "start": "2017-02-21 11:54:35 +0700",
+        "finish": "2017-02-21 11:54:37 +0700",
+        "time": 2.26054
+      },
+      "load": {
+        "start": "2017-02-21 11:54:38 +0700",
+        "finish": "2017-02-21 11:54:39 +0700",
+        "time": 1.101204
+      },
+      "main": {
+        "start": "2017-02-21 11:54:39 +0700",
+        "finish": "2017-02-21 11:54:40 +0700",
+        "time": 0.928035
+      },
+      "after": {
+        "start": "2017-02-21 11:54:40 +0700",
+        "finish": "2017-02-21 11:54:40 +0700",
+        "time": 0.000506
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:54:41 +0700",
+        "finish": "2017-02-21 11:54:48 +0700",
+        "time": 6.378746
+      },
+      "before": {
+        "start": "2017-02-21 11:54:48 +0700",
+        "finish": "2017-02-21 11:54:50 +0700",
+        "time": 2.226169
+      },
+      "load": {
+        "start": "2017-02-21 11:54:50 +0700",
+        "finish": "2017-02-21 11:54:50 +0700",
+        "time": 0.43616
+      },
+      "main": {
+        "start": "2017-02-21 11:54:51 +0700",
+        "finish": "2017-02-21 11:54:52 +0700",
+        "time": 1.611512
+      },
+      "after": {
+        "start": "2017-02-21 11:54:52 +0700",
+        "finish": "2017-02-21 11:54:52 +0700",
+        "time": 0.000528
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19.eps"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:54:54 +0700",
+        "finish": "2017-02-21 11:55:00 +0700",
+        "time": 6.339675
+      },
+      "before": {
+        "start": "2017-02-21 11:55:00 +0700",
+        "finish": "2017-02-21 11:55:02 +0700",
+        "time": 2.310981
+      },
+      "load": {
+        "start": "2017-02-21 11:55:02 +0700",
+        "finish": "2017-02-21 11:55:03 +0700",
+        "time": 0.417913
+      },
+      "main": {
+        "start": "2017-02-21 11:55:03 +0700",
+        "finish": "2017-02-21 11:55:04 +0700",
+        "time": 1.31724
+      },
+      "after": {
+        "start": "2017-02-21 11:55:04 +0700",
+        "finish": "2017-02-21 11:55:04 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:55:06 +0700",
+        "finish": "2017-02-21 11:55:12 +0700",
+        "time": 6.417233
+      },
+      "before": {
+        "start": "2017-02-21 11:55:12 +0700",
+        "finish": "2017-02-21 11:55:14 +0700",
+        "time": 2.222563
+      },
+      "load": {
+        "start": "2017-02-21 11:55:15 +0700",
+        "finish": "2017-02-21 11:55:15 +0700",
+        "time": 0.744918
+      },
+      "main": {
+        "start": "2017-02-21 11:55:15 +0700",
+        "finish": "2017-02-21 11:55:16 +0700",
+        "time": 0.912834
+      },
+      "after": {
+        "start": "2017-02-21 11:55:17 +0700",
+        "finish": "2017-02-21 11:55:17 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:55:18 +0700",
+        "finish": "2017-02-21 11:55:24 +0700",
+        "time": 6.332931
+      },
+      "before": {
+        "start": "2017-02-21 11:55:24 +0700",
+        "finish": "2017-02-21 11:55:26 +0700",
+        "time": 2.228576
+      },
+      "load": {
+        "start": "2017-02-21 11:55:27 +0700",
+        "finish": "2017-02-21 11:55:27 +0700",
+        "time": 0.769146
+      },
+      "main": {
+        "start": "2017-02-21 11:55:27 +0700",
+        "finish": "2017-02-21 11:55:28 +0700",
+        "time": 0.911651
+      },
+      "after": {
+        "start": "2017-02-21 11:55:29 +0700",
+        "finish": "2017-02-21 11:55:29 +0700",
+        "time": 0.000499
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20.pdf"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:55:30 +0700",
+        "finish": "2017-02-21 11:55:36 +0700",
+        "time": 6.372967
+      },
+      "before": {
+        "start": "2017-02-21 11:55:36 +0700",
+        "finish": "2017-02-21 11:55:38 +0700",
+        "time": 2.250272
+      },
+      "load": {
+        "start": "2017-02-21 11:55:39 +0700",
+        "finish": "2017-02-21 11:55:40 +0700",
+        "time": 1.087236
+      },
+      "main": {
+        "start": "2017-02-21 11:55:40 +0700",
+        "finish": "2017-02-21 11:55:41 +0700",
+        "time": 0.921469
+      },
+      "after": {
+        "start": "2017-02-21 11:55:41 +0700",
+        "finish": "2017-02-21 11:55:41 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:55:42 +0700",
+        "finish": "2017-02-21 11:55:49 +0700",
+        "time": 6.31499
+      },
+      "before": {
+        "start": "2017-02-21 11:55:49 +0700",
+        "finish": "2017-02-21 11:55:51 +0700",
+        "time": 2.215062
+      },
+      "load": {
+        "start": "2017-02-21 11:55:51 +0700",
+        "finish": "2017-02-21 11:55:51 +0700",
+        "time": 0.427863
+      },
+      "main": {
+        "start": "2017-02-21 11:55:52 +0700",
+        "finish": "2017-02-21 11:55:53 +0700",
+        "time": 1.407639
+      },
+      "after": {
+        "start": "2017-02-21 11:55:53 +0700",
+        "finish": "2017-02-21 11:55:53 +0700",
+        "time": 0.000516
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:55:55 +0700",
+        "finish": "2017-02-21 11:56:01 +0700",
+        "time": 6.330995
+      },
+      "before": {
+        "start": "2017-02-21 11:56:01 +0700",
+        "finish": "2017-02-21 11:56:03 +0700",
+        "time": 2.28829
+      },
+      "load": {
+        "start": "2017-02-21 11:56:03 +0700",
+        "finish": "2017-02-21 11:56:04 +0700",
+        "time": 0.418497
+      },
+      "main": {
+        "start": "2017-02-21 11:56:04 +0700",
+        "finish": "2017-02-21 11:56:05 +0700",
+        "time": 1.453981
+      },
+      "after": {
+        "start": "2017-02-21 11:56:06 +0700",
+        "finish": "2017-02-21 11:56:06 +0700",
+        "time": 0.000475
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21.png"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:56:07 +0700",
+        "finish": "2017-02-21 11:56:13 +0700",
+        "time": 6.34395
+      },
+      "before": {
+        "start": "2017-02-21 11:56:13 +0700",
+        "finish": "2017-02-21 11:56:15 +0700",
+        "time": 2.276121
+      },
+      "load": {
+        "start": "2017-02-21 11:56:16 +0700",
+        "finish": "2017-02-21 11:56:16 +0700",
+        "time": 0.844597
+      },
+      "main": {
+        "start": "2017-02-21 11:56:17 +0700",
+        "finish": "2017-02-21 11:56:17 +0700",
+        "time": 0.869329
+      },
+      "after": {
+        "start": "2017-02-21 11:56:18 +0700",
+        "finish": "2017-02-21 11:56:18 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21.sql"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:56:19 +0700",
+        "finish": "2017-02-21 11:56:25 +0700",
+        "time": 6.322363
+      },
+      "before": {
+        "start": "2017-02-21 11:56:25 +0700",
+        "finish": "2017-02-21 11:56:28 +0700",
+        "time": 2.224589
+      },
+      "load": {
+        "start": "2017-02-21 11:56:28 +0700",
+        "finish": "2017-02-21 11:56:28 +0700",
+        "time": 0.790482
+      },
+      "main": {
+        "start": "2017-02-21 11:56:29 +0700",
+        "finish": "2017-02-21 11:56:30 +0700",
+        "time": 0.910067
+      },
+      "after": {
+        "start": "2017-02-21 11:56:30 +0700",
+        "finish": "2017-02-21 11:56:30 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:56:31 +0700",
+        "finish": "2017-02-21 11:56:37 +0700",
+        "time": 6.334562
+      },
+      "before": {
+        "start": "2017-02-21 11:56:37 +0700",
+        "finish": "2017-02-21 11:56:39 +0700",
+        "time": 2.151135
+      },
+      "load": {
+        "start": "2017-02-21 11:56:40 +0700",
+        "finish": "2017-02-21 11:56:40 +0700",
+        "time": 0.781076
+      },
+      "main": {
+        "start": "2017-02-21 11:56:40 +0700",
+        "finish": "2017-02-21 11:56:41 +0700",
+        "time": 0.844081
+      },
+      "after": {
+        "start": "2017-02-21 11:56:41 +0700",
+        "finish": "2017-02-21 11:56:41 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22.exe"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:56:43 +0700",
+        "finish": "2017-02-21 11:56:49 +0700",
+        "time": 6.340857
+      },
+      "before": {
+        "start": "2017-02-21 11:56:49 +0700",
+        "finish": "2017-02-21 11:56:51 +0700",
+        "time": 2.253123
+      },
+      "load": {
+        "start": "2017-02-21 11:56:52 +0700",
+        "finish": "2017-02-21 11:56:52 +0700",
+        "time": 0.768078
+      },
+      "main": {
+        "start": "2017-02-21 11:56:52 +0700",
+        "finish": "2017-02-21 11:56:53 +0700",
+        "time": 0.92021
+      },
+      "after": {
+        "start": "2017-02-21 11:56:54 +0700",
+        "finish": "2017-02-21 11:56:54 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:56:55 +0700",
+        "finish": "2017-02-21 11:57:01 +0700",
+        "time": 6.322203
+      },
+      "before": {
+        "start": "2017-02-21 11:57:01 +0700",
+        "finish": "2017-02-21 11:57:03 +0700",
+        "time": 2.236835
+      },
+      "load": {
+        "start": "2017-02-21 11:57:04 +0700",
+        "finish": "2017-02-21 11:57:04 +0700",
+        "time": 0.76212
+      },
+      "main": {
+        "start": "2017-02-21 11:57:04 +0700",
+        "finish": "2017-02-21 11:57:06 +0700",
+        "time": 1.190789
+      },
+      "after": {
+        "start": "2017-02-21 11:57:06 +0700",
+        "finish": "2017-02-21 11:57:06 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-21 11:57:07 +0700",
+        "finish": "2017-02-21 11:57:13 +0700",
+        "time": 6.386307
+      },
+      "before": {
+        "start": "2017-02-21 11:57:13 +0700",
+        "finish": "2017-02-21 11:57:16 +0700",
+        "time": 2.156931
+      },
+      "load": {
+        "start": "2017-02-21 11:57:16 +0700",
+        "finish": "2017-02-21 11:57:17 +0700",
+        "time": 0.856978
+      },
+      "main": {
+        "start": "2017-02-21 11:57:17 +0700",
+        "finish": "2017-02-21 11:57:18 +0700",
+        "time": 0.918027
+      },
+      "after": {
+        "start": "2017-02-21 11:57:18 +0700",
+        "finish": "2017-02-21 11:57:18 +0700",
+        "time": 0.000502
+      }
+    }
+  }
+]

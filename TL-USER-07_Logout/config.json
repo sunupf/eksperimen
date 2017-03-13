@@ -1,0 +1,25 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"email",
+      "selector": "[name='email']",
+      "name":"email",
+      "validation":["required","min:4","max:22"]
+    },
+    {
+      "type":"password",
+      "selector": "[name='password']",
+      "name":"password",
+      "validation":["required","min:8"]
+    }
+  ],
+  "startingUrl":"http://todo.app/home",
+  "data":"testCases.json"
+}

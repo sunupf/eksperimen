@@ -1,0 +1,1010 @@
+[
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "^required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": ""
+    },
+    "messages": [
+      "The user-avatar field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1.jpg"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/1"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2.png"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/2"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3.jpeg"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/3"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4.gif"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/4"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5.bmp"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5.sql"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/5"
+    },
+    "messages": [
+      "Avatar has been updated"
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6.php"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/6"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7.js"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/7"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8.exe"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/8"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9.doc"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/9"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10.xls"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/10"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11.odt"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/11"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12.ods"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/12"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13.sh"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/13"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14.rb"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/14"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15.py"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/15"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16.psd"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/16"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17.svg"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/17"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18.afdesign"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/18"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19.eps"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/19"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20.pdf"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/20"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21.png"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21.sql"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/21"
+    },
+    "messages": [
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22.exe"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22.sql"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  },
+  {
+    "rules": {
+      "[name='user-avatar']": [
+        "required",
+        "^mimes:jpg,jpeg,png,gif,bmp",
+        "^max:1000"
+      ]
+    },
+    "testCases": {
+      "[name='user-avatar']": "./images/22"
+    },
+    "messages": [
+      "The user-avatar must be a file of type: jpg, jpeg, png, gif, bmp.",
+      "The user-avatar may not be greater than 1000 kilobytes."
+    ]
+  }
+]

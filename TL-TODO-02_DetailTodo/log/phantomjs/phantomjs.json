@@ -1,0 +1,1397 @@
+[
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "valid:john@doe.com",
+        "belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/2/detail"
+    },
+    "messages": [
+      "You don't have any activities"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:29:27 +0700",
+        "finish": "2017-02-22 08:29:32 +0700",
+        "time": 5.288914
+      },
+      "before": {
+        "start": "2017-02-22 08:29:32 +0700",
+        "finish": "2017-02-22 08:29:34 +0700",
+        "time": 1.624164
+      },
+      "load": {
+        "start": "2017-02-22 08:29:34 +0700",
+        "finish": "2017-02-22 08:29:35 +0700",
+        "time": 0.426939
+      },
+      "main": {
+        "start": "2017-02-22 08:29:35 +0700",
+        "finish": "2017-02-22 08:29:35 +0700",
+        "time": 0.079162
+      },
+      "after": {
+        "start": "2017-02-22 08:29:35 +0700",
+        "finish": "2017-02-22 08:29:35 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "valid:john@doe.com",
+        "has_activity",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/5/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:29:35 +0700",
+        "finish": "2017-02-22 08:29:40 +0700",
+        "time": 5.278603
+      },
+      "before": {
+        "start": "2017-02-22 08:29:40 +0700",
+        "finish": "2017-02-22 08:29:42 +0700",
+        "time": 1.642859
+      },
+      "load": {
+        "start": "2017-02-22 08:29:42 +0700",
+        "finish": "2017-02-22 08:29:43 +0700",
+        "time": 0.41781
+      },
+      "main": {
+        "start": "2017-02-22 08:29:43 +0700",
+        "finish": "2017-02-22 08:29:43 +0700",
+        "time": 0.079775
+      },
+      "after": {
+        "start": "2017-02-22 08:29:43 +0700",
+        "finish": "2017-02-22 08:29:43 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "belongs",
+        "has_activity",
+        "^valid:john@doe.com"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/M)d,\\,e\"wR/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:29:43 +0700",
+        "finish": "2017-02-22 08:29:49 +0700",
+        "time": 5.288092
+      },
+      "before": {
+        "start": "2017-02-22 08:29:49 +0700",
+        "finish": "2017-02-22 08:29:50 +0700",
+        "time": 1.618349
+      },
+      "load": {
+        "start": "2017-02-22 08:29:50 +0700",
+        "finish": "2017-02-22 08:29:51 +0700",
+        "time": 0.434206
+      },
+      "main": {
+        "start": "2017-02-22 08:29:51 +0700",
+        "finish": "2017-02-22 08:29:51 +0700",
+        "time": 0.078192
+      },
+      "after": {
+        "start": "2017-02-22 08:29:51 +0700",
+        "finish": "2017-02-22 08:29:51 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "valid:john@doe.com",
+        "belongs",
+        "has_activity",
+        "^numeric_id"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/d/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:29:51 +0700",
+        "finish": "2017-02-22 08:29:57 +0700",
+        "time": 5.287689
+      },
+      "before": {
+        "start": "2017-02-22 08:29:57 +0700",
+        "finish": "2017-02-22 08:29:58 +0700",
+        "time": 1.63514
+      },
+      "load": {
+        "start": "2017-02-22 08:29:58 +0700",
+        "finish": "2017-02-22 08:29:59 +0700",
+        "time": 0.418063
+      },
+      "main": {
+        "start": "2017-02-22 08:29:59 +0700",
+        "finish": "2017-02-22 08:29:59 +0700",
+        "time": 0.078714
+      },
+      "after": {
+        "start": "2017-02-22 08:29:59 +0700",
+        "finish": "2017-02-22 08:29:59 +0700",
+        "time": 0.000503
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "valid:john@doe.com",
+        "belongs",
+        "has_activity",
+        "^required_id"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:29:59 +0700",
+        "finish": "2017-02-22 08:30:05 +0700",
+        "time": 5.278405
+      },
+      "before": {
+        "start": "2017-02-22 08:30:05 +0700",
+        "finish": "2017-02-22 08:30:07 +0700",
+        "time": 1.904151
+      },
+      "load": {
+        "start": "2017-02-22 08:30:07 +0700",
+        "finish": "2017-02-22 08:30:07 +0700",
+        "time": 0.213066
+      },
+      "main": {
+        "start": "2017-02-22 08:30:07 +0700",
+        "finish": "2017-02-22 08:30:07 +0700",
+        "time": 0.086229
+      },
+      "after": {
+        "start": "2017-02-22 08:30:07 +0700",
+        "finish": "2017-02-22 08:30:07 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "valid:john@doe.com",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/5/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:08 +0700",
+        "finish": "2017-02-22 08:30:13 +0700",
+        "time": 5.302217
+      },
+      "before": {
+        "start": "2017-02-22 08:30:13 +0700",
+        "finish": "2017-02-22 08:30:15 +0700",
+        "time": 1.884234
+      },
+      "load": {
+        "start": "2017-02-22 08:30:15 +0700",
+        "finish": "2017-02-22 08:30:15 +0700",
+        "time": 0.429642
+      },
+      "main": {
+        "start": "2017-02-22 08:30:16 +0700",
+        "finish": "2017-02-22 08:30:16 +0700",
+        "time": 0.112299
+      },
+      "after": {
+        "start": "2017-02-22 08:30:16 +0700",
+        "finish": "2017-02-22 08:30:16 +0700",
+        "time": 0.002005
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "belongs",
+        "^valid:john@doe.com",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/DNW3q3..{3qexn.ee{%@ekvIgVv1CA\"d{=d[e'oucyrJLJ0;Q<cAE~1QvU_aE+M+),.n,B6Rr@F[qvL2$lD^/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:16 +0700",
+        "finish": "2017-02-22 08:30:21 +0700",
+        "time": 5.280259
+      },
+      "before": {
+        "start": "2017-02-22 08:30:21 +0700",
+        "finish": "2017-02-22 08:30:23 +0700",
+        "time": 1.732066
+      },
+      "load": {
+        "start": "2017-02-22 08:30:23 +0700",
+        "finish": "2017-02-22 08:30:24 +0700",
+        "time": 0.420158
+      },
+      "main": {
+        "start": "2017-02-22 08:30:24 +0700",
+        "finish": "2017-02-22 08:30:24 +0700",
+        "time": 0.078265
+      },
+      "after": {
+        "start": "2017-02-22 08:30:24 +0700",
+        "finish": "2017-02-22 08:30:24 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "has_activity",
+        "^valid:john@doe.com",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/5/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:24 +0700",
+        "finish": "2017-02-22 08:30:30 +0700",
+        "time": 5.287375
+      },
+      "before": {
+        "start": "2017-02-22 08:30:30 +0700",
+        "finish": "2017-02-22 08:30:31 +0700",
+        "time": 1.665523
+      },
+      "load": {
+        "start": "2017-02-22 08:30:31 +0700",
+        "finish": "2017-02-22 08:30:32 +0700",
+        "time": 0.414041
+      },
+      "main": {
+        "start": "2017-02-22 08:30:32 +0700",
+        "finish": "2017-02-22 08:30:32 +0700",
+        "time": 0.078222
+      },
+      "after": {
+        "start": "2017-02-22 08:30:32 +0700",
+        "finish": "2017-02-22 08:30:32 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "valid:john@doe.com",
+        "belongs",
+        "^numeric_id",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/b/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:32 +0700",
+        "finish": "2017-02-22 08:30:38 +0700",
+        "time": 5.286931
+      },
+      "before": {
+        "start": "2017-02-22 08:30:38 +0700",
+        "finish": "2017-02-22 08:30:39 +0700",
+        "time": 1.64424
+      },
+      "load": {
+        "start": "2017-02-22 08:30:40 +0700",
+        "finish": "2017-02-22 08:30:40 +0700",
+        "time": 0.41853
+      },
+      "main": {
+        "start": "2017-02-22 08:30:40 +0700",
+        "finish": "2017-02-22 08:30:40 +0700",
+        "time": 0.079661
+      },
+      "after": {
+        "start": "2017-02-22 08:30:40 +0700",
+        "finish": "2017-02-22 08:30:40 +0700",
+        "time": 0.000514
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "valid:john@doe.com",
+        "has_activity",
+        "^numeric_id",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/b/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:41 +0700",
+        "finish": "2017-02-22 08:30:46 +0700",
+        "time": 5.277647
+      },
+      "before": {
+        "start": "2017-02-22 08:30:46 +0700",
+        "finish": "2017-02-22 08:30:47 +0700",
+        "time": 1.657887
+      },
+      "load": {
+        "start": "2017-02-22 08:30:48 +0700",
+        "finish": "2017-02-22 08:30:48 +0700",
+        "time": 0.417581
+      },
+      "main": {
+        "start": "2017-02-22 08:30:48 +0700",
+        "finish": "2017-02-22 08:30:48 +0700",
+        "time": 0.079157
+      },
+      "after": {
+        "start": "2017-02-22 08:30:48 +0700",
+        "finish": "2017-02-22 08:30:48 +0700",
+        "time": 0.000512
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "belongs",
+        "has_activity",
+        "^numeric_id",
+        "^valid:john@doe.com"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/e/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:49 +0700",
+        "finish": "2017-02-22 08:30:54 +0700",
+        "time": 5.278017
+      },
+      "before": {
+        "start": "2017-02-22 08:30:54 +0700",
+        "finish": "2017-02-22 08:30:56 +0700",
+        "time": 1.651958
+      },
+      "load": {
+        "start": "2017-02-22 08:30:56 +0700",
+        "finish": "2017-02-22 08:30:56 +0700",
+        "time": 0.425666
+      },
+      "main": {
+        "start": "2017-02-22 08:30:56 +0700",
+        "finish": "2017-02-22 08:30:56 +0700",
+        "time": 0.078682
+      },
+      "after": {
+        "start": "2017-02-22 08:30:56 +0700",
+        "finish": "2017-02-22 08:30:56 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "valid:john@doe.com",
+        "belongs",
+        "^required_id",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:30:57 +0700",
+        "finish": "2017-02-22 08:31:02 +0700",
+        "time": 5.28804
+      },
+      "before": {
+        "start": "2017-02-22 08:31:02 +0700",
+        "finish": "2017-02-22 08:31:04 +0700",
+        "time": 1.622899
+      },
+      "load": {
+        "start": "2017-02-22 08:31:04 +0700",
+        "finish": "2017-02-22 08:31:04 +0700",
+        "time": 0.218301
+      },
+      "main": {
+        "start": "2017-02-22 08:31:04 +0700",
+        "finish": "2017-02-22 08:31:04 +0700",
+        "time": 0.079211
+      },
+      "after": {
+        "start": "2017-02-22 08:31:04 +0700",
+        "finish": "2017-02-22 08:31:04 +0700",
+        "time": 0.000505
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "valid:john@doe.com",
+        "has_activity",
+        "^required_id",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:05 +0700",
+        "finish": "2017-02-22 08:31:10 +0700",
+        "time": 5.289521
+      },
+      "before": {
+        "start": "2017-02-22 08:31:10 +0700",
+        "finish": "2017-02-22 08:31:12 +0700",
+        "time": 1.650284
+      },
+      "load": {
+        "start": "2017-02-22 08:31:12 +0700",
+        "finish": "2017-02-22 08:31:12 +0700",
+        "time": 0.220321
+      },
+      "main": {
+        "start": "2017-02-22 08:31:12 +0700",
+        "finish": "2017-02-22 08:31:12 +0700",
+        "time": 0.078709
+      },
+      "after": {
+        "start": "2017-02-22 08:31:12 +0700",
+        "finish": "2017-02-22 08:31:12 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "belongs",
+        "has_activity",
+        "^required_id",
+        "^valid:john@doe.com"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:13 +0700",
+        "finish": "2017-02-22 08:31:18 +0700",
+        "time": 5.288146
+      },
+      "before": {
+        "start": "2017-02-22 08:31:18 +0700",
+        "finish": "2017-02-22 08:31:20 +0700",
+        "time": 1.778885
+      },
+      "load": {
+        "start": "2017-02-22 08:31:20 +0700",
+        "finish": "2017-02-22 08:31:20 +0700",
+        "time": 0.219329
+      },
+      "main": {
+        "start": "2017-02-22 08:31:20 +0700",
+        "finish": "2017-02-22 08:31:20 +0700",
+        "time": 0.07875
+      },
+      "after": {
+        "start": "2017-02-22 08:31:20 +0700",
+        "finish": "2017-02-22 08:31:20 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "valid:john@doe.com",
+        "belongs",
+        "has_activity",
+        "^required_id",
+        "^numeric_id"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:20 +0700",
+        "finish": "2017-02-22 08:31:26 +0700",
+        "time": 5.278699
+      },
+      "before": {
+        "start": "2017-02-22 08:31:26 +0700",
+        "finish": "2017-02-22 08:31:27 +0700",
+        "time": 1.647985
+      },
+      "load": {
+        "start": "2017-02-22 08:31:28 +0700",
+        "finish": "2017-02-22 08:31:28 +0700",
+        "time": 0.221543
+      },
+      "main": {
+        "start": "2017-02-22 08:31:28 +0700",
+        "finish": "2017-02-22 08:31:28 +0700",
+        "time": 0.079211
+      },
+      "after": {
+        "start": "2017-02-22 08:31:28 +0700",
+        "finish": "2017-02-22 08:31:28 +0700",
+        "time": 0.000504
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "numeric_id",
+        "^valid:john@doe.com",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/5/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:28 +0700",
+        "finish": "2017-02-22 08:31:34 +0700",
+        "time": 5.287023
+      },
+      "before": {
+        "start": "2017-02-22 08:31:34 +0700",
+        "finish": "2017-02-22 08:31:35 +0700",
+        "time": 1.736901
+      },
+      "load": {
+        "start": "2017-02-22 08:31:36 +0700",
+        "finish": "2017-02-22 08:31:36 +0700",
+        "time": 0.418904
+      },
+      "main": {
+        "start": "2017-02-22 08:31:36 +0700",
+        "finish": "2017-02-22 08:31:36 +0700",
+        "time": 0.07867
+      },
+      "after": {
+        "start": "2017-02-22 08:31:36 +0700",
+        "finish": "2017-02-22 08:31:36 +0700",
+        "time": 0.000471
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "valid:john@doe.com",
+        "^numeric_id",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/c/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:37 +0700",
+        "finish": "2017-02-22 08:31:42 +0700",
+        "time": 5.280331
+      },
+      "before": {
+        "start": "2017-02-22 08:31:42 +0700",
+        "finish": "2017-02-22 08:31:44 +0700",
+        "time": 1.862064
+      },
+      "load": {
+        "start": "2017-02-22 08:31:44 +0700",
+        "finish": "2017-02-22 08:31:44 +0700",
+        "time": 0.41678
+      },
+      "main": {
+        "start": "2017-02-22 08:31:44 +0700",
+        "finish": "2017-02-22 08:31:44 +0700",
+        "time": 0.079191
+      },
+      "after": {
+        "start": "2017-02-22 08:31:45 +0700",
+        "finish": "2017-02-22 08:31:45 +0700",
+        "time": 0.000502
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "belongs",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/b/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:45 +0700",
+        "finish": "2017-02-22 08:31:50 +0700",
+        "time": 5.280213
+      },
+      "before": {
+        "start": "2017-02-22 08:31:50 +0700",
+        "finish": "2017-02-22 08:31:52 +0700",
+        "time": 1.827427
+      },
+      "load": {
+        "start": "2017-02-22 08:31:52 +0700",
+        "finish": "2017-02-22 08:31:53 +0700",
+        "time": 0.414149
+      },
+      "main": {
+        "start": "2017-02-22 08:31:53 +0700",
+        "finish": "2017-02-22 08:31:53 +0700",
+        "time": 0.090472
+      },
+      "after": {
+        "start": "2017-02-22 08:31:53 +0700",
+        "finish": "2017-02-22 08:31:53 +0700",
+        "time": 0.000497
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "has_activity",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/c/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:31:53 +0700",
+        "finish": "2017-02-22 08:31:58 +0700",
+        "time": 5.289729
+      },
+      "before": {
+        "start": "2017-02-22 08:31:59 +0700",
+        "finish": "2017-02-22 08:32:00 +0700",
+        "time": 1.771758
+      },
+      "load": {
+        "start": "2017-02-22 08:32:00 +0700",
+        "finish": "2017-02-22 08:32:01 +0700",
+        "time": 0.313085
+      },
+      "main": {
+        "start": "2017-02-22 08:32:01 +0700",
+        "finish": "2017-02-22 08:32:01 +0700",
+        "time": 0.082488
+      },
+      "after": {
+        "start": "2017-02-22 08:32:01 +0700",
+        "finish": "2017-02-22 08:32:01 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "valid:john@doe.com",
+        "^required_id",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:01 +0700",
+        "finish": "2017-02-22 08:32:07 +0700",
+        "time": 5.290047
+      },
+      "before": {
+        "start": "2017-02-22 08:32:07 +0700",
+        "finish": "2017-02-22 08:32:09 +0700",
+        "time": 1.862229
+      },
+      "load": {
+        "start": "2017-02-22 08:32:09 +0700",
+        "finish": "2017-02-22 08:32:09 +0700",
+        "time": 0.219906
+      },
+      "main": {
+        "start": "2017-02-22 08:32:09 +0700",
+        "finish": "2017-02-22 08:32:09 +0700",
+        "time": 0.08272
+      },
+      "after": {
+        "start": "2017-02-22 08:32:09 +0700",
+        "finish": "2017-02-22 08:32:09 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "belongs",
+        "^required_id",
+        "^valid:john@doe.com",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:09 +0700",
+        "finish": "2017-02-22 08:32:15 +0700",
+        "time": 5.28871
+      },
+      "before": {
+        "start": "2017-02-22 08:32:15 +0700",
+        "finish": "2017-02-22 08:32:17 +0700",
+        "time": 1.853201
+      },
+      "load": {
+        "start": "2017-02-22 08:32:17 +0700",
+        "finish": "2017-02-22 08:32:17 +0700",
+        "time": 0.219812
+      },
+      "main": {
+        "start": "2017-02-22 08:32:17 +0700",
+        "finish": "2017-02-22 08:32:17 +0700",
+        "time": 0.09024
+      },
+      "after": {
+        "start": "2017-02-22 08:32:17 +0700",
+        "finish": "2017-02-22 08:32:17 +0700",
+        "time": 0.001504
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "has_activity",
+        "^required_id",
+        "^valid:john@doe.com",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:18 +0700",
+        "finish": "2017-02-22 08:32:23 +0700",
+        "time": 5.291262
+      },
+      "before": {
+        "start": "2017-02-22 08:32:23 +0700",
+        "finish": "2017-02-22 08:32:25 +0700",
+        "time": 1.876034
+      },
+      "load": {
+        "start": "2017-02-22 08:32:25 +0700",
+        "finish": "2017-02-22 08:32:25 +0700",
+        "time": 0.217473
+      },
+      "main": {
+        "start": "2017-02-22 08:32:25 +0700",
+        "finish": "2017-02-22 08:32:25 +0700",
+        "time": 0.100091
+      },
+      "after": {
+        "start": "2017-02-22 08:32:25 +0700",
+        "finish": "2017-02-22 08:32:25 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "valid:john@doe.com",
+        "belongs",
+        "^required_id",
+        "^numeric_id",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:26 +0700",
+        "finish": "2017-02-22 08:32:31 +0700",
+        "time": 5.279845
+      },
+      "before": {
+        "start": "2017-02-22 08:32:31 +0700",
+        "finish": "2017-02-22 08:32:33 +0700",
+        "time": 1.820992
+      },
+      "load": {
+        "start": "2017-02-22 08:32:33 +0700",
+        "finish": "2017-02-22 08:32:33 +0700",
+        "time": 0.21947
+      },
+      "main": {
+        "start": "2017-02-22 08:32:33 +0700",
+        "finish": "2017-02-22 08:32:33 +0700",
+        "time": 0.089126
+      },
+      "after": {
+        "start": "2017-02-22 08:32:33 +0700",
+        "finish": "2017-02-22 08:32:33 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "valid:john@doe.com",
+        "has_activity",
+        "^required_id",
+        "^numeric_id",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:34 +0700",
+        "finish": "2017-02-22 08:32:39 +0700",
+        "time": 5.289629
+      },
+      "before": {
+        "start": "2017-02-22 08:32:39 +0700",
+        "finish": "2017-02-22 08:32:41 +0700",
+        "time": 1.812408
+      },
+      "load": {
+        "start": "2017-02-22 08:32:41 +0700",
+        "finish": "2017-02-22 08:32:41 +0700",
+        "time": 0.221092
+      },
+      "main": {
+        "start": "2017-02-22 08:32:41 +0700",
+        "finish": "2017-02-22 08:32:41 +0700",
+        "time": 0.081745
+      },
+      "after": {
+        "start": "2017-02-22 08:32:42 +0700",
+        "finish": "2017-02-22 08:32:42 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "belongs",
+        "has_activity",
+        "^required_id",
+        "^numeric_id",
+        "^valid:john@doe.com"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:42 +0700",
+        "finish": "2017-02-22 08:32:47 +0700",
+        "time": 5.289657
+      },
+      "before": {
+        "start": "2017-02-22 08:32:47 +0700",
+        "finish": "2017-02-22 08:32:49 +0700",
+        "time": 1.824738
+      },
+      "load": {
+        "start": "2017-02-22 08:32:49 +0700",
+        "finish": "2017-02-22 08:32:49 +0700",
+        "time": 0.219375
+      },
+      "main": {
+        "start": "2017-02-22 08:32:49 +0700",
+        "finish": "2017-02-22 08:32:49 +0700",
+        "time": 0.089001
+      },
+      "after": {
+        "start": "2017-02-22 08:32:50 +0700",
+        "finish": "2017-02-22 08:32:50 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "required_id",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo/d/detail"
+    },
+    "messages": [
+      "You don't have any priviledge to see this todo, Are you sure this is your Todo Item?"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:50 +0700",
+        "finish": "2017-02-22 08:32:55 +0700",
+        "time": 5.280079
+      },
+      "before": {
+        "start": "2017-02-22 08:32:55 +0700",
+        "finish": "2017-02-22 08:32:57 +0700",
+        "time": 1.79517
+      },
+      "load": {
+        "start": "2017-02-22 08:32:57 +0700",
+        "finish": "2017-02-22 08:32:57 +0700",
+        "time": 0.417324
+      },
+      "main": {
+        "start": "2017-02-22 08:32:58 +0700",
+        "finish": "2017-02-22 08:32:58 +0700",
+        "time": 0.079716
+      },
+      "after": {
+        "start": "2017-02-22 08:32:58 +0700",
+        "finish": "2017-02-22 08:32:58 +0700",
+        "time": 0.000501
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "numeric_id",
+        "^required_id",
+        "^valid:john@doe.com",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:32:58 +0700",
+        "finish": "2017-02-22 08:33:04 +0700",
+        "time": 5.290392
+      },
+      "before": {
+        "start": "2017-02-22 08:33:04 +0700",
+        "finish": "2017-02-22 08:33:05 +0700",
+        "time": 1.807689
+      },
+      "load": {
+        "start": "2017-02-22 08:33:06 +0700",
+        "finish": "2017-02-22 08:33:06 +0700",
+        "time": 0.219984
+      },
+      "main": {
+        "start": "2017-02-22 08:33:06 +0700",
+        "finish": "2017-02-22 08:33:06 +0700",
+        "time": 0.089742
+      },
+      "after": {
+        "start": "2017-02-22 08:33:06 +0700",
+        "finish": "2017-02-22 08:33:06 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "valid:john@doe.com",
+        "^required_id",
+        "^numeric_id",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:33:06 +0700",
+        "finish": "2017-02-22 08:33:12 +0700",
+        "time": 5.278783
+      },
+      "before": {
+        "start": "2017-02-22 08:33:12 +0700",
+        "finish": "2017-02-22 08:33:13 +0700",
+        "time": 1.822174
+      },
+      "load": {
+        "start": "2017-02-22 08:33:14 +0700",
+        "finish": "2017-02-22 08:33:14 +0700",
+        "time": 0.219739
+      },
+      "main": {
+        "start": "2017-02-22 08:33:14 +0700",
+        "finish": "2017-02-22 08:33:14 +0700",
+        "time": 0.089251
+      },
+      "after": {
+        "start": "2017-02-22 08:33:14 +0700",
+        "finish": "2017-02-22 08:33:14 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "belongs",
+        "^required_id",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:33:14 +0700",
+        "finish": "2017-02-22 08:33:20 +0700",
+        "time": 5.288275
+      },
+      "before": {
+        "start": "2017-02-22 08:33:20 +0700",
+        "finish": "2017-02-22 08:33:22 +0700",
+        "time": 1.948122
+      },
+      "load": {
+        "start": "2017-02-22 08:33:22 +0700",
+        "finish": "2017-02-22 08:33:22 +0700",
+        "time": 0.21849
+      },
+      "main": {
+        "start": "2017-02-22 08:33:22 +0700",
+        "finish": "2017-02-22 08:33:22 +0700",
+        "time": 0.092016
+      },
+      "after": {
+        "start": "2017-02-22 08:33:22 +0700",
+        "finish": "2017-02-22 08:33:22 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "has_activity",
+        "^required_id",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^belongs"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:33:23 +0700",
+        "finish": "2017-02-22 08:33:28 +0700",
+        "time": 5.289203
+      },
+      "before": {
+        "start": "2017-02-22 08:33:28 +0700",
+        "finish": "2017-02-22 08:33:30 +0700",
+        "time": 1.80552
+      },
+      "load": {
+        "start": "2017-02-22 08:33:30 +0700",
+        "finish": "2017-02-22 08:33:30 +0700",
+        "time": 0.221271
+      },
+      "main": {
+        "start": "2017-02-22 08:33:30 +0700",
+        "finish": "2017-02-22 08:33:30 +0700",
+        "time": 0.078709
+      },
+      "after": {
+        "start": "2017-02-22 08:33:30 +0700",
+        "finish": "2017-02-22 08:33:30 +0700",
+        "time": 0.0
+      }
+    }
+  },
+  {
+    "rules": {
+      "startingUrl": [
+        "^required_id",
+        "^numeric_id",
+        "^valid:john@doe.com",
+        "^belongs",
+        "^has_activity"
+      ]
+    },
+    "testCases": {
+      "startingUrl": "http://todo.app/todo//detail"
+    },
+    "messages": [
+      "The Page that you requested is not found"
+    ],
+    "assertion": true,
+    "time": {
+      "initialize": {
+        "start": "2017-02-22 08:33:31 +0700",
+        "finish": "2017-02-22 08:33:36 +0700",
+        "time": 5.280164
+      },
+      "before": {
+        "start": "2017-02-22 08:33:36 +0700",
+        "finish": "2017-02-22 08:33:38 +0700",
+        "time": 1.795935
+      },
+      "load": {
+        "start": "2017-02-22 08:33:38 +0700",
+        "finish": "2017-02-22 08:33:38 +0700",
+        "time": 0.219169
+      },
+      "main": {
+        "start": "2017-02-22 08:33:38 +0700",
+        "finish": "2017-02-22 08:33:38 +0700",
+        "time": 0.091226
+      },
+      "after": {
+        "start": "2017-02-22 08:33:38 +0700",
+        "finish": "2017-02-22 08:33:38 +0700",
+        "time": 0.0
+      }
+    }
+  }
+]

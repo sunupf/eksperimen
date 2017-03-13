@@ -1,0 +1,122 @@
+[
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "max:20"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ">Lbi"
+    },
+    "messages": [
+      "Created!"
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "min:4",
+        "^max:20"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "[$ql=;iRn)'q@0/OzB|J@$WsXsO\\6@h\"h^Wb5EP<^08JfES#7Hi4@j>xKCYX3Fv<zDcpPC4RX{MPFG|cpA0~ZAS<~Eyg,#LC8NyLJpS^$`"
+    },
+    "messages": [
+      "The name may not be greater than 20 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "max:20",
+        "^min:4"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "j5"
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "max:20",
+        "^required"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "required",
+        "^min:4",
+        "^max:20"
+      ]
+    },
+    "testCases": {
+      "[name='name']": "Z>"
+    },
+    "messages": [
+      "The name must be at least 4 characters."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "min:4",
+        "^required",
+        "^max:20"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "max:20",
+        "^required",
+        "^min:4"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  },
+  {
+    "rules": {
+      "[name='name']": [
+        "^required",
+        "^min:4",
+        "^max:20"
+      ]
+    },
+    "testCases": {
+      "[name='name']": ""
+    },
+    "messages": [
+      "The name field is required."
+    ]
+  }
+]

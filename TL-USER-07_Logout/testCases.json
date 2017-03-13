@@ -1,0 +1,20 @@
+[
+  {
+    "testCases": {
+      "[name='email']": "john@doe.com",
+      "[name='password']": "qweasd123"
+    },
+    "messages": [
+      "login"
+    ]
+  },
+  {
+    "testCases": {
+      "[name='email']": "jane@doe.com",
+      "[name='password']": "qweasd123"
+    },
+    "messages": [
+      "login"
+    ]
+  }
+]
