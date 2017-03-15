@@ -6,7 +6,7 @@ class BeforeTest
     @driver =  driver
   end
   def run
-    @driver.manage.window.maximize
+    # @driver.manage.window.maximize
     @driver.get "http://todo.app/"
     element = @driver.find_element :css => '[name="email"]'
     element.send_keys "john@doe.com"
