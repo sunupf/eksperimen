@@ -11,7 +11,7 @@
       "type":"url",
       "selector": "target",
       "name":"url",
-      "validation":["required_id","required_parent_id","numeric_id","numeric_parent_id","belongs_id","belongs_id_to_parent_id","belongs_parent_id","valid:john@doe.com"]
+      "validation":["required_id","numeric_id","belongs_id","valid:john@doe.com"]
     },
     {
       "type":"name",
