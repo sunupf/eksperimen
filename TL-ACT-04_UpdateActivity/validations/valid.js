@@ -20,16 +20,18 @@ var valid = function(param){
      
     //text queries 
     //query masih fail
-    var data = client.querySync("SELECT id from activities where todo_id in (SELECT id FROM todos where user_id in (SELECT id from users where email='"+user+"'))")
+    var data = client.querySync("SELECT id,todo_id from activities where todo_id in (SELECT id FROM todos where user_id in (SELECT id from users where email='"+user+"'))")
     // var indexValidTodoId = _.findIndex(data, function(datum) { return datum.todo_id == value; });
     var i = Math.floor(Math.random() * (data.length) );
     id = parseInt(data[i].id)
+    todoId = parseInt(data[i].todo_id)
 
     var indexActNotBelongs = _.findIndex(param.validations, function(validation) { return validation == "^belongs_id"; });
     if(indexActNotBelongs>=0){
-      var data = client.querySync("SELECT id from activities where todo_id not in (SELECT id FROM todos where user_id in (SELECT id from users where email='"+user+"'))")
+      var data = client.querySync("SELECT id,todo_id from activities where todo_id not in (SELECT id FROM todos where user_id in (SELECT id from users where email='"+user+"'))")
       var i = Math.floor(Math.random() * (data.length) );
       id = parseInt(data[i].id)
+      todoId = parseInt(data[i].todo_id)
     }
 
     var indexActNotNumeric = _.findIndex(param.validations, function(validation) { return validation == "^numeric_id"; });
@@ -37,15 +39,17 @@ var valid = function(param){
       var character = ['a','b','c','d','e']
       var o = Math.floor(Math.random() * (character.length) );
       id = character[o]
+      todoId = 0
     }
 
     var indexActNotBelongs = _.findIndex(param.validations, function(validation) { return validation == "^required_id"; });
     if(indexActNotBelongs >= 0){
       id = ""
+      todoId = 0
     }
 
     client.end();
-    return "http://todo.app/activity/"+id;
+    return "http://todo.app/activity/"+id+"#"+todoId;
   }
 
   return callback;

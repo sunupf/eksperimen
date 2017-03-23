@@ -13,7 +13,7 @@ var date = function(param){
     if(!param.negation){
       return dateString;
     }else{
-      return Math.floor(Math.random() * (2000-1960+1)) + 1960+""
+      return "Date"+dateString;
     }
   }
 

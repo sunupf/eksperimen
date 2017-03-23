@@ -16,22 +16,21 @@
     {
       "type":"name",
       "selector": "[name='name']",
-      "name":"activity name",
+      "name":"name",
       "validation":["required","min:4","max:25"]
     },
     {
       "type":"date",
       "selector": "[name='due']",
-      "name":"due date",
+      "name":"due",
       "validation":["required","date"]
     },
     {
       "type":"text",
       "selector": "[name='description']",
-      "name":"activity description",
+      "name":"description",
       "validation":["required"]
     }
   ],
-  "startingUrl":"http://todo.app/home",
   "data":"testCases.json"
 }

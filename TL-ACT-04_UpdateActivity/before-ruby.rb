@@ -7,6 +7,7 @@ class BeforeTest
   end
   def run
     # Here some example
+    @driver.manage.window.maximize
     @driver.get "http://todo.app/"
     element = @driver.find_element :css => '[name="email"]'
     element.send_keys "john@doe.com"
@@ -16,10 +17,22 @@ class BeforeTest
 
     buttonSubmit = @driver.find_element :css => ".uk-button-primary"
     buttonSubmit.click
-    #
-    wait = Selenium::WebDriver::Wait.new(:timeout => 30)
-    wait.until { @driver.find_element :css => "ul.users" }
 
-    # puts "Page title is #{@driver.title}"
+    wait = Selenium::WebDriver::Wait.new(:timeout => 30)
+    wait.until { @driver.find_element(:css => '#todo-list').displayed? }
+
+    url = @testCase['testCases']['target'];
+    splitedUrl = url.split("#");
+    if(splitedUrl.length > 1)
+      id = splitedUrl.last
+    else
+      id = 0
+    end
+
+    todo = @driver.find_elements :css => "#todo-#{id} .title"
+    if todo.empty?
+      todo = @driver.find_elements :css => "#todo-list li:last-child a"
+    end
+    todo[0].click
   end
 end
