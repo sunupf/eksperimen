@@ -1,0 +1,2 @@
+1. swap no 1 and no 2 data
+2. "The confirm must be a number." -> remove semua message yang mengandung pesan tersebut

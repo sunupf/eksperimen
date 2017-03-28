@@ -17,8 +17,8 @@ class Test
 
 
     begin
-      element = @driver.find_element :css => "#activity-#{id} li"
-      delete = @driver.find_element :css => "#activity-#{id} li a.delete"
+      element = @driver.find_element :css => "#activity-#{id}"
+      delete = @driver.find_element :css => "#activity-#{id} a.delete"
       puts "id"
     rescue
       puts "first"

@@ -12,6 +12,47 @@ var validations = {
       return false
     }
     return true;
+  },
+  'numeric_id' : function(input,req,attribute){
+    return true
+  },
+  'required_id' : function(input,req,attribute){
+    return true
+  },
+  'belongs_id' : function(input,req,attribute){
+    return true
+  },
+  'check' : function(input,req,attribute){
+    return true
+  },
+  'valid': function(input,req,attribute){
+    var user = req
+
+    spliting = (input.split("/check#"));
+
+    ids = (spliting[0].split("/"));
+    id = parseInt(ids[ids.length-1]);
+
+    if(isNaN(id)){
+      return false
+    }
+    
+    // require pg
+    var dotenv = require('dotenv').config({'path':'../.env'});
+    var Client = require('pg-native');
+    var _ = require('lodash');
+
+    var client = new Client();
+    client.connectSync();
+     
+    //text queries 
+    //query masih fail
+    var data = client.querySync("SELECT id from activities where todo_id in (SELECT id FROM todos where user_id in (SELECT id from users where email='"+user+"')) AND id="+id)
+    client.end()
+    if(data.length>0){
+      return true;
+    }
+    return false
   }
 }
 

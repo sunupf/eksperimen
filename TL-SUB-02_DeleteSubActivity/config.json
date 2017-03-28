@@ -1,0 +1,25 @@
+{
+  "browsers":"firefox",
+  "before":"before-ruby.rb",
+  "after":"after-ruby.rb",
+  "scenario":"test-ruby.rb",
+  "customValidation":"validation.js",
+  "screenshot":true,
+  "screenshotPath":"./image",
+  "input":[
+    {
+      "type":"url",
+      "selector": "target",
+      "name":"url",
+      "validation":["required_id","numeric_id","belongs","valid:john@doe.com"]
+    },
+    {
+      "type":"boolean",
+      "selector": "confirm",
+      "name":"confirm",
+      "validation":["numeric"]
+    }
+  ],
+  "data":"testCases.json",
+  "overrideConfig" : true
+}
